@@ -38,7 +38,7 @@
       "subtitle": "L_ADULT MALES:Right TB/ Left : MB",
       "hint": "",
       "troop": "L",
-      "ageSex": "Adult Males",
+      "ageSex": "Adult Male",
       "ageGroup": "adult",
       "subject": "Seuss",
       "marks": {
@@ -83,7 +83,7 @@
       "subtitle": "L_Juveniles Males: Right:  TB / Left: 0",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Males",
+      "ageSex": "Juvenile Male",
       "ageGroup": "juvenile",
       "subject": "Truffle",
       "marks": {
@@ -162,7 +162,7 @@
       "subtitle": "L_Juveniles Female: Right: T / Left: 0",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "Vanilla",
       "marks": {
@@ -190,7 +190,7 @@
       "subtitle": "L_ADULT MALESRight: TMB/ Left : MB",
       "hint": "",
       "troop": "L",
-      "ageSex": "Adult Males",
+      "ageSex": "Adult Male",
       "ageGroup": "adult",
       "subject": "Aiden",
       "marks": {
@@ -218,7 +218,7 @@
       "subtitle": "L_Juveniles Female: Right: TB / Left: TM",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "Paprika",
       "marks": {
@@ -269,7 +269,7 @@
       "subtitle": "L_ADULT MALESRight: M / Left: MB",
       "hint": "",
       "troop": "L",
-      "ageSex": "Adult Males",
+      "ageSex": "Adult Male",
       "ageGroup": "adult",
       "subject": "Plague",
       "marks": {
@@ -370,7 +370,7 @@
       "subtitle": "L_Juveniles Female: Right: T / Left: M",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "Chili",
       "marks": {
@@ -471,7 +471,7 @@
       "subtitle": "L_Juveniles Males: Right: M / Left: B",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Males",
+      "ageSex": "Juvenile Male",
       "ageGroup": "juvenile",
       "subject": "Bobo",
       "marks": {
@@ -499,7 +499,7 @@
       "subtitle": "L_Juveniles Female: Right:B  / Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "Sesame",
       "marks": {
@@ -869,7 +869,7 @@
       "subtitle": "L_ADULT MALESRight: TM / Left: B",
       "hint": "",
       "troop": "L",
-      "ageSex": "Adult Males",
+      "ageSex": "Adult Male",
       "ageGroup": "adult",
       "subject": "Pots",
       "marks": {
@@ -942,7 +942,7 @@
       "subtitle": "L_ADULT MALESRight: MB/ Left : sTB",
       "hint": "",
       "troop": "L",
-      "ageSex": "Adult Males",
+      "ageSex": "Adult Male",
       "ageGroup": "adult",
       "subject": "Conjunctivitis",
       "marks": {
@@ -1189,7 +1189,7 @@
       "subtitle": "L_Juveniles Males: Right: T / Left: M",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Males",
+      "ageSex": "Juvenile Male",
       "ageGroup": "juvenile",
       "subject": "Hiccup",
       "marks": {
@@ -1279,8 +1279,8 @@
       "subtitle": "L_SUB ADULT MALES: Right: B / Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "Sub Adult Males",
-      "ageGroup": "adult",
+      "ageSex": "Subadult Male",
+      "ageGroup": "subadult",
       "subject": "Alzheimer",
       "marks": {
         "right": "B",
@@ -1307,7 +1307,7 @@
       "subtitle": "L_ADULT MALESRight: T /Left: TM",
       "hint": "",
       "troop": "L",
-      "ageSex": "Adult Males",
+      "ageSex": "Adult Male",
       "ageGroup": "adult",
       "subject": "Plasomodium",
       "marks": {
@@ -1363,8 +1363,8 @@
       "subtitle": "L_SUB ADULT MALES: Right: B / Left: M",
       "hint": "",
       "troop": "L",
-      "ageSex": "Sub Adult Males",
-      "ageGroup": "adult",
+      "ageSex": "Subadult Male",
+      "ageGroup": "subadult",
       "subject": "Parkinson",
       "marks": {
         "right": "B",
@@ -1447,7 +1447,7 @@
       "subtitle": "L_Juveniles Female: Right: TM / Left: MB",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "Masala",
       "marks": {
@@ -1470,8 +1470,8 @@
       "subtitle": "L_SUB ADULT MALES: Right: sTM / Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "Sub Adult Males",
-      "ageGroup": "adult",
+      "ageSex": "Subadult Male",
+      "ageGroup": "subadult",
       "subject": "Cooties",
       "marks": {
         "right": "sTM",
@@ -1487,7 +1487,7 @@
       "subtitle": "L_Juveniles Female: Right: MB / Left: 0",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "Basil",
       "marks": {
@@ -1818,7 +1818,7 @@
       "subtitle": "L_Juveniles Males: Right: M / Left: M",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Males",
+      "ageSex": "Juvenile Male",
       "ageGroup": "juvenile",
       "subject": "Umami",
       "marks": {
@@ -1919,7 +1919,7 @@
       "subtitle": "L_Juveniles Female: Right: 0 / Left: TMB",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "Ginger",
       "marks": {
@@ -1936,7 +1936,7 @@
       "subtitle": "L_Juveniles Female: Right: B / Left: B",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "Quincke",
       "marks": {
@@ -2065,7 +2065,7 @@
       "subtitle": "L_ADULT MALESRight: TM  /Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "Adult Males",
+      "ageSex": "Adult Male",
       "ageGroup": "adult",
       "subject": "Trisomy",
       "marks": {
@@ -2093,7 +2093,7 @@
       "subtitle": "L_Juveniles Males: Right: T / Left: 0",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Males",
+      "ageSex": "Juvenile Male",
       "ageGroup": "juvenile",
       "subject": "Sarcomainf24",
       "marks": {
@@ -2172,7 +2172,7 @@
       "subtitle": "L_Juveniles Males: Right: MB / Left: 0",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Males",
+      "ageSex": "Juvenile Male",
       "ageGroup": "juvenile",
       "subject": "Herb",
       "marks": {
@@ -2189,7 +2189,7 @@
       "subtitle": "L_Juveniles Males: Right: 0 / Left: TB",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Males",
+      "ageSex": "Juvenile Male",
       "ageGroup": "juvenile",
       "subject": "Parsley",
       "marks": {
@@ -2206,7 +2206,7 @@
       "subtitle": "L_Juveniles Males: Right: T / Left: B",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Males",
+      "ageSex": "Juvenile Male",
       "ageGroup": "juvenile",
       "subject": "Nutmeg",
       "marks": {
@@ -2223,7 +2223,7 @@
       "subtitle": "L_Juveniles Female: Right: TMB / Left: B",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "Rosemary",
       "marks": {
@@ -2617,7 +2617,7 @@
       "subtitle": "L_Juveniles Female: Right: 0 / Left: MB",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "Gout",
       "marks": {
@@ -2662,7 +2662,7 @@
       "subtitle": "L_ADULT MALES:Right:  TMB /Left: M",
       "hint": "",
       "troop": "L",
-      "ageSex": "Adult Males",
+      "ageSex": "Adult Male",
       "ageGroup": "adult",
       "subject": "Gangrene",
       "marks": {
@@ -2690,7 +2690,7 @@
       "subtitle": "L_Juveniles Female: Right: MB / Left: M",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "Turmeric",
       "marks": {
@@ -2707,7 +2707,7 @@
       "subtitle": "L_ADULT MALES:Right: TB /Left: TMB",
       "hint": "",
       "troop": "L",
-      "ageSex": "Adult Males",
+      "ageSex": "Adult Male",
       "ageGroup": "adult",
       "subject": "Hangover",
       "marks": {
@@ -2959,7 +2959,7 @@
       "subtitle": "L_Juveniles Female: Right: M / Left: sTM",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "PeriPeri",
       "marks": {
@@ -3021,7 +3021,7 @@
       "subtitle": "L_ADULT MALES:Right: sT /Left: 0",
       "hint": "",
       "troop": "L",
-      "ageSex": "Adult Males",
+      "ageSex": "Adult Male",
       "ageGroup": "adult",
       "subject": "Zattar",
       "marks": {
@@ -3049,7 +3049,7 @@
       "subtitle": "L_Juveniles Males: Right: B / Left: B",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Males",
+      "ageSex": "Juvenile Male",
       "ageGroup": "juvenile",
       "subject": "Garlic",
       "marks": {
@@ -3077,7 +3077,7 @@
       "subtitle": "L_Juveniles Female: Right: TM / Left: sM",
       "hint": "",
       "troop": "L",
-      "ageSex": "Juveniles Female",
+      "ageSex": "Juvenile Female",
       "ageGroup": "juvenile",
       "subject": "Cocoa",
       "marks": {

@@ -33,7 +33,14 @@ def clean_subject(subject: str) -> str:
 def clean_age_sex(value: str) -> str:
     value = value.replace("_", " ").strip()
     value = re.sub(r"\s+", " ", value)
-    return value.title()
+    value = value.title()
+    value = value.replace("Juveniles ", "Juvenile ")
+    value = value.replace("Sub Adult", "Subadult")
+    value = value.replace(" Males", " Male")
+    value = value.replace(" Females", " Female")
+    value = value.replace("Adult Males", "Adult Male")
+    value = value.replace("Adult Females", "Adult Female")
+    return value
 
 
 def infer_age_group(age_sex: str) -> str:

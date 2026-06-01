@@ -25,6 +25,7 @@ const state = {
     },
   },
   history: {},
+  sessions: [],
 };
 
 const elements = {
@@ -48,6 +49,10 @@ const elements = {
   studyAgeGroup: document.querySelector("#study-age-group"),
   studyLength: document.querySelector("#study-length"),
   startSession: document.querySelector("#start-session"),
+  clearFilters: document.querySelector("#clear-filters"),
+  progressSummary: document.querySelector("#progress-summary"),
+  progressBarFill: document.querySelector("#progress-bar-fill"),
+  recentSessions: document.querySelector("#recent-sessions"),
   connectionDot: document.querySelector("#connection-dot"),
   connectionLabel: document.querySelector("#connection-label"),
 };
@@ -73,7 +78,7 @@ async function warmImages(cards) {
   }
 
   try {
-    const cache = await caches.open("baboons-ears-v2");
+    const cache = await caches.open("baboons-ears-v3");
     const imageUrls = cards.flatMap((card) => card.images.map((image) => image.src));
 
     await Promise.all(
@@ -91,14 +96,28 @@ async function warmImages(cards) {
 
 function loadHistory() {
   try {
-    state.history = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    const parsed = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    if (parsed && parsed.cards && parsed.sessions) {
+      state.history = parsed.cards;
+      state.sessions = parsed.sessions;
+      return;
+    }
+    state.history = parsed || {};
+    state.sessions = [];
   } catch (error) {
     state.history = {};
+    state.sessions = [];
   }
 }
 
 function saveHistory() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(state.history));
+  localStorage.setItem(
+    STORAGE_KEY,
+    JSON.stringify({
+      cards: state.history,
+      sessions: state.sessions,
+    }),
+  );
 }
 
 function getCardHistory(cardId) {
@@ -190,7 +209,17 @@ function renderBrowseCards() {
 }
 
 function updateResultsSummary() {
-  elements.resultsSummary.textContent = `${state.filteredCards.length} shown out of ${state.cards.length}`;
+  const active = [];
+  if (state.filters.troop !== "All") {
+    active.push(`troop ${state.filters.troop}`);
+  }
+  if (state.filters.ageSex !== "All") {
+    active.push(state.filters.ageSex);
+  }
+  if (state.filters.search.trim()) {
+    active.push(`search "${state.filters.search.trim()}"`);
+  }
+  elements.resultsSummary.textContent = `${state.filteredCards.length} shown out of ${state.cards.length}${active.length ? ` • ${active.join(" • ")}` : ""}`;
 }
 
 function applyFilters() {
@@ -253,6 +282,42 @@ function buildSessionQueue() {
     wrong: 0,
     total,
   };
+}
+
+function renderProgress() {
+  if (!state.sessions.length) {
+    elements.progressSummary.textContent = "No session yet.";
+    elements.progressBarFill.style.width = "0%";
+    elements.recentSessions.replaceChildren();
+    return;
+  }
+
+  const totals = state.sessions.reduce(
+    (acc, session) => {
+      acc.correct += session.correct;
+      acc.reviewed += session.reviewed;
+      return acc;
+    },
+    { correct: 0, reviewed: 0 },
+  );
+
+  const accuracy = totals.reviewed ? Math.round((totals.correct / totals.reviewed) * 100) : 0;
+  elements.progressSummary.textContent = `${accuracy}% correct overall • ${totals.correct}/${totals.reviewed} answers correct`;
+  elements.progressBarFill.style.width = `${accuracy}%`;
+
+  elements.recentSessions.replaceChildren();
+  state.sessions
+    .slice(-5)
+    .reverse()
+    .forEach((session) => {
+      const item = document.createElement("div");
+      item.className = "recent-session";
+      item.innerHTML = `
+        <strong>${session.modeLabel} • ${session.answerModeLabel}</strong>
+        <span class="meta">${session.correct}/${session.reviewed} correct • ${session.sessionSize} cards • ${session.troopLabel} • ${session.ageLabel}</span>
+      `;
+      elements.recentSessions.append(item);
+    });
 }
 
 function renderStudyStatus() {
@@ -407,6 +472,13 @@ function renderCurrentCard() {
 }
 
 function nextCard() {
+  if (state.study.progress.done >= state.study.progress.total) {
+    state.study.current = null;
+    finishSession();
+    renderCurrentCard();
+    return;
+  }
+
   const next = state.study.queue.shift() || null;
   if (next && state.study.answerMode === "quiz") {
     next.choices = buildQuizChoices(next, getStudyPool());
@@ -434,12 +506,34 @@ function gradeCard(correct) {
     history.wrong += 1;
     history.streak = 0;
     state.study.progress.wrong += 1;
-
-    const insertionIndex = Math.min(2, state.study.queue.length);
-    state.study.queue.splice(insertionIndex, 0, card);
   }
 
   saveHistory();
+}
+
+function finishSession() {
+  if (!state.study.progress.total) {
+    return;
+  }
+
+  const session = {
+    reviewed: state.study.progress.done,
+    correct: state.study.progress.correct,
+    wrong: state.study.progress.wrong,
+    sessionSize: state.study.progress.total,
+    modeLabel: state.study.mode === "normal" ? "Normal" : "Hard",
+    answerModeLabel: state.study.answerMode === "quiz" ? "Quiz" : "Write name",
+    troopLabel: state.study.troop === "all" ? "All troops" : `${state.study.troop} only`,
+    ageLabel:
+      state.study.ageGroup === "all"
+        ? "All ages"
+        : state.study.ageGroup.charAt(0).toUpperCase() + state.study.ageGroup.slice(1),
+  };
+
+  state.sessions.push(session);
+  state.sessions = state.sessions.slice(-30);
+  saveHistory();
+  renderProgress();
 }
 
 function revealAnswer(correct, userAnswer = "") {
@@ -447,7 +541,7 @@ function revealAnswer(correct, userAnswer = "") {
   answer.classList.remove("is-hidden");
 
   const panel = document.createElement("p");
-  panel.className = "flashcard__small";
+  panel.className = `flashcard__small ${correct ? "is-correct" : "is-wrong"}`;
   panel.textContent = correct
     ? "Correct."
     : userAnswer
@@ -504,6 +598,7 @@ function startSession() {
   }
 
   buildSessionQueue();
+  renderProgress();
   nextCard();
   setActiveView("quiz");
 }
@@ -558,6 +653,15 @@ function wireEvents() {
     state.study.length = event.target.value;
   });
 
+  elements.clearFilters.addEventListener("click", () => {
+    state.filters.search = "";
+    state.filters.troop = "All";
+    state.filters.ageSex = "All";
+    elements.searchInput.value = "";
+    renderFilters();
+    applyFilters();
+  });
+
   elements.startSession.addEventListener("click", startSession);
 
   elements.tabs.forEach((tab) => {
@@ -578,6 +682,7 @@ async function loadCards() {
   updateResultsSummary();
   renderBrowseCards();
   renderStudyStatus();
+  renderProgress();
   warmImages(state.cards);
 }
 

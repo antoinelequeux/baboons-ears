@@ -50,6 +50,7 @@
             <span>Cards</span>
             <p id="results-summary" class="meta"></p>
           </div>
+          <button id="clear-filters" class="button button--ghost" type="button">Clear browse filters</button>
         </section>
 
         <section>
@@ -98,6 +99,15 @@
           </div>
           <button id="start-session" class="button button--secondary" type="button">Start session</button>
           <p id="study-score" class="meta">Ready for a new study session.</p>
+        </section>
+
+        <section>
+          <h2>Progress</h2>
+          <p id="progress-summary" class="meta">No session yet.</p>
+          <div id="progress-bar" class="progress-bar" aria-hidden="true">
+            <div id="progress-bar-fill" class="progress-bar__fill"></div>
+          </div>
+          <div id="recent-sessions" class="recent-sessions"></div>
         </section>
       </aside>
 
