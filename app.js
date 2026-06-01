@@ -1,3 +1,5 @@
+const STORAGE_KEY = "baboons-ears-progress-v1";
+
 const state = {
   cards: [],
   filteredCards: [],
@@ -6,13 +8,21 @@ const state = {
     troop: "All",
     ageSex: "All",
   },
-  quiz: {
-    question: null,
-    score: 0,
-    total: 0,
-    mode: "name-from-photo",
+  study: {
+    mode: "ears-to-name",
     pool: "all",
+    length: "10",
+    current: null,
+    queue: [],
+    seenIds: new Set(),
+    progress: {
+      done: 0,
+      correct: 0,
+      wrong: 0,
+      total: 0,
+    },
   },
+  history: {},
 };
 
 const elements = {
@@ -28,11 +38,12 @@ const elements = {
     quiz: document.querySelector("#quiz-view"),
     guide: document.querySelector("#guide-view"),
   },
-  quizCard: document.querySelector("#quiz-card"),
-  quizScore: document.querySelector("#quiz-score"),
-  quizMode: document.querySelector("#quiz-mode"),
-  quizPool: document.querySelector("#quiz-pool"),
-  newQuizQuestion: document.querySelector("#new-quiz-question"),
+  studyCard: document.querySelector("#quiz-card"),
+  studyScore: document.querySelector("#study-score"),
+  studyMode: document.querySelector("#study-mode"),
+  studyPool: document.querySelector("#study-pool"),
+  studyLength: document.querySelector("#study-length"),
+  startSession: document.querySelector("#start-session"),
   connectionDot: document.querySelector("#connection-dot"),
   connectionLabel: document.querySelector("#connection-label"),
 };
@@ -46,14 +57,6 @@ const shuffle = (items) => {
   return copy;
 };
 
-const escapeHtml = (value) =>
-  value
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#39;");
-
 function setConnectionState() {
   const online = navigator.onLine;
   elements.connectionDot.classList.toggle("is-online", online);
@@ -66,7 +69,7 @@ async function warmImages(cards) {
   }
 
   try {
-    const cache = await caches.open("baboons-ears-v1");
+    const cache = await caches.open("baboons-ears-v2");
     const imageUrls = cards.flatMap((card) => card.images.map((image) => image.src));
 
     await Promise.all(
@@ -80,6 +83,30 @@ async function warmImages(cards) {
   } catch (error) {
     console.warn("Image cache warmup skipped:", error);
   }
+}
+
+function loadHistory() {
+  try {
+    state.history = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+  } catch (error) {
+    state.history = {};
+  }
+}
+
+function saveHistory() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state.history));
+}
+
+function getCardHistory(cardId) {
+  if (!state.history[cardId]) {
+    state.history[cardId] = {
+      seen: 0,
+      wrong: 0,
+      correct: 0,
+      streak: 0,
+    };
+  }
+  return state.history[cardId];
 }
 
 function buildFilterChips(target, values, activeValue, onClick) {
@@ -128,10 +155,12 @@ function renderBrowseCards() {
     const kicker = fragment.querySelector(".animal-card__kicker");
     const title = fragment.querySelector(".animal-card__title");
     const subtitle = fragment.querySelector(".animal-card__subtitle");
+    const marks = fragment.querySelector(".animal-card__marks");
 
     kicker.textContent = `${card.troop} • ${card.ageSex}`;
     title.textContent = card.subject;
     subtitle.textContent = card.subtitle || "No extra notes";
+    marks.textContent = card.marksLabel;
 
     if (card.images.length === 1) {
       gallery.classList.add("is-single");
@@ -164,7 +193,7 @@ function applyFilters() {
   const query = state.filters.search.trim().toLowerCase();
 
   state.filteredCards = state.cards.filter((card) => {
-    const searchHaystack = [card.title, card.subtitle, card.troop, card.ageSex, card.subject]
+    const searchHaystack = [card.title, card.subtitle, card.troop, card.ageSex, card.subject, card.marksLabel]
       .join(" ")
       .toLowerCase();
 
@@ -179,147 +208,231 @@ function applyFilters() {
   renderBrowseCards();
 }
 
-function getQuizPool() {
-  const source = state.quiz.pool === "with-images" ? state.cards.filter((card) => card.images.length) : state.cards;
-  return source.filter((card) => card.subject);
+function getStudyPool() {
+  let cards = state.study.pool === "with-images" ? state.cards.filter((card) => card.images.length > 0) : state.cards;
+  if (["ears-to-name", "name-to-ears", "ears-to-marks"].includes(state.study.mode)) {
+    cards = cards.filter((card) => card.images.length > 0);
+  }
+  return cards.filter((card) => card.subject);
 }
 
-function getRandomChoices(answerCard, count = 4) {
-  const candidates = shuffle(state.cards.filter((card) => card.id !== answerCard.id && card.subject));
-  return shuffle([answerCard, ...candidates.slice(0, count - 1)]);
+function getTargetSessionSize(poolLength) {
+  if (state.study.length === "all") {
+    return poolLength;
+  }
+  return Math.min(poolLength, Number.parseInt(state.study.length, 10) || 10);
 }
 
-function renderQuizQuestion() {
-  const { question } = state.quiz;
-  elements.quizScore.textContent = `Score: ${state.quiz.score} / ${state.quiz.total}`;
+function getWeight(card) {
+  const history = getCardHistory(card.id);
+  return 1 + history.wrong * 3 + Math.max(0, 2 - history.streak);
+}
 
-  if (!question) {
-    elements.quizCard.innerHTML = '<p class="quiz-empty">Press "New question" to start.</p>';
+function buildSessionQueue() {
+  const pool = getStudyPool();
+  const total = getTargetSessionSize(pool.length);
+  const weighted = shuffle(
+    pool
+      .map((card) => ({
+        card,
+        weight: getWeight(card) + Math.random(),
+      }))
+      .sort((left, right) => right.weight - left.weight)
+      .map((entry) => entry.card),
+  );
+
+  state.study.queue = weighted.slice(0, total);
+  state.study.seenIds = new Set();
+  state.study.progress = {
+    done: 0,
+    correct: 0,
+    wrong: 0,
+    total,
+  };
+}
+
+function renderStudyStatus() {
+  const { done, correct, wrong, total } = state.study.progress;
+  if (!total) {
+    elements.studyScore.textContent = "Ready for a new study session.";
+    return;
+  }
+  elements.studyScore.textContent = `Target set: ${total} cards • Reviewed: ${done} • Correct: ${correct} • Wrong: ${wrong}`;
+}
+
+function renderImageGrid(images, subject) {
+  if (!images.length) {
+    return '<div class="image-empty">No image in export</div>';
+  }
+
+  return `
+    <div class="quiz-media quiz-media--grid">
+      ${images
+        .map((image) => `<img class="quiz-photo" src="${image.src}" alt="${subject} ${image.slot}">`)
+        .join("")}
+    </div>
+  `;
+}
+
+function getStudyTexts(card) {
+  const mode = state.study.mode;
+
+  if (mode === "ears-to-name") {
+    return {
+      eyebrow: "Basic",
+      prompt: "Look at the ears. Say the name before revealing the answer.",
+      front: renderImageGrid(card.images, card.subject),
+      answerTitle: card.subject,
+      answerMeta: `${card.troop} • ${card.ageSex}`,
+      answerExtra: card.marksLabel,
+    };
+  }
+
+  if (mode === "name-to-ears") {
+    return {
+      eyebrow: "Basic",
+      prompt: "Read the name. Picture the ears before revealing the answer.",
+      front: `
+        <p class="flashcard__display-name">${card.subject}</p>
+        <p class="flashcard__meta">${card.troop} • ${card.ageSex}</p>
+      `,
+      answerTitle: "Ear photos",
+      answerMeta: card.marksLabel,
+      answerExtra: renderImageGrid(card.images, card.subject),
+      answerIsHtml: true,
+    };
+  }
+
+  if (mode === "ears-to-marks") {
+    return {
+      eyebrow: "Hard",
+      prompt: "Look at the ears. Say the right and left codes before revealing.",
+      front: renderImageGrid(card.images, card.subject),
+      answerTitle: card.marksLabel,
+      answerMeta: `${card.subject} • ${card.troop} • ${card.ageSex}`,
+      answerExtra: "",
+    };
+  }
+
+  return {
+    eyebrow: "Hard",
+    prompt: "Read the name. Say the right and left ear codes before revealing.",
+    front: `
+      <p class="flashcard__display-name">${card.subject}</p>
+      <p class="flashcard__meta">${card.troop} • ${card.ageSex}</p>
+    `,
+    answerTitle: card.marksLabel,
+    answerMeta: "",
+    answerExtra: renderImageGrid(card.images, card.subject),
+    answerIsHtml: true,
+  };
+}
+
+function renderCurrentCard() {
+  renderStudyStatus();
+
+  const card = state.study.current;
+  if (!card) {
+    elements.studyCard.innerHTML = `
+      <p class="quiz-empty">Session finished. Start another one whenever you want.</p>
+    `;
     return;
   }
 
-  const answer = question.answer;
-  const choicesHtml = question.choices
-    .map(
-      (choice) => `
-        <button type="button" class="quiz-option" data-card-id="${choice.id}">
-          <strong>${escapeHtml(choice.subject)}</strong><br>
-          <span class="quiz-copy">${escapeHtml(`${choice.troop} • ${choice.ageSex}`)}</span>
-        </button>
-      `
-    )
-    .join("");
+  const view = getStudyTexts(card);
+  const history = getCardHistory(card.id);
 
-  let prompt = "";
-  let media = "";
-
-  if (question.mode === "name-from-photo") {
-    prompt = "Which individual matches these ear photo(s)?";
-    media = answer.images.length
-      ? `
-        <div class="quiz-media quiz-media--grid">
-          ${answer.images
-            .map((image) => `<img class="quiz-photo" src="${image.src}" alt="${escapeHtml(answer.subject)} ${escapeHtml(image.slot)}">`)
-            .join("")}
+  elements.studyCard.innerHTML = `
+    <div class="flashcard">
+      <div class="flashcard__top">
+        <div>
+          <p class="eyebrow">${view.eyebrow}</p>
+          <h2 class="flashcard__prompt">${view.prompt}</h2>
         </div>
-      `
-      : '<div class="image-empty">This card has no image in the export.</div>';
-  } else {
-    prompt = `Which photo belongs to ${escapeHtml(answer.subject)}?`;
-    media = `
-      <div class="quiz-options">
-        ${question.choices
-          .map((choice) => {
-            const image = choice.images[0];
-            if (!image) {
-              return `
-                <button type="button" class="quiz-option" data-card-id="${choice.id}">
-                  <div class="image-empty">No image</div>
-                </button>
-              `;
-            }
-
-            return `
-              <button type="button" class="quiz-option" data-card-id="${choice.id}">
-                <img class="quiz-photo" src="${image.src}" alt="${escapeHtml(choice.subject)}">
-              </button>
-            `;
-          })
-          .join("")}
+        <p class="meta">Seen: ${history.seen} • Wrong: ${history.wrong}</p>
       </div>
-    `;
-  }
 
-  elements.quizCard.innerHTML = `
-    <div class="quiz-header">
-      <div>
-        <p class="eyebrow">Quiz</p>
-        <h2>${prompt}</h2>
+      <div class="flashcard__panel">
+        ${view.front}
       </div>
-      <p class="meta">${escapeHtml(answer.troop)} • ${escapeHtml(answer.ageSex)}</p>
+
+      <div class="flashcard__actions">
+        <button id="reveal-answer" class="button" type="button">Reveal answer</button>
+      </div>
+
+      <div id="flashcard-answer" class="flashcard__answer is-hidden">
+        <div class="flashcard__panel">
+          <p class="flashcard__small">Answer</p>
+          <p class="flashcard__display-name">${view.answerTitle}</p>
+          ${view.answerMeta ? `<p class="flashcard__marks">${view.answerMeta}</p>` : ""}
+          ${
+            view.answerExtra
+              ? view.answerIsHtml
+                ? view.answerExtra
+                : `<p class="flashcard__small">${view.answerExtra}</p>`
+              : ""
+          }
+        </div>
+        <div class="flashcard__grade">
+          <button id="grade-correct" class="button" type="button">I got it right</button>
+          <button id="grade-wrong" class="button button--ghost" type="button">I got it wrong</button>
+        </div>
+      </div>
     </div>
-    ${question.mode === "name-from-photo" ? media : `<p class="quiz-copy"><strong>${escapeHtml(answer.subject)}</strong></p>${media}`}
-    ${question.mode === "name-from-photo" ? `<div class="quiz-options">${choicesHtml}</div>` : ""}
-    <p class="quiz-feedback" id="quiz-feedback"></p>
   `;
 
-  elements.quizCard.querySelectorAll(".quiz-option").forEach((button) => {
-    button.addEventListener("click", () => evaluateQuizAnswer(button.dataset.cardId));
+  elements.studyCard.querySelector("#reveal-answer").addEventListener("click", () => {
+    elements.studyCard.querySelector("#flashcard-answer").classList.remove("is-hidden");
   });
+
+  elements.studyCard.querySelector("#grade-correct").addEventListener("click", () => gradeCard(true));
+  elements.studyCard.querySelector("#grade-wrong").addEventListener("click", () => gradeCard(false));
 }
 
-function generateQuizQuestion() {
-  const pool = getQuizPool();
-  if (pool.length < 4) {
-    state.quiz.question = null;
-    elements.quizCard.innerHTML = '<p class="quiz-empty">Not enough cards in the selected pool for a 4-choice quiz.</p>';
+function nextCard() {
+  state.study.current = state.study.queue.shift() || null;
+  renderCurrentCard();
+}
+
+function gradeCard(correct) {
+  const card = state.study.current;
+  if (!card) {
     return;
   }
 
-  const answer = shuffle(pool)[0];
-  const mode = state.quiz.mode;
-  const sourcePool = mode === "photo-from-name" ? pool.filter((card) => card.images.length) : pool;
-  const safeAnswer = mode === "photo-from-name" && !answer.images.length ? shuffle(sourcePool)[0] : answer;
+  const history = getCardHistory(card.id);
+  history.seen += 1;
 
-  state.quiz.question = {
-    mode,
-    answer: safeAnswer,
-    choices: getRandomChoices(safeAnswer),
-    locked: false,
-  };
+  state.study.progress.done += 1;
 
-  renderQuizQuestion();
-}
-
-function evaluateQuizAnswer(cardId) {
-  const question = state.quiz.question;
-  if (!question || question.locked) {
-    return;
-  }
-
-  question.locked = true;
-  state.quiz.total += 1;
-
-  const correct = cardId === question.answer.id;
   if (correct) {
-    state.quiz.score += 1;
+    history.correct += 1;
+    history.streak += 1;
+    state.study.progress.correct += 1;
+  } else {
+    history.wrong += 1;
+    history.streak = 0;
+    state.study.progress.wrong += 1;
+
+    const insertionIndex = Math.min(2, state.study.queue.length);
+    state.study.queue.splice(insertionIndex, 0, card);
   }
 
-  const feedback = elements.quizCard.querySelector("#quiz-feedback");
-  if (feedback) {
-    feedback.textContent = correct
-      ? `Correct: ${question.answer.subject}`
-      : `Not this one. Correct answer: ${question.answer.subject}`;
+  saveHistory();
+  nextCard();
+}
+
+function startSession() {
+  const pool = getStudyPool();
+  if (!pool.length) {
+    elements.studyCard.innerHTML = '<p class="quiz-empty">No cards available for this study mode.</p>';
+    elements.studyScore.textContent = "No cards available.";
+    return;
   }
 
-  elements.quizCard.querySelectorAll(".quiz-option").forEach((button) => {
-    const isAnswer = button.dataset.cardId === question.answer.id;
-    button.classList.toggle("is-correct", isAnswer);
-    button.classList.toggle("is-wrong", !isAnswer && button.dataset.cardId === cardId);
-    button.disabled = true;
-  });
-
-  elements.quizScore.textContent = `Score: ${state.quiz.score} / ${state.quiz.total}`;
+  buildSessionQueue();
+  nextCard();
+  setActiveView("quiz");
 }
 
 function setActiveView(viewName) {
@@ -352,17 +465,19 @@ function wireEvents() {
     applyFilters();
   });
 
-  elements.quizMode.addEventListener("change", (event) => {
-    state.quiz.mode = event.target.value;
-    generateQuizQuestion();
+  elements.studyMode.addEventListener("change", (event) => {
+    state.study.mode = event.target.value;
   });
 
-  elements.quizPool.addEventListener("change", (event) => {
-    state.quiz.pool = event.target.value;
-    generateQuizQuestion();
+  elements.studyPool.addEventListener("change", (event) => {
+    state.study.pool = event.target.value;
   });
 
-  elements.newQuizQuestion.addEventListener("click", generateQuizQuestion);
+  elements.studyLength.addEventListener("change", (event) => {
+    state.study.length = event.target.value;
+  });
+
+  elements.startSession.addEventListener("click", startSession);
 
   elements.tabs.forEach((tab) => {
     tab.addEventListener("click", () => setActiveView(tab.dataset.view));
@@ -381,12 +496,13 @@ async function loadCards() {
   state.filteredCards = [...state.cards];
   updateResultsSummary();
   renderBrowseCards();
+  renderStudyStatus();
   warmImages(state.cards);
-  generateQuizQuestion();
 }
 
 async function init() {
   setConnectionState();
+  loadHistory();
   wireEvents();
   registerServiceWorker();
 
@@ -395,7 +511,7 @@ async function init() {
   } catch (error) {
     console.error(error);
     elements.cardGrid.innerHTML = '<p class="meta">Could not load the dataset. Make sure the generated files are present.</p>';
-    elements.quizCard.innerHTML = '<p class="quiz-empty">Dataset loading failed.</p>';
+    elements.studyCard.innerHTML = '<p class="quiz-empty">Dataset loading failed.</p>';
   }
 }
 

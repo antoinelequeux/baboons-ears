@@ -15,7 +15,6 @@ IMAGES_DIR = ROOT / "images"
 
 
 CARD_RE = re.compile(r"<card>(.*?)</card>")
-TEXT_RE = re.compile(r"<text name='([^']+)'>(.*?)</text>")
 IMAGE_RE = re.compile(r"<img name='([^']+)'>\s*(?:<img id=\"([^\"]+)\" type=\"([^\"]+)\" ?/>)?\s*</img>")
 
 
@@ -25,7 +24,33 @@ def slugify(value: str) -> str:
     return value.strip("-") or "card"
 
 
-def parse_label(title: str) -> dict:
+def clean_subject(subject: str) -> str:
+    subject = subject.split("/", 1)[0].strip()
+    subject = re.sub(r"\s+", " ", subject)
+    return subject
+
+
+def clean_age_sex(value: str) -> str:
+    value = value.replace("_", " ").strip()
+    value = re.sub(r"\s+", " ", value)
+    return value.title()
+
+
+def parse_marks(subtitle: str) -> dict:
+    subtitle = subtitle.replace("Left :", "Left:").replace("Right :", "Right:")
+    right_match = re.search(r"Right\s*:?\s*([^/]+)", subtitle, flags=re.IGNORECASE)
+    left_match = re.search(r"Left\s*:\s*([^\n]+)", subtitle, flags=re.IGNORECASE)
+
+    right = right_match.group(1).strip() if right_match else ""
+    left = left_match.group(1).strip() if left_match else ""
+
+    return {
+        "right": re.sub(r"\s+", "", right),
+        "left": re.sub(r"\s+", "", left),
+    }
+
+
+def parse_label(title: str, subtitle: str) -> dict:
     if ":" in title:
         header, subject = title.split(":", 1)
         subject = subject.strip()
@@ -34,12 +59,26 @@ def parse_label(title: str) -> dict:
 
     parts = [part.strip() for part in header.split("_") if part.strip()]
     troop = parts[0] if parts else "Unknown"
+    if troop == "G":
+        troop = "J"
+
     age_sex = " ".join(parts[1:]) if len(parts) > 1 else header.strip()
+    if troop not in {"J", "L"}:
+        troop_match = re.search(r"\b([GL])_", title)
+        if troop_match:
+            troop = "J" if troop_match.group(1) == "G" else troop_match.group(1)
+        else:
+            subtitle_troop_match = re.search(r"\b([GL])_", subtitle)
+            if subtitle_troop_match:
+                troop = "J" if subtitle_troop_match.group(1) == "G" else subtitle_troop_match.group(1)
+
+    if troop not in {"J", "L"}:
+        troop = "Unknown"
 
     return {
         "troop": troop,
-        "ageSex": age_sex or "Unknown",
-        "subject": subject,
+        "ageSex": clean_age_sex(age_sex or "Unknown"),
+        "subject": clean_subject(subject),
     }
 
 
@@ -47,14 +86,18 @@ def parse_xml(text: str) -> list[dict]:
     cards = []
 
     for index, raw_card in enumerate(CARD_RE.findall(text), start=1):
-        fields = {name: unescape(value).strip() for name, value in TEXT_RE.findall(raw_card)}
         images = {name: {"id": blob_id, "type": blob_type} for name, blob_id, blob_type in IMAGE_RE.findall(raw_card)}
 
-        title = fields.get("Texte", f"Card {index}")
-        subtitle = fields.get("Texte sous l'image", "")
-        hint = fields.get("Texte2", "")
+        title_match = re.search(r"<text name='Texte'>(.*?)</text>", raw_card)
+        subtitle_match = re.search(r"<text name='Texte sous l'image'>(.*?)</text>", raw_card)
+        hint_match = re.search(r"<text name='Texte2'>(.*?)</text>", raw_card)
 
-        label = parse_label(title)
+        title = unescape(title_match.group(1)).strip() if title_match else f"Card {index}"
+        subtitle = unescape(subtitle_match.group(1)).strip() if subtitle_match else ""
+        hint = unescape(hint_match.group(1)).strip() if hint_match else ""
+
+        label = parse_label(title, subtitle)
+        marks = parse_marks(subtitle)
         card_id = f"{index:03d}-{slugify(label['subject'])}"
 
         image_entries = []
@@ -87,6 +130,8 @@ def parse_xml(text: str) -> list[dict]:
                 "troop": label["troop"],
                 "ageSex": label["ageSex"],
                 "subject": label["subject"],
+                "marks": marks,
+                "marksLabel": f"R: {marks['right'] or '?'} • L: {marks['left'] or '?'}",
                 "images": image_entries,
             }
         )

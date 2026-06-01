@@ -1,4 +1,4 @@
-const APP_CACHE = "baboons-ears-v1";
+const APP_CACHE = "baboons-ears-v2";
 const CORE_ASSETS = [
   "./",
   "./index.html",

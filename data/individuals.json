@@ -7,11 +7,16 @@
       "id": "001-niamey",
       "index": 1,
       "title": "G_Adult Female: Niamey",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: TBB / Left: T",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Niamey",
+      "marks": {
+        "right": "TBB",
+        "left": "T"
+      },
+      "marksLabel": "R: TBB • L: T",
       "images": [
         {
           "slot": "image",
@@ -26,23 +31,28 @@
       ]
     },
     {
-      "id": "002-seuss-jk",
+      "id": "002-seuss",
       "index": 2,
       "title": "ADULT MALES: Seuss/JK",
-      "subtitle": "",
+      "subtitle": "L_ADULT MALES:Right TB/ Left : MB",
       "hint": "",
-      "troop": "ADULT MALES",
-      "ageSex": "ADULT MALES",
-      "subject": "Seuss/JK",
+      "troop": "L",
+      "ageSex": "Adult Males",
+      "subject": "Seuss",
+      "marks": {
+        "right": "TB",
+        "left": "MB"
+      },
+      "marksLabel": "R: TB • L: MB",
       "images": [
         {
           "slot": "image",
-          "src": "images/002-seuss-jk-image.png",
+          "src": "images/002-seuss-image.png",
           "blobId": "8eeb529d8e62024651c76004de81b2b37e92776495a2cad88e55a8ce8a65c8db"
         },
         {
           "slot": "image2",
-          "src": "images/002-seuss-jk-image2.png",
+          "src": "images/002-seuss-image2.png",
           "blobId": "34273160b8b96651bb5ca9c4f5ca60aeaad0c357036918d033651c2a317b118d"
         }
       ]
@@ -51,31 +61,41 @@
       "id": "003-kikwit",
       "index": 3,
       "title": "G_Adult Female: Kikwit",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: MB / Left: 0",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Kikwit",
+      "marks": {
+        "right": "MB",
+        "left": "0"
+      },
+      "marksLabel": "R: MB • L: 0",
       "images": []
     },
     {
-      "id": "004-truffle-asthma",
+      "id": "004-truffle",
       "index": 4,
       "title": "L_Juveniles Males: Truffle/ Asthma",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Males: Right:  TB / Left: 0",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
-      "subject": "Truffle/ Asthma",
+      "subject": "Truffle",
+      "marks": {
+        "right": "TB",
+        "left": "0"
+      },
+      "marksLabel": "R: TB • L: 0",
       "images": [
         {
           "slot": "image",
-          "src": "images/004-truffle-asthma-image.png",
+          "src": "images/004-truffle-image.png",
           "blobId": "ffc440b8f1f0c911ad4decfdc7bcfe6113356301026964c00057cf50839e184e"
         },
         {
           "slot": "image2",
-          "src": "images/004-truffle-asthma-image2.png",
+          "src": "images/004-truffle-image2.png",
           "blobId": "c38cb38975bf02babf20094df97763400714cf81df3ce11544206def26762713"
         }
       ]
@@ -84,97 +104,127 @@
       "id": "005-chocolate",
       "index": 5,
       "title": "G_Adult Male: Chocolate",
-      "subtitle": "",
+      "subtitle": "G_Adult Male: Right: 0/ Left: 0",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Male",
       "subject": "Chocolate",
+      "marks": {
+        "right": "0",
+        "left": "0"
+      },
+      "marksLabel": "R: 0 • L: 0",
       "images": []
     },
     {
-      "id": "006-katima-joyce",
+      "id": "006-katima",
       "index": 6,
       "title": "G_Juvenile Female: Katima/Joyce",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Female: Right: 0 / Left: T",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Female",
-      "subject": "Katima/Joyce",
+      "subject": "Katima",
+      "marks": {
+        "right": "0",
+        "left": "T"
+      },
+      "marksLabel": "R: 0 • L: T",
       "images": []
     },
     {
-      "id": "007-kisangani-okavanga",
+      "id": "007-kisangani",
       "index": 7,
       "title": "G_Juvenile Male: Kisangani/Okavanga",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Male: Right: 0 / Left: T",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Male",
-      "subject": "Kisangani/Okavanga",
+      "subject": "Kisangani",
+      "marks": {
+        "right": "0",
+        "left": "T"
+      },
+      "marksLabel": "R: 0 • L: T",
       "images": []
     },
     {
-      "id": "008-vanilla-verucca",
+      "id": "008-vanilla",
       "index": 8,
       "title": "L_Juveniles Female: Vanilla/Verucca",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right: T / Left: 0",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
-      "subject": "Vanilla/Verucca",
+      "subject": "Vanilla",
+      "marks": {
+        "right": "T",
+        "left": "0"
+      },
+      "marksLabel": "R: T • L: 0",
       "images": [
         {
           "slot": "image",
-          "src": "images/008-vanilla-verucca-image.png",
+          "src": "images/008-vanilla-image.png",
           "blobId": "c804e5d7a01c17c70af0f8eaa8a8d1c806518b299390174f13bf0c8ce5717070"
         },
         {
           "slot": "image2",
-          "src": "images/008-vanilla-verucca-image2.png",
+          "src": "images/008-vanilla-image2.png",
           "blobId": "2098bb240cd23b66c65bf43cc821536e5599df8e33e812008a4c44864eecfefe"
         }
       ]
     },
     {
-      "id": "009-aiden-shigella",
+      "id": "009-aiden",
       "index": 9,
       "title": "ADULT MALES: Aiden/Shigella",
-      "subtitle": "",
+      "subtitle": "L_ADULT MALESRight: TMB/ Left : MB",
       "hint": "",
-      "troop": "ADULT MALES",
-      "ageSex": "ADULT MALES",
-      "subject": "Aiden/Shigella",
+      "troop": "L",
+      "ageSex": "Adult Males",
+      "subject": "Aiden",
+      "marks": {
+        "right": "TMB",
+        "left": "MB"
+      },
+      "marksLabel": "R: TMB • L: MB",
       "images": [
         {
           "slot": "image",
-          "src": "images/009-aiden-shigella-image.png",
+          "src": "images/009-aiden-image.png",
           "blobId": "bbaa6ca4793c93645f2d93e1221bc2278113b502c4f64804e6fa0c3be9514505"
         },
         {
           "slot": "image2",
-          "src": "images/009-aiden-shigella-image2.png",
+          "src": "images/009-aiden-image2.png",
           "blobId": "b8ac28d36d91a61b4f3c81e0f4b6e7e2c0feb7ef255ff4b27aec9639a6be73dd"
         }
       ]
     },
     {
-      "id": "010-paprika-hodgkin",
+      "id": "010-paprika",
       "index": 10,
       "title": "L_Juveniles Female: Paprika/Hodgkin",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right: TB / Left: TM",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
-      "subject": "Paprika/Hodgkin",
+      "subject": "Paprika",
+      "marks": {
+        "right": "TB",
+        "left": "TM"
+      },
+      "marksLabel": "R: TB • L: TM",
       "images": [
         {
           "slot": "image",
-          "src": "images/010-paprika-hodgkin-image.png",
+          "src": "images/010-paprika-image.png",
           "blobId": "5b49a11520722b806bc01d740309ab77683a0f8770f2d9d228d563e51c889c06"
         },
         {
           "slot": "image2",
-          "src": "images/010-paprika-hodgkin-image2.png",
+          "src": "images/010-paprika-image2.png",
           "blobId": "eaee28a5b094cef52cb06f9464c1da48d1a1f2451954867a287d2e3ae402db34"
         }
       ]
@@ -183,11 +233,16 @@
       "id": "011-turkana",
       "index": 11,
       "title": "G_Adult Female: Turkana",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: M / Left: M",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Turkana",
+      "marks": {
+        "right": "M",
+        "left": "M"
+      },
+      "marksLabel": "R: M • L: M",
       "images": [
         {
           "slot": "image",
@@ -197,23 +252,28 @@
       ]
     },
     {
-      "id": "012-plague-pseudomonads",
+      "id": "012-plague",
       "index": 12,
       "title": "ADULT MALES: Plague/Pseudomonads",
-      "subtitle": "",
+      "subtitle": "L_ADULT MALESRight: M / Left: MB",
       "hint": "",
-      "troop": "ADULT MALES",
-      "ageSex": "ADULT MALES",
-      "subject": "Plague/Pseudomonads",
+      "troop": "L",
+      "ageSex": "Adult Males",
+      "subject": "Plague",
+      "marks": {
+        "right": "M",
+        "left": "MB"
+      },
+      "marksLabel": "R: M • L: MB",
       "images": [
         {
           "slot": "image",
-          "src": "images/012-plague-pseudomonads-image.png",
+          "src": "images/012-plague-image.png",
           "blobId": "fe049fcfb13fbb6f8679f8be34262737730a6eadaff33cb982e435609ba72e2d"
         },
         {
           "slot": "image2",
-          "src": "images/012-plague-pseudomonads-image2.png",
+          "src": "images/012-plague-image2.png",
           "blobId": "71de850f8312fba6b8a240e2a0ce1f4a71580a61d86c9b2c12f0f8fa4bf6cdc3"
         }
       ]
@@ -222,22 +282,32 @@
       "id": "013-ngorongoro",
       "index": 13,
       "title": "G_SubAdult Male: Ngorongoro",
-      "subtitle": "",
+      "subtitle": "G_SubAdult Male: Right: 0 / Left: B",
       "hint": "",
-      "troop": "G",
-      "ageSex": "SubAdult Male",
+      "troop": "J",
+      "ageSex": "Subadult Male",
       "subject": "Ngorongoro",
+      "marks": {
+        "right": "0",
+        "left": "B"
+      },
+      "marksLabel": "R: 0 • L: B",
       "images": []
     },
     {
       "id": "014-varicella",
       "index": 14,
       "title": "L_ADULT Female: Varicella",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: MB / Left: TMB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Varicella",
+      "marks": {
+        "right": "MB",
+        "left": "TMB"
+      },
+      "marksLabel": "R: MB • L: TMB",
       "images": [
         {
           "slot": "image",
@@ -255,11 +325,16 @@
       "id": "015-caprivi",
       "index": 15,
       "title": "G_Adult Female: Caprivi",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: TTMB/ Left: M",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Caprivi",
+      "marks": {
+        "right": "TTMB",
+        "left": "M"
+      },
+      "marksLabel": "R: TTMB • L: M",
       "images": [
         {
           "slot": "image",
@@ -274,23 +349,28 @@
       ]
     },
     {
-      "id": "016-chili-amnesia",
+      "id": "016-chili",
       "index": 16,
       "title": "L_Juveniles Female: Chili/Amnesia",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right: T / Left: M",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
-      "subject": "Chili/Amnesia",
+      "subject": "Chili",
+      "marks": {
+        "right": "T",
+        "left": "M"
+      },
+      "marksLabel": "R: T • L: M",
       "images": [
         {
           "slot": "image",
-          "src": "images/016-chili-amnesia-image.png",
+          "src": "images/016-chili-image.png",
           "blobId": "e3e41c1235dc997edf2072b7e42f107167087205a02ad322bfcaeafa9e03450c"
         },
         {
           "slot": "image2",
-          "src": "images/016-chili-amnesia-image2.png",
+          "src": "images/016-chili-image2.png",
           "blobId": "ffcac7dfd03c577931244828569048f75064a53c2bf4463c255498b2dac98d2a"
         }
       ]
@@ -299,11 +379,16 @@
       "id": "017-nora",
       "index": 17,
       "title": "L_ADULT Female: Nora",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: B / Left: sT",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Nora",
+      "marks": {
+        "right": "B",
+        "left": "sT"
+      },
+      "marksLabel": "R: B • L: sT",
       "images": [
         {
           "slot": "image",
@@ -318,25 +403,35 @@
       ]
     },
     {
-      "id": "018-zambesi-zambia",
+      "id": "018-zambesi",
       "index": 18,
       "title": "G_Juvenile Female: Zambesi/Zambia",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Female: Right: TB / Left: TB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Female",
-      "subject": "Zambesi/Zambia",
+      "subject": "Zambesi",
+      "marks": {
+        "right": "TB",
+        "left": "TB"
+      },
+      "marksLabel": "R: TB • L: TB",
       "images": []
     },
     {
       "id": "019-joyce",
       "index": 19,
       "title": "G_Adult Female: Joyce",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: M/ Left: MB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Joyce",
+      "marks": {
+        "right": "M",
+        "left": "MB"
+      },
+      "marksLabel": "R: M • L: MB",
       "images": [
         {
           "slot": "image",
@@ -351,45 +446,55 @@
       ]
     },
     {
-      "id": "020-bobo-zika",
+      "id": "020-bobo",
       "index": 20,
       "title": "L_Juveniles Males: Bobo/Zika",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Males: Right: M / Left: B",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
-      "subject": "Bobo/Zika",
+      "subject": "Bobo",
+      "marks": {
+        "right": "M",
+        "left": "B"
+      },
+      "marksLabel": "R: M • L: B",
       "images": [
         {
           "slot": "image",
-          "src": "images/020-bobo-zika-image.png",
+          "src": "images/020-bobo-image.png",
           "blobId": "a604c99a13442a03dac44aacc4789f64ebbd5394aa42255d74004378486b4c15"
         },
         {
           "slot": "image2",
-          "src": "images/020-bobo-zika-image2.png",
+          "src": "images/020-bobo-image2.png",
           "blobId": "218b0ede7298ac9368f61dc13c9fb2d490823416542034cade631acbc51fb676"
         }
       ]
     },
     {
-      "id": "021-sesame-zika",
+      "id": "021-sesame",
       "index": 21,
       "title": "L_Juveniles Female: Sesame/Zika",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right:B  / Left: T",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
-      "subject": "Sesame/Zika",
+      "subject": "Sesame",
+      "marks": {
+        "right": "B",
+        "left": "T"
+      },
+      "marksLabel": "R: B • L: T",
       "images": [
         {
           "slot": "image",
-          "src": "images/021-sesame-zika-image.png",
+          "src": "images/021-sesame-image.png",
           "blobId": "5417cb9a5e44de5c67a4141d60f076d9fa3928ad64bd3269d83ff9f5e2463ade"
         },
         {
           "slot": "image2",
-          "src": "images/021-sesame-zika-image2.png",
+          "src": "images/021-sesame-image2.png",
           "blobId": "e55b6c8ef313dfbbe11ffbbc5dec704e39505eae84d04757ca1b613646d3430a"
         }
       ]
@@ -398,22 +503,32 @@
       "id": "022-togo",
       "index": 22,
       "title": "G_Adult Male: Togo",
-      "subtitle": "",
+      "subtitle": "G_Adult Male: Right: T / Left: TM",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Male",
       "subject": "Togo",
+      "marks": {
+        "right": "T",
+        "left": "TM"
+      },
+      "marksLabel": "R: T • L: TM",
       "images": []
     },
     {
       "id": "023-lymphoma",
       "index": 23,
       "title": "L_ADULT Female: Lymphoma",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: B / Left: TB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Lymphoma",
+      "marks": {
+        "right": "B",
+        "left": "TB"
+      },
+      "marksLabel": "R: B • L: TB",
       "images": [
         {
           "slot": "image",
@@ -428,25 +543,35 @@
       ]
     },
     {
-      "id": "024-mulilo-zambia",
+      "id": "024-mulilo",
       "index": 24,
       "title": "G_Juvenile Male: Mulilo/Zambia",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Male: Right: T / Left: 0",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Male",
-      "subject": "Mulilo/Zambia",
+      "subject": "Mulilo",
+      "marks": {
+        "right": "T",
+        "left": "0"
+      },
+      "marksLabel": "R: T • L: 0",
       "images": []
     },
     {
       "id": "025-verucca",
       "index": 25,
       "title": "L_ADULT Female: Verucca",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right:  TTMMB / Left: sTM",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Verucca",
+      "marks": {
+        "right": "TTMMB",
+        "left": "sTM"
+      },
+      "marksLabel": "R: TTMMB • L: sTM",
       "images": [
         {
           "slot": "image",
@@ -464,11 +589,16 @@
       "id": "026-botfly",
       "index": 26,
       "title": "L_ADULT Female: Botfly",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: TB / Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Botfly",
+      "marks": {
+        "right": "TB",
+        "left": "T"
+      },
+      "marksLabel": "R: TB • L: T",
       "images": [
         {
           "slot": "image",
@@ -486,11 +616,16 @@
       "id": "027-munchausen",
       "index": 27,
       "title": "L_ADULT Female: Munchausen",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: B / Left: MB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Munchausen",
+      "marks": {
+        "right": "B",
+        "left": "MB"
+      },
+      "marksLabel": "R: B • L: MB",
       "images": [
         {
           "slot": "image",
@@ -505,45 +640,55 @@
       ]
     },
     {
-      "id": "028-casablanca-shelley",
+      "id": "028-casablanca",
       "index": 28,
       "title": "G_Juvenile Female: Casablanca/Shelley",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Female: Right: TB / Left: M",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Female",
-      "subject": "Casablanca/Shelley",
+      "subject": "Casablanca",
+      "marks": {
+        "right": "TB",
+        "left": "M"
+      },
+      "marksLabel": "R: TB • L: M",
       "images": [
         {
           "slot": "image",
-          "src": "images/028-casablanca-shelley-image.png",
+          "src": "images/028-casablanca-image.png",
           "blobId": "5a9cd159375584539fe522ffa01f9a0f5e98e56ac21657724daacb333c166a3d"
         },
         {
           "slot": "image2",
-          "src": "images/028-casablanca-shelley-image2.png",
+          "src": "images/028-casablanca-image2.png",
           "blobId": "55a2dc7ff135b601318ec2332df903f5f6514753c6b5af99af020ab3119830f8"
         }
       ]
     },
     {
-      "id": "029-kunene-pikelet",
+      "id": "029-kunene",
       "index": 29,
       "title": "G_Juvenile Male: Kunene/Pikelet",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Male: Right: B / Left: TMB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Male",
-      "subject": "Kunene/Pikelet",
+      "subject": "Kunene",
+      "marks": {
+        "right": "B",
+        "left": "TMB"
+      },
+      "marksLabel": "R: B • L: TMB",
       "images": [
         {
           "slot": "image",
-          "src": "images/029-kunene-pikelet-image.png",
+          "src": "images/029-kunene-image.png",
           "blobId": "5a97086fac0f13132df87281e2f02da17e89ff983ac31bf8e2a04393b2ae6efa"
         },
         {
           "slot": "image2",
-          "src": "images/029-kunene-pikelet-image2.png",
+          "src": "images/029-kunene-image2.png",
           "blobId": "ffdf6934fcdc6a1a28a05848d1a36bca41053232634553c6c81c532969ce5ac3"
         }
       ]
@@ -552,11 +697,16 @@
       "id": "030-popemma",
       "index": 30,
       "title": "L_ADULT Female: Popemma",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: MB / Left: B",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Popemma",
+      "marks": {
+        "right": "MB",
+        "left": "B"
+      },
+      "marksLabel": "R: MB • L: B",
       "images": [
         {
           "slot": "image",
@@ -574,11 +724,16 @@
       "id": "031-scabies",
       "index": 31,
       "title": "L_ADULT Female: Scabies",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: B / Left: TMB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Scabies",
+      "marks": {
+        "right": "B",
+        "left": "TMB"
+      },
+      "marksLabel": "R: B • L: TMB",
       "images": [
         {
           "slot": "image",
@@ -596,11 +751,16 @@
       "id": "032-cavity",
       "index": 32,
       "title": "L_ADULT Female: Cavity",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: sTM / Left: TB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Cavity",
+      "marks": {
+        "right": "sTM",
+        "left": "TB"
+      },
+      "marksLabel": "R: sTM • L: TB",
       "images": [
         {
           "slot": "image",
@@ -618,11 +778,16 @@
       "id": "033-wakanda",
       "index": 33,
       "title": "G_SubAdult Male: Wakanda",
-      "subtitle": "",
+      "subtitle": "G_SubAdult Male: Right: B / Left: 0",
       "hint": "",
-      "troop": "G",
-      "ageSex": "SubAdult Male",
+      "troop": "J",
+      "ageSex": "Subadult Male",
       "subject": "Wakanda",
+      "marks": {
+        "right": "B",
+        "left": "0"
+      },
+      "marksLabel": "R: B • L: 0",
       "images": [
         {
           "slot": "image",
@@ -640,11 +805,16 @@
       "id": "034-zika",
       "index": 34,
       "title": "L_ADULT Female:  Zika",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: sT / Left: B",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Zika",
+      "marks": {
+        "right": "sT",
+        "left": "B"
+      },
+      "marksLabel": "R: sT • L: B",
       "images": [
         {
           "slot": "image",
@@ -659,23 +829,28 @@
       ]
     },
     {
-      "id": "035-pots-bubonica",
+      "id": "035-pots",
       "index": 35,
       "title": "ADULT MALES: Pots/Bubonica",
-      "subtitle": "",
+      "subtitle": "L_ADULT MALESRight: TM / Left: B",
       "hint": "",
-      "troop": "ADULT MALES",
-      "ageSex": "ADULT MALES",
-      "subject": "Pots/Bubonica",
+      "troop": "L",
+      "ageSex": "Adult Males",
+      "subject": "Pots",
+      "marks": {
+        "right": "TM",
+        "left": "B"
+      },
+      "marksLabel": "R: TM • L: B",
       "images": [
         {
           "slot": "image",
-          "src": "images/035-pots-bubonica-image.png",
+          "src": "images/035-pots-image.png",
           "blobId": "f8cd6db8077eeb289da411ea0829016883fbf6c4d5b0912805270f1fe5d5fb9c"
         },
         {
           "slot": "image2",
-          "src": "images/035-pots-bubonica-image2.png",
+          "src": "images/035-pots-image2.png",
           "blobId": "81f77a81dba29e9517bd826aefc3df0720f5d588663cecb24b89a3eca4e05747"
         }
       ]
@@ -684,11 +859,16 @@
       "id": "036-polyp",
       "index": 36,
       "title": "L_ADULT Female: Polyp",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right:  sTMB/ Left: sT",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Polyp",
+      "marks": {
+        "right": "sTMB",
+        "left": "sT"
+      },
+      "marksLabel": "R: sTMB • L: sT",
       "images": [
         {
           "slot": "image",
@@ -706,31 +886,41 @@
       "id": "037-kivu",
       "index": 37,
       "title": "G_Adult Female: Kivu",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: MB / Left: TM",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Kivu",
+      "marks": {
+        "right": "MB",
+        "left": "TM"
+      },
+      "marksLabel": "R: MB • L: TM",
       "images": []
     },
     {
-      "id": "038-conjunctivitis-ulcer",
+      "id": "038-conjunctivitis",
       "index": 38,
       "title": "ADULT MALES: Conjunctivitis/Ulcer",
-      "subtitle": "",
+      "subtitle": "L_ADULT MALESRight: MB/ Left : sTB",
       "hint": "",
-      "troop": "ADULT MALES",
-      "ageSex": "ADULT MALES",
-      "subject": "Conjunctivitis/Ulcer",
+      "troop": "L",
+      "ageSex": "Adult Males",
+      "subject": "Conjunctivitis",
+      "marks": {
+        "right": "MB",
+        "left": "sTB"
+      },
+      "marksLabel": "R: MB • L: sTB",
       "images": [
         {
           "slot": "image",
-          "src": "images/038-conjunctivitis-ulcer-image.png",
+          "src": "images/038-conjunctivitis-image.png",
           "blobId": "84cc25c663b0c11610cef1fa7489d8126866158243a093c765e94c1142301431"
         },
         {
           "slot": "image2",
-          "src": "images/038-conjunctivitis-ulcer-image2.png",
+          "src": "images/038-conjunctivitis-image2.png",
           "blobId": "d23982fca7f8a944015d93a13c339af451a6caf0e58aa1b578d0f1ae805b05ce"
         }
       ]
@@ -739,22 +929,32 @@
       "id": "039-chobe",
       "index": 39,
       "title": "G_Adult Male: Chobe",
-      "subtitle": "",
+      "subtitle": "G_Adult Male: Right: B / Left: TM",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Male",
       "subject": "Chobe",
+      "marks": {
+        "right": "B",
+        "left": "TM"
+      },
+      "marksLabel": "R: B • L: TM",
       "images": []
     },
     {
       "id": "040-hodgkin",
       "index": 40,
       "title": "L_ADULT Female: Hodgkin",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right:  TM/ Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Hodgkin",
+      "marks": {
+        "right": "TM",
+        "left": "T"
+      },
+      "marksLabel": "R: TM • L: T",
       "images": [
         {
           "slot": "image",
@@ -772,22 +972,32 @@
       "id": "041-okavanga",
       "index": 41,
       "title": "G_Adult Female: Okavanga",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: 0 / Left: MB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Okavanga",
+      "marks": {
+        "right": "0",
+        "left": "MB"
+      },
+      "marksLabel": "R: 0 • L: MB",
       "images": []
     },
     {
       "id": "042-sierra-leone",
       "index": 42,
       "title": "G_Adult Female: Sierra Leone",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: 0 / Left: TB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Sierra Leone",
+      "marks": {
+        "right": "0",
+        "left": "TB"
+      },
+      "marksLabel": "R: 0 • L: TB",
       "images": [
         {
           "slot": "image",
@@ -805,11 +1015,16 @@
       "id": "043-sarcoma",
       "index": 43,
       "title": "L_ADULT Female: Sarcoma",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: sTB / Left: sTB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Sarcoma",
+      "marks": {
+        "right": "sTB",
+        "left": "sTB"
+      },
+      "marksLabel": "R: sTB • L: sTB",
       "images": [
         {
           "slot": "image",
@@ -824,34 +1039,44 @@
       ]
     },
     {
-      "id": "044-ndoki-kinshasa",
+      "id": "044-ndoki",
       "index": 44,
       "title": "G_Juvenile Male: Ndoki/Kinshasa",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Male: Right: T / Left: T",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Male",
-      "subject": "Ndoki/Kinshasa",
+      "subject": "Ndoki",
+      "marks": {
+        "right": "T",
+        "left": "T"
+      },
+      "marksLabel": "R: T • L: T",
       "images": []
     },
     {
-      "id": "045-oshana-joyce",
+      "id": "045-oshana",
       "index": 45,
       "title": "G_Juvenile Female: Oshana/Joyce",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Female: Right: B / Left:  0",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Female",
-      "subject": "Oshana/Joyce",
+      "subject": "Oshana",
+      "marks": {
+        "right": "B",
+        "left": "0"
+      },
+      "marksLabel": "R: B • L: 0",
       "images": [
         {
           "slot": "image",
-          "src": "images/045-oshana-joyce-image.png",
+          "src": "images/045-oshana-image.png",
           "blobId": "72cf4d74d922bd3dc834b3fa836e515667fd77c1b7e5e6e9870b3a59739f64be"
         },
         {
           "slot": "image2",
-          "src": "images/045-oshana-joyce-image2.png",
+          "src": "images/045-oshana-image2.png",
           "blobId": "669ed5c6022a639d05b0c79e1f6d77d23e6450dde8a6093fe294ed94f437b3ac"
         }
       ]
@@ -860,11 +1085,16 @@
       "id": "046-meningitis",
       "index": 46,
       "title": "L_ADULT Female: Meningitis",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: M / Left: 0",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Meningitis",
+      "marks": {
+        "right": "M",
+        "left": "0"
+      },
+      "marksLabel": "R: M • L: 0",
       "images": [
         {
           "slot": "image",
@@ -882,11 +1112,16 @@
       "id": "047-kinshasa",
       "index": 47,
       "title": "G_Adult Female: Kinshasa",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: B / Left: TM",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Kinshasa",
+      "marks": {
+        "right": "B",
+        "left": "TM"
+      },
+      "marksLabel": "R: B • L: TM",
       "images": [
         {
           "slot": "image",
@@ -904,22 +1139,32 @@
       "id": "048-hiccup",
       "index": 48,
       "title": "L_Juveniles Males: Hiccup",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Males: Right: T / Left: M",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
       "subject": "Hiccup",
+      "marks": {
+        "right": "T",
+        "left": "M"
+      },
+      "marksLabel": "R: T • L: M",
       "images": []
     },
     {
       "id": "049-nakuru",
       "index": 49,
       "title": "G_SubAdult Male: Nakuru",
-      "subtitle": "",
+      "subtitle": "G_SubAdult Male: Right: MB / Left: B",
       "hint": "",
-      "troop": "G",
-      "ageSex": "SubAdult Male",
+      "troop": "J",
+      "ageSex": "Subadult Male",
       "subject": "Nakuru",
+      "marks": {
+        "right": "MB",
+        "left": "B"
+      },
+      "marksLabel": "R: MB • L: B",
       "images": [
         {
           "slot": "image",
@@ -937,22 +1182,32 @@
       "id": "050-nyika",
       "index": 50,
       "title": "G_Adult Female: Nyika",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: TM / Left: TB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Nyika",
+      "marks": {
+        "right": "TM",
+        "left": "TB"
+      },
+      "marksLabel": "R: TM • L: TB",
       "images": []
     },
     {
       "id": "051-timbuctou",
       "index": 51,
       "title": "G_Adult Male: Timbuctou",
-      "subtitle": "",
+      "subtitle": "G_Adult Male: Right: M / Left: 0",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Male",
       "subject": "Timbuctou",
+      "marks": {
+        "right": "M",
+        "left": "0"
+      },
+      "marksLabel": "R: M • L: 0",
       "images": [
         {
           "slot": "image",
@@ -970,11 +1225,16 @@
       "id": "052-alzheimer",
       "index": 52,
       "title": "L_SUB ADULT MALES: Alzheimer",
-      "subtitle": "",
+      "subtitle": "L_SUB ADULT MALES: Right: B / Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "SUB ADULT MALES",
+      "ageSex": "Sub Adult Males",
       "subject": "Alzheimer",
+      "marks": {
+        "right": "B",
+        "left": "T"
+      },
+      "marksLabel": "R: B • L: T",
       "images": [
         {
           "slot": "image",
@@ -989,23 +1249,28 @@
       ]
     },
     {
-      "id": "053-plasomodium-eczema",
+      "id": "053-plasomodium",
       "index": 53,
       "title": "ADULT MALES: Plasomodium/Eczema",
-      "subtitle": "",
+      "subtitle": "L_ADULT MALESRight: T /Left: TM",
       "hint": "",
-      "troop": "ADULT MALES",
-      "ageSex": "ADULT MALES",
-      "subject": "Plasomodium/Eczema",
+      "troop": "L",
+      "ageSex": "Adult Males",
+      "subject": "Plasomodium",
+      "marks": {
+        "right": "T",
+        "left": "TM"
+      },
+      "marksLabel": "R: T • L: TM",
       "images": [
         {
           "slot": "image",
-          "src": "images/053-plasomodium-eczema-image.png",
+          "src": "images/053-plasomodium-image.png",
           "blobId": "60715903f1104599d70947fddb3dff30be016e9fd96509b832a8ea922cecf33a"
         },
         {
           "slot": "image2",
-          "src": "images/053-plasomodium-eczema-image2.png",
+          "src": "images/053-plasomodium-image2.png",
           "blobId": "f7daa978694964dc8a359f46ec8bbd7fb29b275b1e7da356609c57c2cb047a06"
         }
       ]
@@ -1014,11 +1279,16 @@
       "id": "054-kalahari-c",
       "index": 54,
       "title": "G_Adult Female: kalahari (C)",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: B / Left: M",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "kalahari (C)",
+      "marks": {
+        "right": "B",
+        "left": "M"
+      },
+      "marksLabel": "R: B • L: M",
       "images": [
         {
           "slot": "image",
@@ -1036,11 +1306,16 @@
       "id": "055-parkinson",
       "index": 55,
       "title": "L_SUB ADULT MALES: Parkinson",
-      "subtitle": "",
+      "subtitle": "L_SUB ADULT MALES: Right: B / Left: M",
       "hint": "",
       "troop": "L",
-      "ageSex": "SUB ADULT MALES",
+      "ageSex": "Sub Adult Males",
       "subject": "Parkinson",
+      "marks": {
+        "right": "B",
+        "left": "M"
+      },
+      "marksLabel": "R: B • L: M",
       "images": [
         {
           "slot": "image",
@@ -1058,11 +1333,16 @@
       "id": "056-asthma",
       "index": 56,
       "title": "L_ADULT Female: Asthma",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right:  TM / Left: sB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Asthma",
+      "marks": {
+        "right": "TM",
+        "left": "sB"
+      },
+      "marksLabel": "R: TM • L: sB",
       "images": [
         {
           "slot": "image",
@@ -1080,11 +1360,16 @@
       "id": "057-toxocara",
       "index": 57,
       "title": "L_ADULT Female: Toxocara",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: T / Left: sT",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Toxocara",
+      "marks": {
+        "right": "T",
+        "left": "sT"
+      },
+      "marksLabel": "R: T • L: sT",
       "images": [
         {
           "slot": "image",
@@ -1099,18 +1384,23 @@
       ]
     },
     {
-      "id": "058-masala-melanoma",
+      "id": "058-masala",
       "index": 58,
       "title": "L_Juveniles Female: Masala/Melanoma",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right: TM / Left: MB",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
-      "subject": "Masala/Melanoma",
+      "subject": "Masala",
+      "marks": {
+        "right": "TM",
+        "left": "MB"
+      },
+      "marksLabel": "R: TM • L: MB",
       "images": [
         {
           "slot": "image",
-          "src": "images/058-masala-melanoma-image.png",
+          "src": "images/058-masala-image.png",
           "blobId": "b208a5a7087bad280ecbcac2d3ee5b93990eae39535838bf1d1a459968a41f3a"
         }
       ]
@@ -1119,31 +1409,41 @@
       "id": "059-cooties",
       "index": 59,
       "title": "L_SUB ADULT MALES: Cooties",
-      "subtitle": "",
+      "subtitle": "L_SUB ADULT MALES: Right: sTM / Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "SUB ADULT MALES",
+      "ageSex": "Sub Adult Males",
       "subject": "Cooties",
+      "marks": {
+        "right": "sTM",
+        "left": "T"
+      },
+      "marksLabel": "R: sTM • L: T",
       "images": []
     },
     {
-      "id": "060-basil-botulism",
+      "id": "060-basil",
       "index": 60,
       "title": "L_Juveniles Female: Basil/Botulism",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right: MB / Left: 0",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
-      "subject": "Basil/Botulism",
+      "subject": "Basil",
+      "marks": {
+        "right": "MB",
+        "left": "0"
+      },
+      "marksLabel": "R: MB • L: 0",
       "images": [
         {
           "slot": "image",
-          "src": "images/060-basil-botulism-image.png",
+          "src": "images/060-basil-image.png",
           "blobId": "a6e8d2e5fe0048e0c026d5dd46e599d9d5ac71b608351ec62e5e430d99d1d9f9"
         },
         {
           "slot": "image2",
-          "src": "images/060-basil-botulism-image2.png",
+          "src": "images/060-basil-image2.png",
           "blobId": "3cb2d53adc8de93ab89bb8b055665d13b15c09fb5a5959949870c9efd00ad8de"
         }
       ]
@@ -1152,11 +1452,16 @@
       "id": "061-narco",
       "index": 61,
       "title": "G_Adult Male: Narco",
-      "subtitle": "",
+      "subtitle": "G_Adult Male: Right: B / Left: TB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Male",
       "subject": "Narco",
+      "marks": {
+        "right": "B",
+        "left": "TB"
+      },
+      "marksLabel": "R: B • L: TB",
       "images": [
         {
           "slot": "image",
@@ -1169,11 +1474,16 @@
       "id": "062-ethiopa",
       "index": 62,
       "title": "G_Adult Female: Ethiopa",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: TT/ Left: TMsB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Ethiopa",
+      "marks": {
+        "right": "TT",
+        "left": "TMsB"
+      },
+      "marksLabel": "R: TT • L: TMsB",
       "images": [
         {
           "slot": "image",
@@ -1191,11 +1501,16 @@
       "id": "063-rubella",
       "index": 63,
       "title": "L_ADULT Female: Rubella",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: TT / Left: TMB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Rubella",
+      "marks": {
+        "right": "TT",
+        "left": "TMB"
+      },
+      "marksLabel": "R: TT • L: TMB",
       "images": [
         {
           "slot": "image",
@@ -1213,11 +1528,16 @@
       "id": "064-melanoma-c",
       "index": 64,
       "title": "L_ADULT Female: Melanoma (C)",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right:  TMB / Left: 0",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Melanoma (C)",
+      "marks": {
+        "right": "TMB",
+        "left": "0"
+      },
+      "marksLabel": "R: TMB • L: 0",
       "images": [
         {
           "slot": "image",
@@ -1235,11 +1555,16 @@
       "id": "065-shelley",
       "index": 65,
       "title": "G_Adult Female: Shelley",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: T / Left: MB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Shelley",
+      "marks": {
+        "right": "T",
+        "left": "MB"
+      },
+      "marksLabel": "R: T • L: MB",
       "images": [
         {
           "slot": "image",
@@ -1257,11 +1582,16 @@
       "id": "066-mzuzu",
       "index": 66,
       "title": "G_Adult Female: Mzuzu",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: TM / Left: TMB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Mzuzu",
+      "marks": {
+        "right": "TM",
+        "left": "TMB"
+      },
+      "marksLabel": "R: TM • L: TMB",
       "images": [
         {
           "slot": "image",
@@ -1279,11 +1609,16 @@
       "id": "067-kasungu",
       "index": 67,
       "title": "G_Adult Male: Kasungu",
-      "subtitle": "",
+      "subtitle": "G_Adult Male: Right: TMB / Left: M",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Male",
       "subject": "Kasungu",
+      "marks": {
+        "right": "TMB",
+        "left": "M"
+      },
+      "marksLabel": "R: TMB • L: M",
       "images": [
         {
           "slot": "image",
@@ -1301,11 +1636,16 @@
       "id": "068-etosha",
       "index": 68,
       "title": "G_Adult Female: Etosha",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: 0/ Left: TMB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Etosha",
+      "marks": {
+        "right": "0",
+        "left": "TMB"
+      },
+      "marksLabel": "R: 0 • L: TMB",
       "images": [
         {
           "slot": "image",
@@ -1323,11 +1663,16 @@
       "id": "069-vitiligo",
       "index": 69,
       "title": "L_ADULT Female: Vitiligo",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: M / Left: M",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Vitiligo",
+      "marks": {
+        "right": "M",
+        "left": "M"
+      },
+      "marksLabel": "R: M • L: M",
       "images": [
         {
           "slot": "image",
@@ -1345,11 +1690,16 @@
       "id": "070-botulism",
       "index": 70,
       "title": "L_ADULT Female: Botulism",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: T / Left: T.s.M.s",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Botulism",
+      "marks": {
+        "right": "T",
+        "left": "T.s.M.s"
+      },
+      "marksLabel": "R: T • L: T.s.M.s",
       "images": [
         {
           "slot": "image",
@@ -1367,11 +1717,16 @@
       "id": "071-xena",
       "index": 71,
       "title": "G_Adult Female: Xena",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: 0 / Left: sTM",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Xena",
+      "marks": {
+        "right": "0",
+        "left": "sTM"
+      },
+      "marksLabel": "R: 0 • L: sTM",
       "images": [
         {
           "slot": "image",
@@ -1386,25 +1741,35 @@
       ]
     },
     {
-      "id": "072-umami-varicella",
+      "id": "072-umami",
       "index": 72,
       "title": "L_Juveniles Males: Umami/Varicella",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Males: Right: M / Left: M",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
-      "subject": "Umami/Varicella",
+      "subject": "Umami",
+      "marks": {
+        "right": "M",
+        "left": "M"
+      },
+      "marksLabel": "R: M • L: M",
       "images": []
     },
     {
       "id": "073-djuba",
       "index": 73,
       "title": "G_SubAdult Male: Djuba",
-      "subtitle": "",
+      "subtitle": "G_SubAdult Male: Right: 0 / Left: M",
       "hint": "",
-      "troop": "G",
-      "ageSex": "SubAdult Male",
+      "troop": "J",
+      "ageSex": "Subadult Male",
       "subject": "Djuba",
+      "marks": {
+        "right": "0",
+        "left": "M"
+      },
+      "marksLabel": "R: 0 • L: M",
       "images": [
         {
           "slot": "image",
@@ -1422,11 +1787,16 @@
       "id": "074-ishasha",
       "index": 74,
       "title": "G_Adult Female: Ishasha",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: MB / Left: TB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Ishasha",
+      "marks": {
+        "right": "MB",
+        "left": "TB"
+      },
+      "marksLabel": "R: MB • L: TB",
       "images": [
         {
           "slot": "image",
@@ -1444,11 +1814,16 @@
       "id": "075-mumps",
       "index": 75,
       "title": "L_ADULT Female: Mumps",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: 0 / Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Mumps",
+      "marks": {
+        "right": "0",
+        "left": "T"
+      },
+      "marksLabel": "R: 0 • L: T",
       "images": [
         {
           "slot": "image",
@@ -1463,36 +1838,51 @@
       ]
     },
     {
-      "id": "076-ginger-insomnia",
+      "id": "076-ginger",
       "index": 76,
       "title": "L_Juveniles Female: Ginger/ Insomnia",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right: 0 / Left: TMB",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
-      "subject": "Ginger/ Insomnia",
+      "subject": "Ginger",
+      "marks": {
+        "right": "0",
+        "left": "TMB"
+      },
+      "marksLabel": "R: 0 • L: TMB",
       "images": []
     },
     {
       "id": "077-quincke",
       "index": 77,
       "title": "L_Juveniles Female: Quincke",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right: B / Left: B",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
       "subject": "Quincke",
+      "marks": {
+        "right": "B",
+        "left": "B"
+      },
+      "marksLabel": "R: B • L: B",
       "images": []
     },
     {
       "id": "078-tsetse",
       "index": 78,
       "title": "L_ADULT Female: TseTse",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: MB / Left: TM",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "TseTse",
+      "marks": {
+        "right": "MB",
+        "left": "TM"
+      },
+      "marksLabel": "R: MB • L: TM",
       "images": [
         {
           "slot": "image",
@@ -1510,11 +1900,16 @@
       "id": "079-herpes",
       "index": 79,
       "title": "L_ADULT Female: Herpes",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: TM / Left: TMB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Herpes",
+      "marks": {
+        "right": "TM",
+        "left": "TMB"
+      },
+      "marksLabel": "R: TM • L: TMB",
       "images": [
         {
           "slot": "image",
@@ -1532,11 +1927,16 @@
       "id": "080-burundi",
       "index": 80,
       "title": "G_Adult Female: Burundi",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: 0 / Left: TM",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Burundi",
+      "marks": {
+        "right": "0",
+        "left": "TM"
+      },
+      "marksLabel": "R: 0 • L: TM",
       "images": [
         {
           "slot": "image",
@@ -1554,11 +1954,16 @@
       "id": "081-alopecia",
       "index": 81,
       "title": "L_ADULT Female: Alopecia",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: TMB / Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Alopecia",
+      "marks": {
+        "right": "TMB",
+        "left": "T"
+      },
+      "marksLabel": "R: TMB • L: T",
       "images": [
         {
           "slot": "image",
@@ -1573,23 +1978,28 @@
       ]
     },
     {
-      "id": "082-trisomy-bilharzia",
+      "id": "082-trisomy",
       "index": 82,
       "title": "ADULT MALES: Trisomy/Bilharzia",
-      "subtitle": "",
+      "subtitle": "L_ADULT MALESRight: TM  /Left: T",
       "hint": "",
-      "troop": "ADULT MALES",
-      "ageSex": "ADULT MALES",
-      "subject": "Trisomy/Bilharzia",
+      "troop": "L",
+      "ageSex": "Adult Males",
+      "subject": "Trisomy",
+      "marks": {
+        "right": "TM",
+        "left": "T"
+      },
+      "marksLabel": "R: TM • L: T",
       "images": [
         {
           "slot": "image",
-          "src": "images/082-trisomy-bilharzia-image.png",
+          "src": "images/082-trisomy-image.png",
           "blobId": "aaeb8afc786079a4a0ece51157fe70e2c62f1ca5ad6d0cb5a0d3296edc6124b2"
         },
         {
           "slot": "image2",
-          "src": "images/082-trisomy-bilharzia-image2.png",
+          "src": "images/082-trisomy-image2.png",
           "blobId": "36997d0bb051952a32a6c8b2f16d6da0a895065b9ae10b2033553a3cf7cadc0c"
         }
       ]
@@ -1598,11 +2008,16 @@
       "id": "083-sarcomainf24",
       "index": 83,
       "title": "L_Juveniles Males: Sarcomainf24",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Males: Right: T / Left: 0",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
       "subject": "Sarcomainf24",
+      "marks": {
+        "right": "T",
+        "left": "0"
+      },
+      "marksLabel": "R: T • L: 0",
       "images": [
         {
           "slot": "image",
@@ -1615,11 +2030,16 @@
       "id": "084-schizophrenia",
       "index": 84,
       "title": "L_ADULT Female: Schizophrenia",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: sTM / Left: MB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Schizophrenia",
+      "marks": {
+        "right": "sTM",
+        "left": "MB"
+      },
+      "marksLabel": "R: sTM • L: MB",
       "images": [
         {
           "slot": "image",
@@ -1637,11 +2057,16 @@
       "id": "085-zambia",
       "index": 85,
       "title": "G_Adult Female: Zambia",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: T / Left: M",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Zambia",
+      "marks": {
+        "right": "T",
+        "left": "M"
+      },
+      "marksLabel": "R: T • L: M",
       "images": [
         {
           "slot": "image",
@@ -1659,53 +2084,73 @@
       "id": "086-herb",
       "index": 86,
       "title": "L_Juveniles Males: Herb",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Males: Right: MB / Left: 0",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
       "subject": "Herb",
+      "marks": {
+        "right": "MB",
+        "left": "0"
+      },
+      "marksLabel": "R: MB • L: 0",
       "images": []
     },
     {
-      "id": "087-parsley-vitiligo",
+      "id": "087-parsley",
       "index": 87,
       "title": "L_Juveniles Males: Parsley/ Vitiligo",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Males: Right: 0 / Left: TB",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
-      "subject": "Parsley/ Vitiligo",
+      "subject": "Parsley",
+      "marks": {
+        "right": "0",
+        "left": "TB"
+      },
+      "marksLabel": "R: 0 • L: TB",
       "images": []
     },
     {
-      "id": "088-nutmeg-rubella",
+      "id": "088-nutmeg",
       "index": 88,
       "title": "L_Juveniles Males: Nutmeg/Rubella",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Males: Right: T / Left: B",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
-      "subject": "Nutmeg/Rubella",
+      "subject": "Nutmeg",
+      "marks": {
+        "right": "T",
+        "left": "B"
+      },
+      "marksLabel": "R: T • L: B",
       "images": []
     },
     {
-      "id": "089-rosemary-schizophrenia",
+      "id": "089-rosemary",
       "index": 89,
       "title": "L_Juveniles Female: Rosemary/Schizophrenia",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right: TMB / Left: B",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
-      "subject": "Rosemary/Schizophrenia",
+      "subject": "Rosemary",
+      "marks": {
+        "right": "TMB",
+        "left": "B"
+      },
+      "marksLabel": "R: TMB • L: B",
       "images": [
         {
           "slot": "image",
-          "src": "images/089-rosemary-schizophrenia-image.png",
+          "src": "images/089-rosemary-image.png",
           "blobId": "5de80a7abb7a6daaec7c6eea2390b629779ad729a70304510b534b4e87cf48c3"
         },
         {
           "slot": "image2",
-          "src": "images/089-rosemary-schizophrenia-image2.png",
+          "src": "images/089-rosemary-image2.png",
           "blobId": "c9e03959662145d1d2ed4c432379ddf8e1df1c965a1ff126e513d1618698e54d"
         }
       ]
@@ -1714,11 +2159,16 @@
       "id": "090-myxomatosis",
       "index": 90,
       "title": "L_ADULT Female: Myxomatosis",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: MB / Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Myxomatosis",
+      "marks": {
+        "right": "MB",
+        "left": "T"
+      },
+      "marksLabel": "R: MB • L: T",
       "images": [
         {
           "slot": "image",
@@ -1736,11 +2186,16 @@
       "id": "091-epilepsy",
       "index": 91,
       "title": "L_ADULT Female: Epilepsy",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: TM / Left: TM",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Epilepsy",
+      "marks": {
+        "right": "TM",
+        "left": "TM"
+      },
+      "marksLabel": "R: TM • L: TM",
       "images": [
         {
           "slot": "image",
@@ -1758,11 +2213,16 @@
       "id": "092-consanguin",
       "index": 92,
       "title": "G_Adult Male: Consanguin",
-      "subtitle": "",
+      "subtitle": "G_Adult Male: Right: T / Left: B",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Male",
       "subject": "Consanguin",
+      "marks": {
+        "right": "T",
+        "left": "B"
+      },
+      "marksLabel": "R: T • L: B",
       "images": [
         {
           "slot": "image",
@@ -1780,11 +2240,16 @@
       "id": "093-jk",
       "index": 93,
       "title": "G_Adult Female: JK",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: M / Left: TMsB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "JK",
+      "marks": {
+        "right": "M",
+        "left": "TMsB"
+      },
+      "marksLabel": "R: M • L: TMsB",
       "images": [
         {
           "slot": "image",
@@ -1799,36 +2264,51 @@
       ]
     },
     {
-      "id": "094-sahara-kalahari",
+      "id": "094-sahara",
       "index": 94,
       "title": "G_Juvenile Female: Sahara/Kalahari",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Female: Right: T / Left: 0",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Female",
-      "subject": "Sahara/Kalahari",
+      "subject": "Sahara",
+      "marks": {
+        "right": "T",
+        "left": "0"
+      },
+      "marksLabel": "R: T • L: 0",
       "images": []
     },
     {
-      "id": "095-omatako-jk",
+      "id": "095-omatako",
       "index": 95,
       "title": "G_Juvenile Male: Omatako/JK",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Male: Right: TMB / Left: 0",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Male",
-      "subject": "Omatako/JK",
+      "subject": "Omatako",
+      "marks": {
+        "right": "TMB",
+        "left": "0"
+      },
+      "marksLabel": "R: TMB • L: 0",
       "images": []
     },
     {
       "id": "096-monique",
       "index": 96,
       "title": "G_SubAdult Male: Monique",
-      "subtitle": "",
+      "subtitle": "G_SubAdult Male: Right: TM / Left: 0",
       "hint": "",
-      "troop": "G",
-      "ageSex": "SubAdult Male",
+      "troop": "J",
+      "ageSex": "Subadult Male",
       "subject": "Monique",
+      "marks": {
+        "right": "TM",
+        "left": "0"
+      },
+      "marksLabel": "R: TM • L: 0",
       "images": [
         {
           "slot": "image",
@@ -1843,25 +2323,35 @@
       ]
     },
     {
-      "id": "097-karoo-burundi",
+      "id": "097-karoo",
       "index": 97,
       "title": "G_Juvenile Male: Karoo/Burundi",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Male: Right: TB / Left: T",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Male",
-      "subject": "Karoo/Burundi",
+      "subject": "Karoo",
+      "marks": {
+        "right": "TB",
+        "left": "T"
+      },
+      "marksLabel": "R: TB • L: T",
       "images": []
     },
     {
       "id": "098-amnesia",
       "index": 98,
       "title": "L_ADULT Female: Amnesia",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: TMsB  / Left: sTM",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Amnesia",
+      "marks": {
+        "right": "TMsB",
+        "left": "sTM"
+      },
+      "marksLabel": "R: TMsB • L: sTM",
       "images": [
         {
           "slot": "image",
@@ -1879,66 +2369,96 @@
       "id": "099-zomba",
       "index": 99,
       "title": "G_Adult Female: Zomba",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: TM / Left: T",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Zomba",
+      "marks": {
+        "right": "TM",
+        "left": "T"
+      },
+      "marksLabel": "R: TM • L: T",
       "images": []
     },
     {
-      "id": "100-tai-caprivi",
+      "id": "100-tai",
       "index": 100,
       "title": "G_Juvenile Male: Tai/Caprivi",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Male: Right: 0 / Left: 0",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Male",
-      "subject": "Tai/Caprivi",
+      "subject": "Tai",
+      "marks": {
+        "right": "0",
+        "left": "0"
+      },
+      "marksLabel": "R: 0 • L: 0",
       "images": []
     },
     {
       "id": "101-omeya",
       "index": 101,
       "title": "G_Juvenile Female: Omeya",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Female: Right: M / Left: 0",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Female",
       "subject": "Omeya",
+      "marks": {
+        "right": "M",
+        "left": "0"
+      },
+      "marksLabel": "R: M • L: 0",
       "images": []
     },
     {
-      "id": "102-namib-kalahari",
+      "id": "102-namib",
       "index": 102,
       "title": "G_Juvenile Male: Namib/Kalahari",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Male: Right: MB / Left: TB",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Male",
-      "subject": "Namib/Kalahari",
+      "subject": "Namib",
+      "marks": {
+        "right": "MB",
+        "left": "TB"
+      },
+      "marksLabel": "R: MB • L: TB",
       "images": []
     },
     {
       "id": "103-malawi",
       "index": 103,
       "title": "G_Adult Female: Malawi",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: T / Left: B",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Malawi",
+      "marks": {
+        "right": "T",
+        "left": "B"
+      },
+      "marksLabel": "R: T • L: B",
       "images": []
     },
     {
       "id": "104-aphasia",
       "index": 104,
       "title": "L_ADULT Female: Aphasia",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: 0 / Left: sTM",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Aphasia",
+      "marks": {
+        "right": "0",
+        "left": "sTM"
+      },
+      "marksLabel": "R: 0 • L: sTM",
       "images": [
         {
           "slot": "image",
@@ -1956,108 +2476,143 @@
       "id": "105-likouala",
       "index": 105,
       "title": "G_Juvenile Female: Likouala",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Female: Right: TB / Left: 0",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Female",
       "subject": "Likouala",
+      "marks": {
+        "right": "TB",
+        "left": "0"
+      },
+      "marksLabel": "R: TB • L: 0",
       "images": []
     },
     {
       "id": "106-zanzibar",
       "index": 106,
       "title": "G_Juvenile Female: Zanzibar",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Female: Right: T / Left: M",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Female",
       "subject": "Zanzibar",
+      "marks": {
+        "right": "T",
+        "left": "M"
+      },
+      "marksLabel": "R: T • L: M",
       "images": []
     },
     {
-      "id": "107-gout-alopecia",
+      "id": "107-gout",
       "index": 107,
       "title": "L_Juveniles Female: Gout/Alopecia",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right: 0 / Left: MB",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
-      "subject": "Gout/Alopecia",
+      "subject": "Gout",
+      "marks": {
+        "right": "0",
+        "left": "MB"
+      },
+      "marksLabel": "R: 0 • L: MB",
       "images": []
     },
     {
-      "id": "108-gao-jk",
+      "id": "108-gao",
       "index": 108,
       "title": "G_Juvenile Male: Gao/JK",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Male: Right: MB / Left: TM",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Male",
-      "subject": "Gao/JK",
+      "subject": "Gao",
+      "marks": {
+        "right": "MB",
+        "left": "TM"
+      },
+      "marksLabel": "R: MB • L: TM",
       "images": [
         {
           "slot": "image",
-          "src": "images/108-gao-jk-image.png",
+          "src": "images/108-gao-image.png",
           "blobId": "8f5d9f81c7de004e3fe94abc72c9f14a29755af9f3517fbbb19667013d81c811"
         },
         {
           "slot": "image2",
-          "src": "images/108-gao-jk-image2.png",
+          "src": "images/108-gao-image2.png",
           "blobId": "ba4d941ca8caf0d91ab37422dc7795a481653ade95f08f6e0125ecd6b1d304a9"
         }
       ]
     },
     {
-      "id": "109-gangrene-bubonica",
+      "id": "109-gangrene",
       "index": 109,
       "title": "ADULT MALES: Gangrene/Bubonica",
-      "subtitle": "",
+      "subtitle": "L_ADULT MALES:Right:  TMB /Left: M",
       "hint": "",
-      "troop": "ADULT MALES",
-      "ageSex": "ADULT MALES",
-      "subject": "Gangrene/Bubonica",
+      "troop": "L",
+      "ageSex": "Adult Males",
+      "subject": "Gangrene",
+      "marks": {
+        "right": "TMB",
+        "left": "M"
+      },
+      "marksLabel": "R: TMB • L: M",
       "images": [
         {
           "slot": "image",
-          "src": "images/109-gangrene-bubonica-image.png",
+          "src": "images/109-gangrene-image.png",
           "blobId": "fdaafb2d0343729ec0c1470a397863c297cc705e03bfca0dfc3258cc0e024cab"
         },
         {
           "slot": "image2",
-          "src": "images/109-gangrene-bubonica-image2.png",
+          "src": "images/109-gangrene-image2.png",
           "blobId": "5cd87605ca8a8888d9cf0ea60793a6c6f487c28d6b4855bcd99d3bb4d2c45891"
         }
       ]
     },
     {
-      "id": "110-turmeric-toxocara",
+      "id": "110-turmeric",
       "index": 110,
       "title": "L_Juveniles Female: Turmeric/Toxocara",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right: MB / Left: M",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
-      "subject": "Turmeric/Toxocara",
+      "subject": "Turmeric",
+      "marks": {
+        "right": "MB",
+        "left": "M"
+      },
+      "marksLabel": "R: MB • L: M",
       "images": []
     },
     {
-      "id": "111-hangover-alopecia",
+      "id": "111-hangover",
       "index": 111,
       "title": "ADULT MALES: Hangover/Alopecia",
-      "subtitle": "",
+      "subtitle": "L_ADULT MALES:Right: TB /Left: TMB",
       "hint": "",
-      "troop": "ADULT MALES",
-      "ageSex": "ADULT MALES",
-      "subject": "Hangover/Alopecia",
+      "troop": "L",
+      "ageSex": "Adult Males",
+      "subject": "Hangover",
+      "marks": {
+        "right": "TB",
+        "left": "TMB"
+      },
+      "marksLabel": "R: TB • L: TMB",
       "images": [
         {
           "slot": "image",
-          "src": "images/111-hangover-alopecia-image.png",
+          "src": "images/111-hangover-image.png",
           "blobId": "fbaa6b64551fbd530d0c06ca36bab4ff00b88c369cb1ad848b0c055fee36425c"
         },
         {
           "slot": "image2",
-          "src": "images/111-hangover-alopecia-image2.png",
+          "src": "images/111-hangover-image2.png",
           "blobId": "8c22d1d2e3c64099376b6b262c41851f77410d9f0a8aedeba23c6ef89340e69a"
         }
       ]
@@ -2066,11 +2621,16 @@
       "id": "112-eczema",
       "index": 112,
       "title": "L_ADULT Female: Eczema",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right:  sTM/ Left: sTMB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Eczema",
+      "marks": {
+        "right": "sTM",
+        "left": "sTMB"
+      },
+      "marksLabel": "R: sTM • L: sTMB",
       "images": [
         {
           "slot": "image",
@@ -2088,11 +2648,16 @@
       "id": "113-trush",
       "index": 113,
       "title": "L_ADULT Female: Trush",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: TM / Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Trush",
+      "marks": {
+        "right": "TM",
+        "left": "T"
+      },
+      "marksLabel": "R: TM • L: T",
       "images": [
         {
           "slot": "image",
@@ -2110,11 +2675,16 @@
       "id": "114-anorexia",
       "index": 114,
       "title": "L_ADULT Female: Anorexia",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: T / Left: T",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Anorexia",
+      "marks": {
+        "right": "T",
+        "left": "T"
+      },
+      "marksLabel": "R: T • L: T",
       "images": [
         {
           "slot": "image",
@@ -2132,11 +2702,16 @@
       "id": "115-insomnia",
       "index": 115,
       "title": "L_ADULT Female: Insomnia",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: sTM / Left: B",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Insomnia",
+      "marks": {
+        "right": "sTM",
+        "left": "B"
+      },
+      "marksLabel": "R: sTM • L: B",
       "images": [
         {
           "slot": "image",
@@ -2154,11 +2729,16 @@
       "id": "116-namaqua",
       "index": 116,
       "title": "G_Juvenile Female: Namaqua",
-      "subtitle": "",
+      "subtitle": "G_Juvenile Female: Right: M / Left: T",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Juvenile Female",
       "subject": "Namaqua",
+      "marks": {
+        "right": "M",
+        "left": "T"
+      },
+      "marksLabel": "R: M • L: T",
       "images": [
         {
           "slot": "image",
@@ -2176,11 +2756,16 @@
       "id": "117-trans",
       "index": 117,
       "title": "G_Adult Male: Trans",
-      "subtitle": "",
+      "subtitle": "G_Adult Male: Right: sT/ Left: TM",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Male",
       "subject": "Trans",
+      "marks": {
+        "right": "sT",
+        "left": "TM"
+      },
+      "marksLabel": "R: sT • L: TM",
       "images": [
         {
           "slot": "image",
@@ -2198,11 +2783,16 @@
       "id": "118-overdose",
       "index": 118,
       "title": "L_ADULT Female: Overdose",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: T / Left: MB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Overdose",
+      "marks": {
+        "right": "T",
+        "left": "MB"
+      },
+      "marksLabel": "R: T • L: MB",
       "images": [
         {
           "slot": "image",
@@ -2220,11 +2810,16 @@
       "id": "119-cataracts-c",
       "index": 119,
       "title": "L_ADULT Female: Cataracts (C)",
-      "subtitle": "",
+      "subtitle": "L_ADULT Female: Right: MsB / Left: TsB",
       "hint": "",
       "troop": "L",
-      "ageSex": "ADULT Female",
+      "ageSex": "Adult Female",
       "subject": "Cataracts (C)",
+      "marks": {
+        "right": "MsB",
+        "left": "TsB"
+      },
+      "marksLabel": "R: MsB • L: TsB",
       "images": [
         {
           "slot": "image",
@@ -2239,25 +2834,35 @@
       ]
     },
     {
-      "id": "120-periperi-meningitis",
+      "id": "120-periperi",
       "index": 120,
       "title": "L_Juveniles Female: PeriPeri/Meningitis",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right: M / Left: sTM",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
-      "subject": "PeriPeri/Meningitis",
+      "subject": "PeriPeri",
+      "marks": {
+        "right": "M",
+        "left": "sTM"
+      },
+      "marksLabel": "R: M • L: sTM",
       "images": []
     },
     {
       "id": "121-antananarivo",
       "index": 121,
       "title": "G_Adult Male: Antananarivo",
-      "subtitle": "",
+      "subtitle": "G_Adult Male: Right: MB/ Left: sT",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Male",
       "subject": "Antananarivo",
+      "marks": {
+        "right": "MB",
+        "left": "sT"
+      },
+      "marksLabel": "R: MB • L: sT",
       "images": [
         {
           "slot": "image",
@@ -2275,75 +2880,95 @@
       "id": "122-pikelet",
       "index": 122,
       "title": "G_Adult Female: Pikelet",
-      "subtitle": "",
+      "subtitle": "G_Adult Female: Right: MoB/ Left: B",
       "hint": "",
-      "troop": "G",
+      "troop": "J",
       "ageSex": "Adult Female",
       "subject": "Pikelet",
+      "marks": {
+        "right": "MoB",
+        "left": "B"
+      },
+      "marksLabel": "R: MoB • L: B",
       "images": []
     },
     {
-      "id": "123-zattar-imm23",
+      "id": "123-zattar",
       "index": 123,
       "title": "ADULT MALES: Zattar/IMM23",
-      "subtitle": "",
+      "subtitle": "L_ADULT MALES:Right: sT /Left: 0",
       "hint": "",
-      "troop": "ADULT MALES",
-      "ageSex": "ADULT MALES",
-      "subject": "Zattar/IMM23",
+      "troop": "L",
+      "ageSex": "Adult Males",
+      "subject": "Zattar",
+      "marks": {
+        "right": "sT",
+        "left": "0"
+      },
+      "marksLabel": "R: sT • L: 0",
       "images": [
         {
           "slot": "image",
-          "src": "images/123-zattar-imm23-image.png",
+          "src": "images/123-zattar-image.png",
           "blobId": "ee6596ef55c7755ca0378784ab4479085ad1412b79beac7bd71bbcf66190e575"
         },
         {
           "slot": "image2",
-          "src": "images/123-zattar-imm23-image2.png",
+          "src": "images/123-zattar-image2.png",
           "blobId": "ee1bab931700ffadce5a1851a88e495d1d3988923fbc773928e489cfdd990e33"
         }
       ]
     },
     {
-      "id": "124-garlic-eczema",
+      "id": "124-garlic",
       "index": 124,
       "title": "L_Juveniles Males: Garlic/Eczema",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Males: Right: B / Left: B",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
-      "subject": "Garlic/Eczema",
+      "subject": "Garlic",
+      "marks": {
+        "right": "B",
+        "left": "B"
+      },
+      "marksLabel": "R: B • L: B",
       "images": [
         {
           "slot": "image",
-          "src": "images/124-garlic-eczema-image.png",
+          "src": "images/124-garlic-image.png",
           "blobId": "83fbc85ec3a7e55ddcf03142fbfceca90f47aa75a1df258815845d444f199e7f"
         },
         {
           "slot": "image2",
-          "src": "images/124-garlic-eczema-image2.png",
+          "src": "images/124-garlic-image2.png",
           "blobId": "cf8d15db56b39155f0525970e05b39e7dedae1d40d93ca543c68fe6c2f88a787"
         }
       ]
     },
     {
-      "id": "125-cocoa-cataracts",
+      "id": "125-cocoa",
       "index": 125,
       "title": "L_Juveniles Female: Cocoa/Cataracts",
-      "subtitle": "",
+      "subtitle": "L_Juveniles Female: Right: TM / Left: sM",
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
-      "subject": "Cocoa/Cataracts",
+      "subject": "Cocoa",
+      "marks": {
+        "right": "TM",
+        "left": "sM"
+      },
+      "marksLabel": "R: TM • L: sM",
       "images": [
         {
           "slot": "image",
-          "src": "images/125-cocoa-cataracts-image.png",
+          "src": "images/125-cocoa-image.png",
           "blobId": "6ee3383dc75477ec7015830b2b167088676cf8afd95567c5484bab4d1b05b3c6"
         },
         {
           "slot": "image2",
-          "src": "images/125-cocoa-cataracts-image2.png",
+          "src": "images/125-cocoa-image2.png",
           "blobId": "7bcd78ce7716add88581fc1bddc9661c3687793e9ae23fe4f4f9d88b90c4fe4f"
         }
       ]
