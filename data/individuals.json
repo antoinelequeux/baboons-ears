@@ -11,6 +11,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Niamey",
       "marks": {
         "right": "TBB",
@@ -38,6 +39,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Males",
+      "ageGroup": "adult",
       "subject": "Seuss",
       "marks": {
         "right": "TB",
@@ -65,6 +67,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Kikwit",
       "marks": {
         "right": "MB",
@@ -81,6 +84,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
+      "ageGroup": "juvenile",
       "subject": "Truffle",
       "marks": {
         "right": "TB",
@@ -108,6 +112,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Male",
+      "ageGroup": "adult",
       "subject": "Chocolate",
       "marks": {
         "right": "0",
@@ -124,6 +129,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Female",
+      "ageGroup": "juvenile",
       "subject": "Katima",
       "marks": {
         "right": "0",
@@ -140,6 +146,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Male",
+      "ageGroup": "juvenile",
       "subject": "Kisangani",
       "marks": {
         "right": "0",
@@ -156,6 +163,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "Vanilla",
       "marks": {
         "right": "T",
@@ -183,6 +191,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Males",
+      "ageGroup": "adult",
       "subject": "Aiden",
       "marks": {
         "right": "TMB",
@@ -210,6 +219,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "Paprika",
       "marks": {
         "right": "TB",
@@ -237,6 +247,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Turkana",
       "marks": {
         "right": "M",
@@ -259,6 +270,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Males",
+      "ageGroup": "adult",
       "subject": "Plague",
       "marks": {
         "right": "M",
@@ -286,6 +298,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Subadult Male",
+      "ageGroup": "subadult",
       "subject": "Ngorongoro",
       "marks": {
         "right": "0",
@@ -302,6 +315,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Varicella",
       "marks": {
         "right": "MB",
@@ -329,6 +343,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Caprivi",
       "marks": {
         "right": "TTMB",
@@ -356,6 +371,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "Chili",
       "marks": {
         "right": "T",
@@ -383,6 +399,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Nora",
       "marks": {
         "right": "B",
@@ -410,6 +427,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Female",
+      "ageGroup": "juvenile",
       "subject": "Zambesi",
       "marks": {
         "right": "TB",
@@ -426,6 +444,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Joyce",
       "marks": {
         "right": "M",
@@ -453,6 +472,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
+      "ageGroup": "juvenile",
       "subject": "Bobo",
       "marks": {
         "right": "M",
@@ -480,6 +500,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "Sesame",
       "marks": {
         "right": "B",
@@ -507,6 +528,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Male",
+      "ageGroup": "adult",
       "subject": "Togo",
       "marks": {
         "right": "T",
@@ -523,6 +545,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Lymphoma",
       "marks": {
         "right": "B",
@@ -550,6 +573,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Male",
+      "ageGroup": "juvenile",
       "subject": "Mulilo",
       "marks": {
         "right": "T",
@@ -566,6 +590,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Verucca",
       "marks": {
         "right": "TTMMB",
@@ -593,6 +618,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Botfly",
       "marks": {
         "right": "TB",
@@ -620,6 +646,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Munchausen",
       "marks": {
         "right": "B",
@@ -647,6 +674,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Female",
+      "ageGroup": "juvenile",
       "subject": "Casablanca",
       "marks": {
         "right": "TB",
@@ -674,6 +702,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Male",
+      "ageGroup": "juvenile",
       "subject": "Kunene",
       "marks": {
         "right": "B",
@@ -701,6 +730,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Popemma",
       "marks": {
         "right": "MB",
@@ -728,6 +758,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Scabies",
       "marks": {
         "right": "B",
@@ -755,6 +786,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Cavity",
       "marks": {
         "right": "sTM",
@@ -782,6 +814,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Subadult Male",
+      "ageGroup": "subadult",
       "subject": "Wakanda",
       "marks": {
         "right": "B",
@@ -809,6 +842,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Zika",
       "marks": {
         "right": "sT",
@@ -836,6 +870,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Males",
+      "ageGroup": "adult",
       "subject": "Pots",
       "marks": {
         "right": "TM",
@@ -863,6 +898,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Polyp",
       "marks": {
         "right": "sTMB",
@@ -890,6 +926,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Kivu",
       "marks": {
         "right": "MB",
@@ -906,6 +943,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Males",
+      "ageGroup": "adult",
       "subject": "Conjunctivitis",
       "marks": {
         "right": "MB",
@@ -933,6 +971,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Male",
+      "ageGroup": "adult",
       "subject": "Chobe",
       "marks": {
         "right": "B",
@@ -949,6 +988,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Hodgkin",
       "marks": {
         "right": "TM",
@@ -976,6 +1016,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Okavanga",
       "marks": {
         "right": "0",
@@ -992,6 +1033,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Sierra Leone",
       "marks": {
         "right": "0",
@@ -1019,6 +1061,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Sarcoma",
       "marks": {
         "right": "sTB",
@@ -1046,6 +1089,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Male",
+      "ageGroup": "juvenile",
       "subject": "Ndoki",
       "marks": {
         "right": "T",
@@ -1062,6 +1106,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Female",
+      "ageGroup": "juvenile",
       "subject": "Oshana",
       "marks": {
         "right": "B",
@@ -1089,6 +1134,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Meningitis",
       "marks": {
         "right": "M",
@@ -1116,6 +1162,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Kinshasa",
       "marks": {
         "right": "B",
@@ -1143,6 +1190,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
+      "ageGroup": "juvenile",
       "subject": "Hiccup",
       "marks": {
         "right": "T",
@@ -1159,6 +1207,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Subadult Male",
+      "ageGroup": "subadult",
       "subject": "Nakuru",
       "marks": {
         "right": "MB",
@@ -1186,6 +1235,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Nyika",
       "marks": {
         "right": "TM",
@@ -1202,6 +1252,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Male",
+      "ageGroup": "adult",
       "subject": "Timbuctou",
       "marks": {
         "right": "M",
@@ -1229,6 +1280,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Sub Adult Males",
+      "ageGroup": "adult",
       "subject": "Alzheimer",
       "marks": {
         "right": "B",
@@ -1256,6 +1308,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Males",
+      "ageGroup": "adult",
       "subject": "Plasomodium",
       "marks": {
         "right": "T",
@@ -1283,6 +1336,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "kalahari (C)",
       "marks": {
         "right": "B",
@@ -1310,6 +1364,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Sub Adult Males",
+      "ageGroup": "adult",
       "subject": "Parkinson",
       "marks": {
         "right": "B",
@@ -1337,6 +1392,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Asthma",
       "marks": {
         "right": "TM",
@@ -1364,6 +1420,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Toxocara",
       "marks": {
         "right": "T",
@@ -1391,6 +1448,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "Masala",
       "marks": {
         "right": "TM",
@@ -1413,6 +1471,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Sub Adult Males",
+      "ageGroup": "adult",
       "subject": "Cooties",
       "marks": {
         "right": "sTM",
@@ -1429,6 +1488,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "Basil",
       "marks": {
         "right": "MB",
@@ -1456,6 +1516,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Male",
+      "ageGroup": "adult",
       "subject": "Narco",
       "marks": {
         "right": "B",
@@ -1478,6 +1539,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Ethiopa",
       "marks": {
         "right": "TT",
@@ -1505,6 +1567,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Rubella",
       "marks": {
         "right": "TT",
@@ -1532,6 +1595,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Melanoma (C)",
       "marks": {
         "right": "TMB",
@@ -1559,6 +1623,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Shelley",
       "marks": {
         "right": "T",
@@ -1586,6 +1651,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Mzuzu",
       "marks": {
         "right": "TM",
@@ -1613,6 +1679,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Male",
+      "ageGroup": "adult",
       "subject": "Kasungu",
       "marks": {
         "right": "TMB",
@@ -1640,6 +1707,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Etosha",
       "marks": {
         "right": "0",
@@ -1667,6 +1735,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Vitiligo",
       "marks": {
         "right": "M",
@@ -1694,6 +1763,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Botulism",
       "marks": {
         "right": "T",
@@ -1721,6 +1791,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Xena",
       "marks": {
         "right": "0",
@@ -1748,6 +1819,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
+      "ageGroup": "juvenile",
       "subject": "Umami",
       "marks": {
         "right": "M",
@@ -1764,6 +1836,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Subadult Male",
+      "ageGroup": "subadult",
       "subject": "Djuba",
       "marks": {
         "right": "0",
@@ -1791,6 +1864,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Ishasha",
       "marks": {
         "right": "MB",
@@ -1818,6 +1892,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Mumps",
       "marks": {
         "right": "0",
@@ -1845,6 +1920,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "Ginger",
       "marks": {
         "right": "0",
@@ -1861,6 +1937,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "Quincke",
       "marks": {
         "right": "B",
@@ -1877,6 +1954,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "TseTse",
       "marks": {
         "right": "MB",
@@ -1904,6 +1982,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Herpes",
       "marks": {
         "right": "TM",
@@ -1931,6 +2010,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Burundi",
       "marks": {
         "right": "0",
@@ -1958,6 +2038,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Alopecia",
       "marks": {
         "right": "TMB",
@@ -1985,6 +2066,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Males",
+      "ageGroup": "adult",
       "subject": "Trisomy",
       "marks": {
         "right": "TM",
@@ -2012,6 +2094,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
+      "ageGroup": "juvenile",
       "subject": "Sarcomainf24",
       "marks": {
         "right": "T",
@@ -2034,6 +2117,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Schizophrenia",
       "marks": {
         "right": "sTM",
@@ -2061,6 +2145,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Zambia",
       "marks": {
         "right": "T",
@@ -2088,6 +2173,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
+      "ageGroup": "juvenile",
       "subject": "Herb",
       "marks": {
         "right": "MB",
@@ -2104,6 +2190,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
+      "ageGroup": "juvenile",
       "subject": "Parsley",
       "marks": {
         "right": "0",
@@ -2120,6 +2207,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
+      "ageGroup": "juvenile",
       "subject": "Nutmeg",
       "marks": {
         "right": "T",
@@ -2136,6 +2224,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "Rosemary",
       "marks": {
         "right": "TMB",
@@ -2163,6 +2252,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Myxomatosis",
       "marks": {
         "right": "MB",
@@ -2190,6 +2280,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Epilepsy",
       "marks": {
         "right": "TM",
@@ -2217,6 +2308,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Male",
+      "ageGroup": "adult",
       "subject": "Consanguin",
       "marks": {
         "right": "T",
@@ -2244,6 +2336,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "JK",
       "marks": {
         "right": "M",
@@ -2271,6 +2364,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Female",
+      "ageGroup": "juvenile",
       "subject": "Sahara",
       "marks": {
         "right": "T",
@@ -2287,6 +2381,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Male",
+      "ageGroup": "juvenile",
       "subject": "Omatako",
       "marks": {
         "right": "TMB",
@@ -2303,6 +2398,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Subadult Male",
+      "ageGroup": "subadult",
       "subject": "Monique",
       "marks": {
         "right": "TM",
@@ -2330,6 +2426,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Male",
+      "ageGroup": "juvenile",
       "subject": "Karoo",
       "marks": {
         "right": "TB",
@@ -2346,6 +2443,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Amnesia",
       "marks": {
         "right": "TMsB",
@@ -2373,6 +2471,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Zomba",
       "marks": {
         "right": "TM",
@@ -2389,6 +2488,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Male",
+      "ageGroup": "juvenile",
       "subject": "Tai",
       "marks": {
         "right": "0",
@@ -2405,6 +2505,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Female",
+      "ageGroup": "juvenile",
       "subject": "Omeya",
       "marks": {
         "right": "M",
@@ -2421,6 +2522,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Male",
+      "ageGroup": "juvenile",
       "subject": "Namib",
       "marks": {
         "right": "MB",
@@ -2437,6 +2539,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Malawi",
       "marks": {
         "right": "T",
@@ -2453,6 +2556,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Aphasia",
       "marks": {
         "right": "0",
@@ -2480,6 +2584,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Female",
+      "ageGroup": "juvenile",
       "subject": "Likouala",
       "marks": {
         "right": "TB",
@@ -2496,6 +2601,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Female",
+      "ageGroup": "juvenile",
       "subject": "Zanzibar",
       "marks": {
         "right": "T",
@@ -2512,6 +2618,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "Gout",
       "marks": {
         "right": "0",
@@ -2528,6 +2635,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Male",
+      "ageGroup": "juvenile",
       "subject": "Gao",
       "marks": {
         "right": "MB",
@@ -2555,6 +2663,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Males",
+      "ageGroup": "adult",
       "subject": "Gangrene",
       "marks": {
         "right": "TMB",
@@ -2582,6 +2691,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "Turmeric",
       "marks": {
         "right": "MB",
@@ -2598,6 +2708,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Males",
+      "ageGroup": "adult",
       "subject": "Hangover",
       "marks": {
         "right": "TB",
@@ -2625,6 +2736,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Eczema",
       "marks": {
         "right": "sTM",
@@ -2652,6 +2764,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Trush",
       "marks": {
         "right": "TM",
@@ -2679,6 +2792,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Anorexia",
       "marks": {
         "right": "T",
@@ -2706,6 +2820,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Insomnia",
       "marks": {
         "right": "sTM",
@@ -2733,6 +2848,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Juvenile Female",
+      "ageGroup": "juvenile",
       "subject": "Namaqua",
       "marks": {
         "right": "M",
@@ -2760,6 +2876,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Male",
+      "ageGroup": "adult",
       "subject": "Trans",
       "marks": {
         "right": "sT",
@@ -2787,6 +2904,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Overdose",
       "marks": {
         "right": "T",
@@ -2814,6 +2932,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Cataracts (C)",
       "marks": {
         "right": "MsB",
@@ -2841,6 +2960,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "PeriPeri",
       "marks": {
         "right": "M",
@@ -2857,6 +2977,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Male",
+      "ageGroup": "adult",
       "subject": "Antananarivo",
       "marks": {
         "right": "MB",
@@ -2884,6 +3005,7 @@
       "hint": "",
       "troop": "J",
       "ageSex": "Adult Female",
+      "ageGroup": "adult",
       "subject": "Pikelet",
       "marks": {
         "right": "MoB",
@@ -2900,6 +3022,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Adult Males",
+      "ageGroup": "adult",
       "subject": "Zattar",
       "marks": {
         "right": "sT",
@@ -2927,6 +3050,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Males",
+      "ageGroup": "juvenile",
       "subject": "Garlic",
       "marks": {
         "right": "B",
@@ -2954,6 +3078,7 @@
       "hint": "",
       "troop": "L",
       "ageSex": "Juveniles Female",
+      "ageGroup": "juvenile",
       "subject": "Cocoa",
       "marks": {
         "right": "TM",

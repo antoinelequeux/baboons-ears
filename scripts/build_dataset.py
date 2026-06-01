@@ -36,6 +36,17 @@ def clean_age_sex(value: str) -> str:
     return value.title()
 
 
+def infer_age_group(age_sex: str) -> str:
+    lower = age_sex.lower()
+    if "subadult" in lower:
+        return "subadult"
+    if "juvenile" in lower:
+        return "juvenile"
+    if "adult" in lower:
+        return "adult"
+    return "other"
+
+
 def parse_marks(subtitle: str) -> dict:
     subtitle = subtitle.replace("Left :", "Left:").replace("Right :", "Right:")
     right_match = re.search(r"Right\s*:?\s*([^/]+)", subtitle, flags=re.IGNORECASE)
@@ -129,6 +140,7 @@ def parse_xml(text: str) -> list[dict]:
                 "hint": hint,
                 "troop": label["troop"],
                 "ageSex": label["ageSex"],
+                "ageGroup": infer_age_group(label["ageSex"]),
                 "subject": label["subject"],
                 "marks": marks,
                 "marksLabel": f"R: {marks['right'] or '?'} • L: {marks['left'] or '?'}",

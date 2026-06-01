@@ -9,8 +9,10 @@ const state = {
     ageSex: "All",
   },
   study: {
-    mode: "ears-to-name",
-    pool: "all",
+    mode: "normal",
+    answerMode: "quiz",
+    troop: "all",
+    ageGroup: "all",
     length: "10",
     current: null,
     queue: [],
@@ -41,7 +43,9 @@ const elements = {
   studyCard: document.querySelector("#quiz-card"),
   studyScore: document.querySelector("#study-score"),
   studyMode: document.querySelector("#study-mode"),
-  studyPool: document.querySelector("#study-pool"),
+  answerMode: document.querySelector("#answer-mode"),
+  studyTroop: document.querySelector("#study-troop"),
+  studyAgeGroup: document.querySelector("#study-age-group"),
   studyLength: document.querySelector("#study-length"),
   startSession: document.querySelector("#start-session"),
   connectionDot: document.querySelector("#connection-dot"),
@@ -209,11 +213,11 @@ function applyFilters() {
 }
 
 function getStudyPool() {
-  let cards = state.study.pool === "with-images" ? state.cards.filter((card) => card.images.length > 0) : state.cards;
-  if (["ears-to-name", "name-to-ears", "ears-to-marks"].includes(state.study.mode)) {
-    cards = cards.filter((card) => card.images.length > 0);
-  }
-  return cards.filter((card) => card.subject);
+  return state.cards
+    .filter((card) => card.subject)
+    .filter((card) => card.images.length > 0)
+    .filter((card) => (state.study.troop === "all" ? true : card.troop === state.study.troop))
+    .filter((card) => (state.study.ageGroup === "all" ? true : card.ageGroup === state.study.ageGroup));
 }
 
 function getTargetSessionSize(poolLength) {
@@ -277,10 +281,10 @@ function renderImageGrid(images, subject) {
 function getStudyTexts(card) {
   const mode = state.study.mode;
 
-  if (mode === "ears-to-name") {
+  if (mode === "normal") {
     return {
-      eyebrow: "Basic",
-      prompt: "Look at the ears. Say the name before revealing the answer.",
+      eyebrow: "Normal",
+      prompt: "Look at the ears and identify the baboon.",
       front: renderImageGrid(card.images, card.subject),
       answerTitle: card.subject,
       answerMeta: `${card.troop} • ${card.ageSex}`,
@@ -288,44 +292,32 @@ function getStudyTexts(card) {
     };
   }
 
-  if (mode === "name-to-ears") {
-    return {
-      eyebrow: "Basic",
-      prompt: "Read the name. Picture the ears before revealing the answer.",
-      front: `
-        <p class="flashcard__display-name">${card.subject}</p>
-        <p class="flashcard__meta">${card.troop} • ${card.ageSex}</p>
-      `,
-      answerTitle: "Ear photos",
-      answerMeta: card.marksLabel,
-      answerExtra: renderImageGrid(card.images, card.subject),
-      answerIsHtml: true,
-    };
-  }
-
-  if (mode === "ears-to-marks") {
-    return {
-      eyebrow: "Hard",
-      prompt: "Look at the ears. Say the right and left codes before revealing.",
-      front: renderImageGrid(card.images, card.subject),
-      answerTitle: card.marksLabel,
-      answerMeta: `${card.subject} • ${card.troop} • ${card.ageSex}`,
-      answerExtra: "",
-    };
-  }
-
   return {
     eyebrow: "Hard",
-    prompt: "Read the name. Say the right and left ear codes before revealing.",
+    prompt: "Read the ear marks and identify the baboon.",
     front: `
-      <p class="flashcard__display-name">${card.subject}</p>
+      <p class="flashcard__marks">${card.marksLabel}</p>
       <p class="flashcard__meta">${card.troop} • ${card.ageSex}</p>
     `,
-    answerTitle: card.marksLabel,
-    answerMeta: "",
+    answerTitle: card.subject,
+    answerMeta: `${card.troop} • ${card.ageSex}`,
     answerExtra: renderImageGrid(card.images, card.subject),
     answerIsHtml: true,
   };
+}
+
+function normalizeName(value) {
+  return value
+    .normalize("NFD")
+    .replaceAll(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replaceAll(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function buildQuizChoices(answerCard, pool) {
+  const distractors = shuffle(pool.filter((card) => card.id !== answerCard.id)).slice(0, 3);
+  return shuffle([answerCard, ...distractors]);
 }
 
 function renderCurrentCard() {
@@ -341,6 +333,27 @@ function renderCurrentCard() {
 
   const view = getStudyTexts(card);
   const history = getCardHistory(card.id);
+  const interaction =
+    state.study.answerMode === "quiz"
+      ? `
+        <div class="flashcard__actions">
+          ${card.choices
+            .map(
+              (choice) => `
+              <button class="button button--ghost quiz-choice" type="button" data-card-id="${choice.id}">
+                ${choice.subject}
+              </button>
+            `,
+            )
+            .join("")}
+        </div>
+      `
+      : `
+        <form id="type-answer-form" class="flashcard__actions">
+          <input id="typed-answer" type="text" placeholder="Type the baboon name" autocomplete="off">
+          <button class="button" type="submit">Check answer</button>
+        </form>
+      `;
 
   elements.studyCard.innerHTML = `
     <div class="flashcard">
@@ -356,9 +369,7 @@ function renderCurrentCard() {
         ${view.front}
       </div>
 
-      <div class="flashcard__actions">
-        <button id="reveal-answer" class="button" type="button">Reveal answer</button>
-      </div>
+      ${interaction}
 
       <div id="flashcard-answer" class="flashcard__answer is-hidden">
         <div class="flashcard__panel">
@@ -374,23 +385,33 @@ function renderCurrentCard() {
           }
         </div>
         <div class="flashcard__grade">
-          <button id="grade-correct" class="button" type="button">I got it right</button>
-          <button id="grade-wrong" class="button button--ghost" type="button">I got it wrong</button>
+          <button id="next-card" class="button" type="button">Next card</button>
         </div>
       </div>
     </div>
   `;
 
-  elements.studyCard.querySelector("#reveal-answer").addEventListener("click", () => {
-    elements.studyCard.querySelector("#flashcard-answer").classList.remove("is-hidden");
-  });
+  if (state.study.answerMode === "quiz") {
+    elements.studyCard.querySelectorAll(".quiz-choice").forEach((button) => {
+      button.addEventListener("click", () => handleQuizAnswer(button.dataset.cardId));
+    });
+  } else {
+    elements.studyCard.querySelector("#type-answer-form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const typed = elements.studyCard.querySelector("#typed-answer").value;
+      handleTypedAnswer(typed);
+    });
+  }
 
-  elements.studyCard.querySelector("#grade-correct").addEventListener("click", () => gradeCard(true));
-  elements.studyCard.querySelector("#grade-wrong").addEventListener("click", () => gradeCard(false));
+  elements.studyCard.querySelector("#next-card").addEventListener("click", () => nextCard());
 }
 
 function nextCard() {
-  state.study.current = state.study.queue.shift() || null;
+  const next = state.study.queue.shift() || null;
+  if (next && state.study.answerMode === "quiz") {
+    next.choices = buildQuizChoices(next, getStudyPool());
+  }
+  state.study.current = next;
   renderCurrentCard();
 }
 
@@ -419,7 +440,59 @@ function gradeCard(correct) {
   }
 
   saveHistory();
-  nextCard();
+}
+
+function revealAnswer(correct, userAnswer = "") {
+  const answer = elements.studyCard.querySelector("#flashcard-answer");
+  answer.classList.remove("is-hidden");
+
+  const panel = document.createElement("p");
+  panel.className = "flashcard__small";
+  panel.textContent = correct
+    ? "Correct."
+    : userAnswer
+      ? `Your answer: ${userAnswer}`
+      : "Wrong answer.";
+
+  answer.prepend(panel);
+}
+
+function handleQuizAnswer(cardId) {
+  const card = state.study.current;
+  if (!card) {
+    return;
+  }
+
+  const correct = cardId === card.id;
+  gradeCard(correct);
+  revealAnswer(correct);
+
+  elements.studyCard.querySelectorAll(".quiz-choice").forEach((button) => {
+    button.disabled = true;
+    if (button.dataset.cardId === card.id) {
+      button.classList.add("is-correct");
+    } else if (button.dataset.cardId === cardId) {
+      button.classList.add("is-wrong");
+    }
+  });
+}
+
+function handleTypedAnswer(value) {
+  const card = state.study.current;
+  if (!card) {
+    return;
+  }
+
+  const correct = normalizeName(value) === normalizeName(card.subject);
+  gradeCard(correct);
+  revealAnswer(correct, value.trim());
+
+  const form = elements.studyCard.querySelector("#type-answer-form");
+  if (form) {
+    form.querySelectorAll("input, button").forEach((node) => {
+      node.disabled = true;
+    });
+  }
 }
 
 function startSession() {
@@ -469,8 +542,16 @@ function wireEvents() {
     state.study.mode = event.target.value;
   });
 
-  elements.studyPool.addEventListener("change", (event) => {
-    state.study.pool = event.target.value;
+  elements.answerMode.addEventListener("change", (event) => {
+    state.study.answerMode = event.target.value;
+  });
+
+  elements.studyTroop.addEventListener("change", (event) => {
+    state.study.troop = event.target.value;
+  });
+
+  elements.studyAgeGroup.addEventListener("change", (event) => {
+    state.study.ageGroup = event.target.value;
   });
 
   elements.studyLength.addEventListener("change", (event) => {
