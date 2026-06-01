@@ -1,0 +1,2352 @@
+{
+  "deckName": "Baboons Ears",
+  "cardCount": 125,
+  "generatedFrom": "BaboonsEars.xml",
+  "cards": [
+    {
+      "id": "001-niamey",
+      "index": 1,
+      "title": "G_Adult Female: Niamey",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Niamey",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/001-niamey-image.png",
+          "blobId": "6fa179a7a85a4892553a09301e23dad379492eeea56e6020dc8aa01b029bb380"
+        },
+        {
+          "slot": "image2",
+          "src": "images/001-niamey-image2.png",
+          "blobId": "2c101f852d720d7150c8bbc0a74abe44bd6313be1c348f0112a0702366b421f1"
+        }
+      ]
+    },
+    {
+      "id": "002-seuss-jk",
+      "index": 2,
+      "title": "ADULT MALES: Seuss/JK",
+      "subtitle": "",
+      "hint": "",
+      "troop": "ADULT MALES",
+      "ageSex": "ADULT MALES",
+      "subject": "Seuss/JK",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/002-seuss-jk-image.png",
+          "blobId": "8eeb529d8e62024651c76004de81b2b37e92776495a2cad88e55a8ce8a65c8db"
+        },
+        {
+          "slot": "image2",
+          "src": "images/002-seuss-jk-image2.png",
+          "blobId": "34273160b8b96651bb5ca9c4f5ca60aeaad0c357036918d033651c2a317b118d"
+        }
+      ]
+    },
+    {
+      "id": "003-kikwit",
+      "index": 3,
+      "title": "G_Adult Female: Kikwit",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Kikwit",
+      "images": []
+    },
+    {
+      "id": "004-truffle-asthma",
+      "index": 4,
+      "title": "L_Juveniles Males: Truffle/ Asthma",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Males",
+      "subject": "Truffle/ Asthma",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/004-truffle-asthma-image.png",
+          "blobId": "ffc440b8f1f0c911ad4decfdc7bcfe6113356301026964c00057cf50839e184e"
+        },
+        {
+          "slot": "image2",
+          "src": "images/004-truffle-asthma-image2.png",
+          "blobId": "c38cb38975bf02babf20094df97763400714cf81df3ce11544206def26762713"
+        }
+      ]
+    },
+    {
+      "id": "005-chocolate",
+      "index": 5,
+      "title": "G_Adult Male: Chocolate",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Male",
+      "subject": "Chocolate",
+      "images": []
+    },
+    {
+      "id": "006-katima-joyce",
+      "index": 6,
+      "title": "G_Juvenile Female: Katima/Joyce",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Female",
+      "subject": "Katima/Joyce",
+      "images": []
+    },
+    {
+      "id": "007-kisangani-okavanga",
+      "index": 7,
+      "title": "G_Juvenile Male: Kisangani/Okavanga",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Male",
+      "subject": "Kisangani/Okavanga",
+      "images": []
+    },
+    {
+      "id": "008-vanilla-verucca",
+      "index": 8,
+      "title": "L_Juveniles Female: Vanilla/Verucca",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "Vanilla/Verucca",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/008-vanilla-verucca-image.png",
+          "blobId": "c804e5d7a01c17c70af0f8eaa8a8d1c806518b299390174f13bf0c8ce5717070"
+        },
+        {
+          "slot": "image2",
+          "src": "images/008-vanilla-verucca-image2.png",
+          "blobId": "2098bb240cd23b66c65bf43cc821536e5599df8e33e812008a4c44864eecfefe"
+        }
+      ]
+    },
+    {
+      "id": "009-aiden-shigella",
+      "index": 9,
+      "title": "ADULT MALES: Aiden/Shigella",
+      "subtitle": "",
+      "hint": "",
+      "troop": "ADULT MALES",
+      "ageSex": "ADULT MALES",
+      "subject": "Aiden/Shigella",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/009-aiden-shigella-image.png",
+          "blobId": "bbaa6ca4793c93645f2d93e1221bc2278113b502c4f64804e6fa0c3be9514505"
+        },
+        {
+          "slot": "image2",
+          "src": "images/009-aiden-shigella-image2.png",
+          "blobId": "b8ac28d36d91a61b4f3c81e0f4b6e7e2c0feb7ef255ff4b27aec9639a6be73dd"
+        }
+      ]
+    },
+    {
+      "id": "010-paprika-hodgkin",
+      "index": 10,
+      "title": "L_Juveniles Female: Paprika/Hodgkin",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "Paprika/Hodgkin",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/010-paprika-hodgkin-image.png",
+          "blobId": "5b49a11520722b806bc01d740309ab77683a0f8770f2d9d228d563e51c889c06"
+        },
+        {
+          "slot": "image2",
+          "src": "images/010-paprika-hodgkin-image2.png",
+          "blobId": "eaee28a5b094cef52cb06f9464c1da48d1a1f2451954867a287d2e3ae402db34"
+        }
+      ]
+    },
+    {
+      "id": "011-turkana",
+      "index": 11,
+      "title": "G_Adult Female: Turkana",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Turkana",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/011-turkana-image.png",
+          "blobId": "7d80853bd52675d1dd5c194a6c60d79044d75eefaa41ff6e47e6fc5b3de19b23"
+        }
+      ]
+    },
+    {
+      "id": "012-plague-pseudomonads",
+      "index": 12,
+      "title": "ADULT MALES: Plague/Pseudomonads",
+      "subtitle": "",
+      "hint": "",
+      "troop": "ADULT MALES",
+      "ageSex": "ADULT MALES",
+      "subject": "Plague/Pseudomonads",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/012-plague-pseudomonads-image.png",
+          "blobId": "fe049fcfb13fbb6f8679f8be34262737730a6eadaff33cb982e435609ba72e2d"
+        },
+        {
+          "slot": "image2",
+          "src": "images/012-plague-pseudomonads-image2.png",
+          "blobId": "71de850f8312fba6b8a240e2a0ce1f4a71580a61d86c9b2c12f0f8fa4bf6cdc3"
+        }
+      ]
+    },
+    {
+      "id": "013-ngorongoro",
+      "index": 13,
+      "title": "G_SubAdult Male: Ngorongoro",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "SubAdult Male",
+      "subject": "Ngorongoro",
+      "images": []
+    },
+    {
+      "id": "014-varicella",
+      "index": 14,
+      "title": "L_ADULT Female: Varicella",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Varicella",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/014-varicella-image.png",
+          "blobId": "b05e31b80e0459ab196c88184638df4204532e6ee372ff49f2fe8b3d9a312312"
+        },
+        {
+          "slot": "image2",
+          "src": "images/014-varicella-image2.png",
+          "blobId": "ef7285cb2662e4894e40bd50d33be0d6444e6e67ddbb5383073c1773a2bd8284"
+        }
+      ]
+    },
+    {
+      "id": "015-caprivi",
+      "index": 15,
+      "title": "G_Adult Female: Caprivi",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Caprivi",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/015-caprivi-image.png",
+          "blobId": "9d6791623e5fdb496bf1f0327b2200a7ac74461174862cd4591fe744f0e5549d"
+        },
+        {
+          "slot": "image2",
+          "src": "images/015-caprivi-image2.png",
+          "blobId": "0f01b12d1bdf900fcc96fe1a64bd4bce0469b6f8fe5c2767e30e322fe3ec02c8"
+        }
+      ]
+    },
+    {
+      "id": "016-chili-amnesia",
+      "index": 16,
+      "title": "L_Juveniles Female: Chili/Amnesia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "Chili/Amnesia",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/016-chili-amnesia-image.png",
+          "blobId": "e3e41c1235dc997edf2072b7e42f107167087205a02ad322bfcaeafa9e03450c"
+        },
+        {
+          "slot": "image2",
+          "src": "images/016-chili-amnesia-image2.png",
+          "blobId": "ffcac7dfd03c577931244828569048f75064a53c2bf4463c255498b2dac98d2a"
+        }
+      ]
+    },
+    {
+      "id": "017-nora",
+      "index": 17,
+      "title": "L_ADULT Female: Nora",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Nora",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/017-nora-image.png",
+          "blobId": "5a0f9aabd9dfbc4015a2c38377c3845ffbe090a0872ed617301b453dcffbffeb"
+        },
+        {
+          "slot": "image2",
+          "src": "images/017-nora-image2.png",
+          "blobId": "67c78882b562c64f58e146234cdcace02aba953599112ead764559dc200c8503"
+        }
+      ]
+    },
+    {
+      "id": "018-zambesi-zambia",
+      "index": 18,
+      "title": "G_Juvenile Female: Zambesi/Zambia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Female",
+      "subject": "Zambesi/Zambia",
+      "images": []
+    },
+    {
+      "id": "019-joyce",
+      "index": 19,
+      "title": "G_Adult Female: Joyce",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Joyce",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/019-joyce-image.png",
+          "blobId": "95b3800761ce2cfd808c84a82c2cc46bd84c2d70f0244737e3d37329e34115fc"
+        },
+        {
+          "slot": "image2",
+          "src": "images/019-joyce-image2.png",
+          "blobId": "626ed69a0a10c699df0fe318422f10d48723edf66cb4a9d5687a7a65014db7f9"
+        }
+      ]
+    },
+    {
+      "id": "020-bobo-zika",
+      "index": 20,
+      "title": "L_Juveniles Males: Bobo/Zika",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Males",
+      "subject": "Bobo/Zika",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/020-bobo-zika-image.png",
+          "blobId": "a604c99a13442a03dac44aacc4789f64ebbd5394aa42255d74004378486b4c15"
+        },
+        {
+          "slot": "image2",
+          "src": "images/020-bobo-zika-image2.png",
+          "blobId": "218b0ede7298ac9368f61dc13c9fb2d490823416542034cade631acbc51fb676"
+        }
+      ]
+    },
+    {
+      "id": "021-sesame-zika",
+      "index": 21,
+      "title": "L_Juveniles Female: Sesame/Zika",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "Sesame/Zika",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/021-sesame-zika-image.png",
+          "blobId": "5417cb9a5e44de5c67a4141d60f076d9fa3928ad64bd3269d83ff9f5e2463ade"
+        },
+        {
+          "slot": "image2",
+          "src": "images/021-sesame-zika-image2.png",
+          "blobId": "e55b6c8ef313dfbbe11ffbbc5dec704e39505eae84d04757ca1b613646d3430a"
+        }
+      ]
+    },
+    {
+      "id": "022-togo",
+      "index": 22,
+      "title": "G_Adult Male: Togo",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Male",
+      "subject": "Togo",
+      "images": []
+    },
+    {
+      "id": "023-lymphoma",
+      "index": 23,
+      "title": "L_ADULT Female: Lymphoma",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Lymphoma",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/023-lymphoma-image.png",
+          "blobId": "4858f0af31f20c1a0f305bd0a860c03274f60edc837c2a3f299ccc0417c3e939"
+        },
+        {
+          "slot": "image2",
+          "src": "images/023-lymphoma-image2.png",
+          "blobId": "38d9d0bb2e8081a024beb528600d8984cc97e728bbb9859ba77c3c24f38fca49"
+        }
+      ]
+    },
+    {
+      "id": "024-mulilo-zambia",
+      "index": 24,
+      "title": "G_Juvenile Male: Mulilo/Zambia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Male",
+      "subject": "Mulilo/Zambia",
+      "images": []
+    },
+    {
+      "id": "025-verucca",
+      "index": 25,
+      "title": "L_ADULT Female: Verucca",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Verucca",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/025-verucca-image.png",
+          "blobId": "f89754782bb5fbb0796ca653706495d5074ff39dd0c06da59ccfbad6679417fc"
+        },
+        {
+          "slot": "image2",
+          "src": "images/025-verucca-image2.png",
+          "blobId": "6161db60e1633de7a50e0aee5eb364b70043ec35e2d41a6e4028b75cfa0a6e3a"
+        }
+      ]
+    },
+    {
+      "id": "026-botfly",
+      "index": 26,
+      "title": "L_ADULT Female: Botfly",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Botfly",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/026-botfly-image.png",
+          "blobId": "6e4742042b2a66e5927eb6e0ac8076f7290b570a49a17810701cf1307dbe1721"
+        },
+        {
+          "slot": "image2",
+          "src": "images/026-botfly-image2.png",
+          "blobId": "eab73d4ed1418ff3b2eda2f8e48550e36d1dfa4cd0ea8b0fb6a1c307436cc64e"
+        }
+      ]
+    },
+    {
+      "id": "027-munchausen",
+      "index": 27,
+      "title": "L_ADULT Female: Munchausen",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Munchausen",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/027-munchausen-image.png",
+          "blobId": "159327a019be522c43ea7236f24c8212e260f9c05af44032cc9cd7c22673082f"
+        },
+        {
+          "slot": "image2",
+          "src": "images/027-munchausen-image2.png",
+          "blobId": "27a21c8caef6cec731dfd7b13644c6f99b805962d5148e03e7f69426e1268bab"
+        }
+      ]
+    },
+    {
+      "id": "028-casablanca-shelley",
+      "index": 28,
+      "title": "G_Juvenile Female: Casablanca/Shelley",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Female",
+      "subject": "Casablanca/Shelley",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/028-casablanca-shelley-image.png",
+          "blobId": "5a9cd159375584539fe522ffa01f9a0f5e98e56ac21657724daacb333c166a3d"
+        },
+        {
+          "slot": "image2",
+          "src": "images/028-casablanca-shelley-image2.png",
+          "blobId": "55a2dc7ff135b601318ec2332df903f5f6514753c6b5af99af020ab3119830f8"
+        }
+      ]
+    },
+    {
+      "id": "029-kunene-pikelet",
+      "index": 29,
+      "title": "G_Juvenile Male: Kunene/Pikelet",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Male",
+      "subject": "Kunene/Pikelet",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/029-kunene-pikelet-image.png",
+          "blobId": "5a97086fac0f13132df87281e2f02da17e89ff983ac31bf8e2a04393b2ae6efa"
+        },
+        {
+          "slot": "image2",
+          "src": "images/029-kunene-pikelet-image2.png",
+          "blobId": "ffdf6934fcdc6a1a28a05848d1a36bca41053232634553c6c81c532969ce5ac3"
+        }
+      ]
+    },
+    {
+      "id": "030-popemma",
+      "index": 30,
+      "title": "L_ADULT Female: Popemma",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Popemma",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/030-popemma-image.png",
+          "blobId": "cf7297a1012995c92c950e5dbf1e8347264e78551b0ffd5e6e0caa579b56c5b6"
+        },
+        {
+          "slot": "image2",
+          "src": "images/030-popemma-image2.png",
+          "blobId": "385b7c83c9079d2922c1af5a6f9886d528b35bbb311b1d6eae4b278e644d0738"
+        }
+      ]
+    },
+    {
+      "id": "031-scabies",
+      "index": 31,
+      "title": "L_ADULT Female: Scabies",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Scabies",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/031-scabies-image.png",
+          "blobId": "ad0b2ba0ca766db483480490e05d94bdcb9346ade3d0d1065c7e21291733bf46"
+        },
+        {
+          "slot": "image2",
+          "src": "images/031-scabies-image2.png",
+          "blobId": "f9da8ff2a303bb02503c39d6750d35990f35c7d3dd6ae76c0b4266f45d61965a"
+        }
+      ]
+    },
+    {
+      "id": "032-cavity",
+      "index": 32,
+      "title": "L_ADULT Female: Cavity",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Cavity",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/032-cavity-image.png",
+          "blobId": "49379d4e7f12ae64ca481e8a4dac79c6460566d26bff256ee24479dd60944a8f"
+        },
+        {
+          "slot": "image2",
+          "src": "images/032-cavity-image2.png",
+          "blobId": "6b11d1138288d059170add198f0c2023e791f076c92bfe0294f4d5554c96fa43"
+        }
+      ]
+    },
+    {
+      "id": "033-wakanda",
+      "index": 33,
+      "title": "G_SubAdult Male: Wakanda",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "SubAdult Male",
+      "subject": "Wakanda",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/033-wakanda-image.png",
+          "blobId": "265e68ace424f82de7bdc2e972d7c9dd4c24b790befd3452eb9d408252a334d4"
+        },
+        {
+          "slot": "image2",
+          "src": "images/033-wakanda-image2.png",
+          "blobId": "481566f094b2b137be2dbc6f289d0512533d72a6af87882a7496c596f6d723c5"
+        }
+      ]
+    },
+    {
+      "id": "034-zika",
+      "index": 34,
+      "title": "L_ADULT Female:  Zika",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Zika",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/034-zika-image.png",
+          "blobId": "b775159664e2ea0358a367a5c671d346f4c14ee1413f16da3d99bce4902dc96e"
+        },
+        {
+          "slot": "image2",
+          "src": "images/034-zika-image2.png",
+          "blobId": "cf3cdbd3c701dd97006cbb2729c4823a271964745923bef8cfe5b5ceb0914661"
+        }
+      ]
+    },
+    {
+      "id": "035-pots-bubonica",
+      "index": 35,
+      "title": "ADULT MALES: Pots/Bubonica",
+      "subtitle": "",
+      "hint": "",
+      "troop": "ADULT MALES",
+      "ageSex": "ADULT MALES",
+      "subject": "Pots/Bubonica",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/035-pots-bubonica-image.png",
+          "blobId": "f8cd6db8077eeb289da411ea0829016883fbf6c4d5b0912805270f1fe5d5fb9c"
+        },
+        {
+          "slot": "image2",
+          "src": "images/035-pots-bubonica-image2.png",
+          "blobId": "81f77a81dba29e9517bd826aefc3df0720f5d588663cecb24b89a3eca4e05747"
+        }
+      ]
+    },
+    {
+      "id": "036-polyp",
+      "index": 36,
+      "title": "L_ADULT Female: Polyp",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Polyp",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/036-polyp-image.png",
+          "blobId": "9f6c680ed65030d4be54ced28b3cb5926adedb87cfff34381bd5697032caabd3"
+        },
+        {
+          "slot": "image2",
+          "src": "images/036-polyp-image2.png",
+          "blobId": "d2320244e67588cee3b0241e774fbb770dd5ac526bff5e63a9e382d5dfeff3b4"
+        }
+      ]
+    },
+    {
+      "id": "037-kivu",
+      "index": 37,
+      "title": "G_Adult Female: Kivu",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Kivu",
+      "images": []
+    },
+    {
+      "id": "038-conjunctivitis-ulcer",
+      "index": 38,
+      "title": "ADULT MALES: Conjunctivitis/Ulcer",
+      "subtitle": "",
+      "hint": "",
+      "troop": "ADULT MALES",
+      "ageSex": "ADULT MALES",
+      "subject": "Conjunctivitis/Ulcer",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/038-conjunctivitis-ulcer-image.png",
+          "blobId": "84cc25c663b0c11610cef1fa7489d8126866158243a093c765e94c1142301431"
+        },
+        {
+          "slot": "image2",
+          "src": "images/038-conjunctivitis-ulcer-image2.png",
+          "blobId": "d23982fca7f8a944015d93a13c339af451a6caf0e58aa1b578d0f1ae805b05ce"
+        }
+      ]
+    },
+    {
+      "id": "039-chobe",
+      "index": 39,
+      "title": "G_Adult Male: Chobe",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Male",
+      "subject": "Chobe",
+      "images": []
+    },
+    {
+      "id": "040-hodgkin",
+      "index": 40,
+      "title": "L_ADULT Female: Hodgkin",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Hodgkin",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/040-hodgkin-image.png",
+          "blobId": "84e9e0858a78c6f3bd560db88e7273c46becaaf9a0287d79bb663e606fd78ee4"
+        },
+        {
+          "slot": "image2",
+          "src": "images/040-hodgkin-image2.png",
+          "blobId": "9871c6d702df5f971ff43f2a9c7640fbff10dbacaa9d361f0d2ba9b66cb6bd55"
+        }
+      ]
+    },
+    {
+      "id": "041-okavanga",
+      "index": 41,
+      "title": "G_Adult Female: Okavanga",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Okavanga",
+      "images": []
+    },
+    {
+      "id": "042-sierra-leone",
+      "index": 42,
+      "title": "G_Adult Female: Sierra Leone",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Sierra Leone",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/042-sierra-leone-image.png",
+          "blobId": "eaf2d013d108493daf628edd0b02166a5b0c847c955eccfb1b3389685337153a"
+        },
+        {
+          "slot": "image2",
+          "src": "images/042-sierra-leone-image2.png",
+          "blobId": "e37a256736bd7068141ef0b15482b5a30e1ede2e9c3bd8f39c32dd5082160516"
+        }
+      ]
+    },
+    {
+      "id": "043-sarcoma",
+      "index": 43,
+      "title": "L_ADULT Female: Sarcoma",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Sarcoma",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/043-sarcoma-image.png",
+          "blobId": "f352e23ec2dbf3aa57a0b2f769649c18d9b201cabbbc764d500a141d2669266f"
+        },
+        {
+          "slot": "image2",
+          "src": "images/043-sarcoma-image2.png",
+          "blobId": "74326b902a17e37b6010d89214bc6fa3d25f8c4c06aef913ce25e0ed91a08ba8"
+        }
+      ]
+    },
+    {
+      "id": "044-ndoki-kinshasa",
+      "index": 44,
+      "title": "G_Juvenile Male: Ndoki/Kinshasa",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Male",
+      "subject": "Ndoki/Kinshasa",
+      "images": []
+    },
+    {
+      "id": "045-oshana-joyce",
+      "index": 45,
+      "title": "G_Juvenile Female: Oshana/Joyce",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Female",
+      "subject": "Oshana/Joyce",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/045-oshana-joyce-image.png",
+          "blobId": "72cf4d74d922bd3dc834b3fa836e515667fd77c1b7e5e6e9870b3a59739f64be"
+        },
+        {
+          "slot": "image2",
+          "src": "images/045-oshana-joyce-image2.png",
+          "blobId": "669ed5c6022a639d05b0c79e1f6d77d23e6450dde8a6093fe294ed94f437b3ac"
+        }
+      ]
+    },
+    {
+      "id": "046-meningitis",
+      "index": 46,
+      "title": "L_ADULT Female: Meningitis",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Meningitis",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/046-meningitis-image.png",
+          "blobId": "ec6b3fbcc940d201369b84ecafb93e471844bca2178158add17b02dea81f2dc6"
+        },
+        {
+          "slot": "image2",
+          "src": "images/046-meningitis-image2.png",
+          "blobId": "9583914e0bf397b41dd36377f122d0cbe0ec26517e896f565ed03801d2739d0d"
+        }
+      ]
+    },
+    {
+      "id": "047-kinshasa",
+      "index": 47,
+      "title": "G_Adult Female: Kinshasa",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Kinshasa",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/047-kinshasa-image.png",
+          "blobId": "94adce7823c2d437c755b396d2470b8d661eeaa4620b05f362a4b81cad000ac4"
+        },
+        {
+          "slot": "image2",
+          "src": "images/047-kinshasa-image2.png",
+          "blobId": "de42bcd2a2f4cf8e81d06870bf9796d42a1dde24db6d3bd1aac29196dc44484a"
+        }
+      ]
+    },
+    {
+      "id": "048-hiccup",
+      "index": 48,
+      "title": "L_Juveniles Males: Hiccup",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Males",
+      "subject": "Hiccup",
+      "images": []
+    },
+    {
+      "id": "049-nakuru",
+      "index": 49,
+      "title": "G_SubAdult Male: Nakuru",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "SubAdult Male",
+      "subject": "Nakuru",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/049-nakuru-image.png",
+          "blobId": "fdad2d420b72d28a3fc6c47e26c7b1685a8d65805376a03550dd91e5a1caa86c"
+        },
+        {
+          "slot": "image2",
+          "src": "images/049-nakuru-image2.png",
+          "blobId": "ee0b606ccfe121312d191e50ea603eb31c8bea24458a047ee1ed54f1250a44e0"
+        }
+      ]
+    },
+    {
+      "id": "050-nyika",
+      "index": 50,
+      "title": "G_Adult Female: Nyika",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Nyika",
+      "images": []
+    },
+    {
+      "id": "051-timbuctou",
+      "index": 51,
+      "title": "G_Adult Male: Timbuctou",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Male",
+      "subject": "Timbuctou",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/051-timbuctou-image.png",
+          "blobId": "37ccf4901f2f55476478e5b397432b6a645f23be484f9da1c02ef409fb5cb43c"
+        },
+        {
+          "slot": "image2",
+          "src": "images/051-timbuctou-image2.png",
+          "blobId": "cc4ea4265dcd1c9c4abcaaaabe7fc898dbde327dcdf49b974b34836216401991"
+        }
+      ]
+    },
+    {
+      "id": "052-alzheimer",
+      "index": 52,
+      "title": "L_SUB ADULT MALES: Alzheimer",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "SUB ADULT MALES",
+      "subject": "Alzheimer",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/052-alzheimer-image.png",
+          "blobId": "6b6c6bfa2a1f1c206fc4de04b672ddebad04b17afdb5e3148ca81a69df2dc0fb"
+        },
+        {
+          "slot": "image2",
+          "src": "images/052-alzheimer-image2.png",
+          "blobId": "d717ce95f868e9bc59ba40bf360c585fc3c9c57307bd0c1d1a830e2c4378140a"
+        }
+      ]
+    },
+    {
+      "id": "053-plasomodium-eczema",
+      "index": 53,
+      "title": "ADULT MALES: Plasomodium/Eczema",
+      "subtitle": "",
+      "hint": "",
+      "troop": "ADULT MALES",
+      "ageSex": "ADULT MALES",
+      "subject": "Plasomodium/Eczema",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/053-plasomodium-eczema-image.png",
+          "blobId": "60715903f1104599d70947fddb3dff30be016e9fd96509b832a8ea922cecf33a"
+        },
+        {
+          "slot": "image2",
+          "src": "images/053-plasomodium-eczema-image2.png",
+          "blobId": "f7daa978694964dc8a359f46ec8bbd7fb29b275b1e7da356609c57c2cb047a06"
+        }
+      ]
+    },
+    {
+      "id": "054-kalahari-c",
+      "index": 54,
+      "title": "G_Adult Female: kalahari (C)",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "kalahari (C)",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/054-kalahari-c-image.png",
+          "blobId": "545a921c238ad4d2f704156c0b621536ab451a0f4cc750ef9c178398f70df472"
+        },
+        {
+          "slot": "image2",
+          "src": "images/054-kalahari-c-image2.png",
+          "blobId": "c9128003ee57d5cd8a0bd1ab9c5fa967e738a3cb0d7f66cb78f38e00ee443536"
+        }
+      ]
+    },
+    {
+      "id": "055-parkinson",
+      "index": 55,
+      "title": "L_SUB ADULT MALES: Parkinson",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "SUB ADULT MALES",
+      "subject": "Parkinson",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/055-parkinson-image.png",
+          "blobId": "7b77219c885d1f8f5921ca81428df8f9ddce7a7ebea85b7ade68c8921e3c443d"
+        },
+        {
+          "slot": "image2",
+          "src": "images/055-parkinson-image2.png",
+          "blobId": "1142e3d2d7b8c5c9c4b703c7d706bbe3b9fb4c98db6d47283de1f78a0abfb1cd"
+        }
+      ]
+    },
+    {
+      "id": "056-asthma",
+      "index": 56,
+      "title": "L_ADULT Female: Asthma",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Asthma",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/056-asthma-image.png",
+          "blobId": "16c11a4a3d2c36c662e8c30c9320034f875d881755fa4fdbe3db90acc1894543"
+        },
+        {
+          "slot": "image2",
+          "src": "images/056-asthma-image2.png",
+          "blobId": "5ea4ab149f16bd4c5deee9eae79ed99d5d9d9f005ea2068220c20f19de4a5838"
+        }
+      ]
+    },
+    {
+      "id": "057-toxocara",
+      "index": 57,
+      "title": "L_ADULT Female: Toxocara",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Toxocara",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/057-toxocara-image.png",
+          "blobId": "0bbfbf7df8fc9e0bdfcc0682ebca590dfeb8c7f4cd49be39ea872bdb5b1f8134"
+        },
+        {
+          "slot": "image2",
+          "src": "images/057-toxocara-image2.png",
+          "blobId": "536ebc2bad15c2d872e74496562d06aab851368d11a180c50f55a22b257a292b"
+        }
+      ]
+    },
+    {
+      "id": "058-masala-melanoma",
+      "index": 58,
+      "title": "L_Juveniles Female: Masala/Melanoma",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "Masala/Melanoma",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/058-masala-melanoma-image.png",
+          "blobId": "b208a5a7087bad280ecbcac2d3ee5b93990eae39535838bf1d1a459968a41f3a"
+        }
+      ]
+    },
+    {
+      "id": "059-cooties",
+      "index": 59,
+      "title": "L_SUB ADULT MALES: Cooties",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "SUB ADULT MALES",
+      "subject": "Cooties",
+      "images": []
+    },
+    {
+      "id": "060-basil-botulism",
+      "index": 60,
+      "title": "L_Juveniles Female: Basil/Botulism",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "Basil/Botulism",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/060-basil-botulism-image.png",
+          "blobId": "a6e8d2e5fe0048e0c026d5dd46e599d9d5ac71b608351ec62e5e430d99d1d9f9"
+        },
+        {
+          "slot": "image2",
+          "src": "images/060-basil-botulism-image2.png",
+          "blobId": "3cb2d53adc8de93ab89bb8b055665d13b15c09fb5a5959949870c9efd00ad8de"
+        }
+      ]
+    },
+    {
+      "id": "061-narco",
+      "index": 61,
+      "title": "G_Adult Male: Narco",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Male",
+      "subject": "Narco",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/061-narco-image.png",
+          "blobId": "58f881f1967437f942b2d23b72223827950473af993d139398fd979fbec96c61"
+        }
+      ]
+    },
+    {
+      "id": "062-ethiopa",
+      "index": 62,
+      "title": "G_Adult Female: Ethiopa",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Ethiopa",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/062-ethiopa-image.png",
+          "blobId": "93a1e69ee9195f1ccd9d74ad676439772abbfc6c8a0e5fd11af0ba3d90c1b6d7"
+        },
+        {
+          "slot": "image2",
+          "src": "images/062-ethiopa-image2.png",
+          "blobId": "18daac1d8474bd335f7fe75eef2f107ed5b88c2082204e25cdea123e11e497a8"
+        }
+      ]
+    },
+    {
+      "id": "063-rubella",
+      "index": 63,
+      "title": "L_ADULT Female: Rubella",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Rubella",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/063-rubella-image.png",
+          "blobId": "2c0dfb91da20b44e7be01316bb97b884e45e9901d763d54202dc476ecf8e1be0"
+        },
+        {
+          "slot": "image2",
+          "src": "images/063-rubella-image2.png",
+          "blobId": "86abb2f5f379f560f10df87ef1677b500d5d3e1f217ccb0c486e00c3ab0830d0"
+        }
+      ]
+    },
+    {
+      "id": "064-melanoma-c",
+      "index": 64,
+      "title": "L_ADULT Female: Melanoma (C)",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Melanoma (C)",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/064-melanoma-c-image.png",
+          "blobId": "38fb9037e329f0e1f1924ee2e3a97bcdbe8f0fccb112ccfcdda196c5a48e0940"
+        },
+        {
+          "slot": "image2",
+          "src": "images/064-melanoma-c-image2.png",
+          "blobId": "f7cf47619f95c607adf1797a211d1ec4d62ee05a3eab27e6fed51a26ad286ebe"
+        }
+      ]
+    },
+    {
+      "id": "065-shelley",
+      "index": 65,
+      "title": "G_Adult Female: Shelley",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Shelley",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/065-shelley-image.png",
+          "blobId": "a9c880767856debfccc5527f2d1a9078bd640f7d30970fa965dd7851d7abfaf5"
+        },
+        {
+          "slot": "image2",
+          "src": "images/065-shelley-image2.png",
+          "blobId": "e897a287eb1e174976df1e25d0e3ff4d1b5b925294eaf983bdaa4f5901127446"
+        }
+      ]
+    },
+    {
+      "id": "066-mzuzu",
+      "index": 66,
+      "title": "G_Adult Female: Mzuzu",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Mzuzu",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/066-mzuzu-image.png",
+          "blobId": "85bfb9578f9240cd560e1d93808a89c5f6d01417bdbc8bf1c03ad786370d86fc"
+        },
+        {
+          "slot": "image2",
+          "src": "images/066-mzuzu-image2.png",
+          "blobId": "a0ad96c33f2956cc601e86dd5a6b39ac0643943463dbb51844737e81f07d98db"
+        }
+      ]
+    },
+    {
+      "id": "067-kasungu",
+      "index": 67,
+      "title": "G_Adult Male: Kasungu",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Male",
+      "subject": "Kasungu",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/067-kasungu-image.png",
+          "blobId": "8c461773682e37293bdb595da065665ac4cc17a93b03b5eccc9a4890188449c2"
+        },
+        {
+          "slot": "image2",
+          "src": "images/067-kasungu-image2.png",
+          "blobId": "8085f40fffedd21a7e7aef069eeab2ed7c349bf9dc28f4aca17279b39762d8b7"
+        }
+      ]
+    },
+    {
+      "id": "068-etosha",
+      "index": 68,
+      "title": "G_Adult Female: Etosha",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Etosha",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/068-etosha-image.png",
+          "blobId": "63c458b7bab9fb2cfa7514dbd300d503d5af8c46311645381ad42e2e94c7158a"
+        },
+        {
+          "slot": "image2",
+          "src": "images/068-etosha-image2.png",
+          "blobId": "ece6602cfcdfeee5a9c6bec6f920d2bde05d3c2ace0ac27932105ebba78b5f5c"
+        }
+      ]
+    },
+    {
+      "id": "069-vitiligo",
+      "index": 69,
+      "title": "L_ADULT Female: Vitiligo",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Vitiligo",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/069-vitiligo-image.png",
+          "blobId": "020a6e96d55af9d6de152c2f07b0cbe7afafd7b6dff5967986ac096c7eed62fe"
+        },
+        {
+          "slot": "image2",
+          "src": "images/069-vitiligo-image2.png",
+          "blobId": "0a00e6a3f212a036235095c81d2b77850ff78d47f7863d5694f8e55c11dad19d"
+        }
+      ]
+    },
+    {
+      "id": "070-botulism",
+      "index": 70,
+      "title": "L_ADULT Female: Botulism",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Botulism",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/070-botulism-image.png",
+          "blobId": "9c4a1880de15b59811bb91f4feef2fff7d94d15a9287c5cb815df1ba1e6a9406"
+        },
+        {
+          "slot": "image2",
+          "src": "images/070-botulism-image2.png",
+          "blobId": "bef24448f7b1c3a3ad38cd6b79e3ab95292a47145235adb61bc886a10737c283"
+        }
+      ]
+    },
+    {
+      "id": "071-xena",
+      "index": 71,
+      "title": "G_Adult Female: Xena",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Xena",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/071-xena-image.png",
+          "blobId": "0b086d357693fe29505ea58748a2821a68cf905a2a5532312cbf0d78d05dfa8c"
+        },
+        {
+          "slot": "image2",
+          "src": "images/071-xena-image2.png",
+          "blobId": "9504ef22c98b6a26d190b574de3df280dabe99872e156d96a670609e18f54eb2"
+        }
+      ]
+    },
+    {
+      "id": "072-umami-varicella",
+      "index": 72,
+      "title": "L_Juveniles Males: Umami/Varicella",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Males",
+      "subject": "Umami/Varicella",
+      "images": []
+    },
+    {
+      "id": "073-djuba",
+      "index": 73,
+      "title": "G_SubAdult Male: Djuba",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "SubAdult Male",
+      "subject": "Djuba",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/073-djuba-image.png",
+          "blobId": "79226cb0d1dcc895fc110490f30230f2446f6b4680cd6fe7af256f47882101ce"
+        },
+        {
+          "slot": "image2",
+          "src": "images/073-djuba-image2.png",
+          "blobId": "1a65d3eab5b9ad25f3338ca96fb5fe2104e0f8a49f4feda3eb52d4f0445c0f84"
+        }
+      ]
+    },
+    {
+      "id": "074-ishasha",
+      "index": 74,
+      "title": "G_Adult Female: Ishasha",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Ishasha",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/074-ishasha-image.png",
+          "blobId": "f6915ece38dd4243b5f4d607a3cc6b8afe1f7a6d48287e765f57a303a75f6390"
+        },
+        {
+          "slot": "image2",
+          "src": "images/074-ishasha-image2.png",
+          "blobId": "9c0ebdf58e472401bb5ae22f11d6f42e6a550a00abee4e48ffe267387885842b"
+        }
+      ]
+    },
+    {
+      "id": "075-mumps",
+      "index": 75,
+      "title": "L_ADULT Female: Mumps",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Mumps",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/075-mumps-image.png",
+          "blobId": "c29a53b3264dd024885383ad7e147216f7b72561419650cf686a296c34c5cd3a"
+        },
+        {
+          "slot": "image2",
+          "src": "images/075-mumps-image2.png",
+          "blobId": "9ad0032fb3667a6ec40110dfd89c3ccf29deb561a662900fcd7c8d60e2581836"
+        }
+      ]
+    },
+    {
+      "id": "076-ginger-insomnia",
+      "index": 76,
+      "title": "L_Juveniles Female: Ginger/ Insomnia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "Ginger/ Insomnia",
+      "images": []
+    },
+    {
+      "id": "077-quincke",
+      "index": 77,
+      "title": "L_Juveniles Female: Quincke",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "Quincke",
+      "images": []
+    },
+    {
+      "id": "078-tsetse",
+      "index": 78,
+      "title": "L_ADULT Female: TseTse",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "TseTse",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/078-tsetse-image.png",
+          "blobId": "f13bc458578e752ec6b28e9342b2ee7d80e9e252f510055adfaf700bebf9937f"
+        },
+        {
+          "slot": "image2",
+          "src": "images/078-tsetse-image2.png",
+          "blobId": "0a2da9cf5ce1e26a01d83942c9d70ee0d25e269a5c805b0d4c1d4dc1f56775e2"
+        }
+      ]
+    },
+    {
+      "id": "079-herpes",
+      "index": 79,
+      "title": "L_ADULT Female: Herpes",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Herpes",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/079-herpes-image.png",
+          "blobId": "a85278249fc5a5e4692ee5ca335add5660e80e144627674e26105e592eceb250"
+        },
+        {
+          "slot": "image2",
+          "src": "images/079-herpes-image2.png",
+          "blobId": "795bb464c5dc8428361704af0b5077f03b675e5d1f8738cfbcf6b35b427f0964"
+        }
+      ]
+    },
+    {
+      "id": "080-burundi",
+      "index": 80,
+      "title": "G_Adult Female: Burundi",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Burundi",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/080-burundi-image.png",
+          "blobId": "267ff6d2266a10da1a59f3f0c7538b13d41550af9d8730f41b84ff2fa35f7276"
+        },
+        {
+          "slot": "image2",
+          "src": "images/080-burundi-image2.png",
+          "blobId": "4ba9bedac72297dca52d748cb2808d9424cc5d8b53646ef115e86b4cd7712845"
+        }
+      ]
+    },
+    {
+      "id": "081-alopecia",
+      "index": 81,
+      "title": "L_ADULT Female: Alopecia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Alopecia",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/081-alopecia-image.png",
+          "blobId": "d40cd0780a07eb183eda4858c18188e7f4ed352298f70f7f7d3b5344f2efae6e"
+        },
+        {
+          "slot": "image2",
+          "src": "images/081-alopecia-image2.png",
+          "blobId": "f68a19a651b7f6ca08f08ac3b8990ad77cd5de7a3aa979247d227d62c5d7de70"
+        }
+      ]
+    },
+    {
+      "id": "082-trisomy-bilharzia",
+      "index": 82,
+      "title": "ADULT MALES: Trisomy/Bilharzia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "ADULT MALES",
+      "ageSex": "ADULT MALES",
+      "subject": "Trisomy/Bilharzia",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/082-trisomy-bilharzia-image.png",
+          "blobId": "aaeb8afc786079a4a0ece51157fe70e2c62f1ca5ad6d0cb5a0d3296edc6124b2"
+        },
+        {
+          "slot": "image2",
+          "src": "images/082-trisomy-bilharzia-image2.png",
+          "blobId": "36997d0bb051952a32a6c8b2f16d6da0a895065b9ae10b2033553a3cf7cadc0c"
+        }
+      ]
+    },
+    {
+      "id": "083-sarcomainf24",
+      "index": 83,
+      "title": "L_Juveniles Males: Sarcomainf24",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Males",
+      "subject": "Sarcomainf24",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/083-sarcomainf24-image.png",
+          "blobId": "975cff60374f4d8accd723acf0f61c688bbf2c5b8938d63cd14e95fcac85bd98"
+        }
+      ]
+    },
+    {
+      "id": "084-schizophrenia",
+      "index": 84,
+      "title": "L_ADULT Female: Schizophrenia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Schizophrenia",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/084-schizophrenia-image.png",
+          "blobId": "4f0cf0d4a7504fd6e2d45c44ce4e246f9c3865c6a49b9fbabab5c227feb6192b"
+        },
+        {
+          "slot": "image2",
+          "src": "images/084-schizophrenia-image2.png",
+          "blobId": "1eaa6eb78c727f09b4f36d3ea962d1ad82dbd264c531c46e4a34649511f67d1c"
+        }
+      ]
+    },
+    {
+      "id": "085-zambia",
+      "index": 85,
+      "title": "G_Adult Female: Zambia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Zambia",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/085-zambia-image.png",
+          "blobId": "e0ba4be6ce700c06651906e120adefe211ffca692251b9640f357303e518fbb1"
+        },
+        {
+          "slot": "image2",
+          "src": "images/085-zambia-image2.png",
+          "blobId": "2572eb034283ce8e4b4ba154dea67cecd6efd370200f94e1131e61661ced8b03"
+        }
+      ]
+    },
+    {
+      "id": "086-herb",
+      "index": 86,
+      "title": "L_Juveniles Males: Herb",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Males",
+      "subject": "Herb",
+      "images": []
+    },
+    {
+      "id": "087-parsley-vitiligo",
+      "index": 87,
+      "title": "L_Juveniles Males: Parsley/ Vitiligo",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Males",
+      "subject": "Parsley/ Vitiligo",
+      "images": []
+    },
+    {
+      "id": "088-nutmeg-rubella",
+      "index": 88,
+      "title": "L_Juveniles Males: Nutmeg/Rubella",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Males",
+      "subject": "Nutmeg/Rubella",
+      "images": []
+    },
+    {
+      "id": "089-rosemary-schizophrenia",
+      "index": 89,
+      "title": "L_Juveniles Female: Rosemary/Schizophrenia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "Rosemary/Schizophrenia",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/089-rosemary-schizophrenia-image.png",
+          "blobId": "5de80a7abb7a6daaec7c6eea2390b629779ad729a70304510b534b4e87cf48c3"
+        },
+        {
+          "slot": "image2",
+          "src": "images/089-rosemary-schizophrenia-image2.png",
+          "blobId": "c9e03959662145d1d2ed4c432379ddf8e1df1c965a1ff126e513d1618698e54d"
+        }
+      ]
+    },
+    {
+      "id": "090-myxomatosis",
+      "index": 90,
+      "title": "L_ADULT Female: Myxomatosis",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Myxomatosis",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/090-myxomatosis-image.png",
+          "blobId": "29ee51d8d12904794037fe27e800d1fdb88659cf18151673171e9cd1e0869bde"
+        },
+        {
+          "slot": "image2",
+          "src": "images/090-myxomatosis-image2.png",
+          "blobId": "8bd1612522884cac8281851564bb199eeb24ed2c60a67b4c845a80cfafb468ea"
+        }
+      ]
+    },
+    {
+      "id": "091-epilepsy",
+      "index": 91,
+      "title": "L_ADULT Female: Epilepsy",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Epilepsy",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/091-epilepsy-image.png",
+          "blobId": "5cc4a854db776ceed84fa78a44b0621979d3e9d6551e331e5081d1cdaad7e735"
+        },
+        {
+          "slot": "image2",
+          "src": "images/091-epilepsy-image2.png",
+          "blobId": "a5787fd83458db9e859784f3bd3132cfd4ce5b1432a6624f737543c10763def6"
+        }
+      ]
+    },
+    {
+      "id": "092-consanguin",
+      "index": 92,
+      "title": "G_Adult Male: Consanguin",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Male",
+      "subject": "Consanguin",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/092-consanguin-image.png",
+          "blobId": "fce7491d0be648233988eab52c59880c05fac32c9009a539c0f334d3920797e0"
+        },
+        {
+          "slot": "image2",
+          "src": "images/092-consanguin-image2.png",
+          "blobId": "74c8455f8ca108c213f2d6b97995fb791e903f69e8f5cc295d15a142d20786b1"
+        }
+      ]
+    },
+    {
+      "id": "093-jk",
+      "index": 93,
+      "title": "G_Adult Female: JK",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "JK",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/093-jk-image.png",
+          "blobId": "2c2870b4746b0f2c1d2fea2731657cf01fa45a44aa37fe87a80b2f51cdf28709"
+        },
+        {
+          "slot": "image2",
+          "src": "images/093-jk-image2.png",
+          "blobId": "c024c4120fcbf01a307591f989e65862dce317163f85677d911aced3a5d9d835"
+        }
+      ]
+    },
+    {
+      "id": "094-sahara-kalahari",
+      "index": 94,
+      "title": "G_Juvenile Female: Sahara/Kalahari",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Female",
+      "subject": "Sahara/Kalahari",
+      "images": []
+    },
+    {
+      "id": "095-omatako-jk",
+      "index": 95,
+      "title": "G_Juvenile Male: Omatako/JK",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Male",
+      "subject": "Omatako/JK",
+      "images": []
+    },
+    {
+      "id": "096-monique",
+      "index": 96,
+      "title": "G_SubAdult Male: Monique",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "SubAdult Male",
+      "subject": "Monique",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/096-monique-image.png",
+          "blobId": "de3ef6ccf101e2e4175f42af2eb4cdaf296da910523a7b54f59841a2b3e3f4f7"
+        },
+        {
+          "slot": "image2",
+          "src": "images/096-monique-image2.png",
+          "blobId": "3ebb9f2e6b974aefffe6d0a8ffc011e220feda0b7a3408d3aee73b6a79a35e9b"
+        }
+      ]
+    },
+    {
+      "id": "097-karoo-burundi",
+      "index": 97,
+      "title": "G_Juvenile Male: Karoo/Burundi",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Male",
+      "subject": "Karoo/Burundi",
+      "images": []
+    },
+    {
+      "id": "098-amnesia",
+      "index": 98,
+      "title": "L_ADULT Female: Amnesia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Amnesia",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/098-amnesia-image.png",
+          "blobId": "366deb98989d54bdda4d51ee9369dee2ecd8ad3d488aaf6a1ec5c6659b981df2"
+        },
+        {
+          "slot": "image2",
+          "src": "images/098-amnesia-image2.png",
+          "blobId": "c1d76fcbcc04fff2540f928dde9bfdd8a8f22b2b64b8c66b371b4bc87e5eefdb"
+        }
+      ]
+    },
+    {
+      "id": "099-zomba",
+      "index": 99,
+      "title": "G_Adult Female: Zomba",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Zomba",
+      "images": []
+    },
+    {
+      "id": "100-tai-caprivi",
+      "index": 100,
+      "title": "G_Juvenile Male: Tai/Caprivi",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Male",
+      "subject": "Tai/Caprivi",
+      "images": []
+    },
+    {
+      "id": "101-omeya",
+      "index": 101,
+      "title": "G_Juvenile Female: Omeya",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Female",
+      "subject": "Omeya",
+      "images": []
+    },
+    {
+      "id": "102-namib-kalahari",
+      "index": 102,
+      "title": "G_Juvenile Male: Namib/Kalahari",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Male",
+      "subject": "Namib/Kalahari",
+      "images": []
+    },
+    {
+      "id": "103-malawi",
+      "index": 103,
+      "title": "G_Adult Female: Malawi",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Malawi",
+      "images": []
+    },
+    {
+      "id": "104-aphasia",
+      "index": 104,
+      "title": "L_ADULT Female: Aphasia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Aphasia",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/104-aphasia-image.png",
+          "blobId": "308c086d342ae0e6359d2975d8b3b94eb5c7a12ce7fa57250107ed7efdf004b6"
+        },
+        {
+          "slot": "image2",
+          "src": "images/104-aphasia-image2.png",
+          "blobId": "4b1e7ac6a4f446613c235c9cbb8828b67419f0a86e3a36d830dbb03fff6b7bce"
+        }
+      ]
+    },
+    {
+      "id": "105-likouala",
+      "index": 105,
+      "title": "G_Juvenile Female: Likouala",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Female",
+      "subject": "Likouala",
+      "images": []
+    },
+    {
+      "id": "106-zanzibar",
+      "index": 106,
+      "title": "G_Juvenile Female: Zanzibar",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Female",
+      "subject": "Zanzibar",
+      "images": []
+    },
+    {
+      "id": "107-gout-alopecia",
+      "index": 107,
+      "title": "L_Juveniles Female: Gout/Alopecia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "Gout/Alopecia",
+      "images": []
+    },
+    {
+      "id": "108-gao-jk",
+      "index": 108,
+      "title": "G_Juvenile Male: Gao/JK",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Male",
+      "subject": "Gao/JK",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/108-gao-jk-image.png",
+          "blobId": "8f5d9f81c7de004e3fe94abc72c9f14a29755af9f3517fbbb19667013d81c811"
+        },
+        {
+          "slot": "image2",
+          "src": "images/108-gao-jk-image2.png",
+          "blobId": "ba4d941ca8caf0d91ab37422dc7795a481653ade95f08f6e0125ecd6b1d304a9"
+        }
+      ]
+    },
+    {
+      "id": "109-gangrene-bubonica",
+      "index": 109,
+      "title": "ADULT MALES: Gangrene/Bubonica",
+      "subtitle": "",
+      "hint": "",
+      "troop": "ADULT MALES",
+      "ageSex": "ADULT MALES",
+      "subject": "Gangrene/Bubonica",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/109-gangrene-bubonica-image.png",
+          "blobId": "fdaafb2d0343729ec0c1470a397863c297cc705e03bfca0dfc3258cc0e024cab"
+        },
+        {
+          "slot": "image2",
+          "src": "images/109-gangrene-bubonica-image2.png",
+          "blobId": "5cd87605ca8a8888d9cf0ea60793a6c6f487c28d6b4855bcd99d3bb4d2c45891"
+        }
+      ]
+    },
+    {
+      "id": "110-turmeric-toxocara",
+      "index": 110,
+      "title": "L_Juveniles Female: Turmeric/Toxocara",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "Turmeric/Toxocara",
+      "images": []
+    },
+    {
+      "id": "111-hangover-alopecia",
+      "index": 111,
+      "title": "ADULT MALES: Hangover/Alopecia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "ADULT MALES",
+      "ageSex": "ADULT MALES",
+      "subject": "Hangover/Alopecia",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/111-hangover-alopecia-image.png",
+          "blobId": "fbaa6b64551fbd530d0c06ca36bab4ff00b88c369cb1ad848b0c055fee36425c"
+        },
+        {
+          "slot": "image2",
+          "src": "images/111-hangover-alopecia-image2.png",
+          "blobId": "8c22d1d2e3c64099376b6b262c41851f77410d9f0a8aedeba23c6ef89340e69a"
+        }
+      ]
+    },
+    {
+      "id": "112-eczema",
+      "index": 112,
+      "title": "L_ADULT Female: Eczema",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Eczema",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/112-eczema-image.png",
+          "blobId": "227e11ee9a97dceda01d8354d62e11dfe7c170fe5c2a7a70195e6e083c26df5a"
+        },
+        {
+          "slot": "image2",
+          "src": "images/112-eczema-image2.png",
+          "blobId": "432174a819b611710743b2d5afde8ed4cfea6b7e210f88f3ed4e87e8373422e9"
+        }
+      ]
+    },
+    {
+      "id": "113-trush",
+      "index": 113,
+      "title": "L_ADULT Female: Trush",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Trush",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/113-trush-image.png",
+          "blobId": "8125559f32b9ba7f7018956d1e5292fbf8c256b0c9b1d9de3a8f6e39921be614"
+        },
+        {
+          "slot": "image2",
+          "src": "images/113-trush-image2.png",
+          "blobId": "c0ad11b9888060e9807e223601e8a4347b3316e826c8b500f1bd3cfb4641daeb"
+        }
+      ]
+    },
+    {
+      "id": "114-anorexia",
+      "index": 114,
+      "title": "L_ADULT Female: Anorexia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Anorexia",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/114-anorexia-image.png",
+          "blobId": "2308204db763b7c2557ad15e79f02f7982bb85a1026af32349d2013e7b2c75e5"
+        },
+        {
+          "slot": "image2",
+          "src": "images/114-anorexia-image2.png",
+          "blobId": "c910221ce11a4cf9612c5db43c6a130f67f9b4eed9c9422175c1a904cc6d6f5c"
+        }
+      ]
+    },
+    {
+      "id": "115-insomnia",
+      "index": 115,
+      "title": "L_ADULT Female: Insomnia",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Insomnia",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/115-insomnia-image.png",
+          "blobId": "3de2f87c044509da0f0beb5e30e48b49d9d4c0564088127a0cb971734671f8a6"
+        },
+        {
+          "slot": "image2",
+          "src": "images/115-insomnia-image2.png",
+          "blobId": "d8d7d8d26e3de1dff0257c0ef7b4b4267818f32179ee5b743e32d2829f0d21a3"
+        }
+      ]
+    },
+    {
+      "id": "116-namaqua",
+      "index": 116,
+      "title": "G_Juvenile Female: Namaqua",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Juvenile Female",
+      "subject": "Namaqua",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/116-namaqua-image.png",
+          "blobId": "675e38b7237bbcf82a0a9fdc5d84e9493e49f80345def757a466b30049979421"
+        },
+        {
+          "slot": "image2",
+          "src": "images/116-namaqua-image2.png",
+          "blobId": "d3e7d230693e8e8502d206e10d787619e68ba39c14c652014ab3c37b12d99640"
+        }
+      ]
+    },
+    {
+      "id": "117-trans",
+      "index": 117,
+      "title": "G_Adult Male: Trans",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Male",
+      "subject": "Trans",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/117-trans-image.png",
+          "blobId": "eb1287add888d09313adad5144f64f5d5548ef61e58a5ee3396383e47f5b3e4c"
+        },
+        {
+          "slot": "image2",
+          "src": "images/117-trans-image2.png",
+          "blobId": "178666c11a91b5b9a1b03b39eb7e412bdf8f1ae0769a194ba05239ba29edb248"
+        }
+      ]
+    },
+    {
+      "id": "118-overdose",
+      "index": 118,
+      "title": "L_ADULT Female: Overdose",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Overdose",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/118-overdose-image.png",
+          "blobId": "d5aeaa21056a355cf174fbc04a550ee0c5bbad0ce352f71489cc826da79894c3"
+        },
+        {
+          "slot": "image2",
+          "src": "images/118-overdose-image2.png",
+          "blobId": "d3ce46f2a1473010d4759d20cce521aa1ccff8f69a54bb5dbce23d45df46b119"
+        }
+      ]
+    },
+    {
+      "id": "119-cataracts-c",
+      "index": 119,
+      "title": "L_ADULT Female: Cataracts (C)",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "ADULT Female",
+      "subject": "Cataracts (C)",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/119-cataracts-c-image.png",
+          "blobId": "4f2029dc6b3c326dbde38dd642288a95fe728e7bd283b8f2bc10d286a650e84a"
+        },
+        {
+          "slot": "image2",
+          "src": "images/119-cataracts-c-image2.png",
+          "blobId": "85dcaaed7b1086f8f2af94a2cbdfda801e28ef946e115c38e789d3915bc1c981"
+        }
+      ]
+    },
+    {
+      "id": "120-periperi-meningitis",
+      "index": 120,
+      "title": "L_Juveniles Female: PeriPeri/Meningitis",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "PeriPeri/Meningitis",
+      "images": []
+    },
+    {
+      "id": "121-antananarivo",
+      "index": 121,
+      "title": "G_Adult Male: Antananarivo",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Male",
+      "subject": "Antananarivo",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/121-antananarivo-image.png",
+          "blobId": "515a23e89d08965e2d9e67932938a312d4eae14777cdc989b91b08f837ae4af2"
+        },
+        {
+          "slot": "image2",
+          "src": "images/121-antananarivo-image2.png",
+          "blobId": "8db7598bc627c5950a8497173c22e002e8b363fa005835b2dc72e806675baa94"
+        }
+      ]
+    },
+    {
+      "id": "122-pikelet",
+      "index": 122,
+      "title": "G_Adult Female: Pikelet",
+      "subtitle": "",
+      "hint": "",
+      "troop": "G",
+      "ageSex": "Adult Female",
+      "subject": "Pikelet",
+      "images": []
+    },
+    {
+      "id": "123-zattar-imm23",
+      "index": 123,
+      "title": "ADULT MALES: Zattar/IMM23",
+      "subtitle": "",
+      "hint": "",
+      "troop": "ADULT MALES",
+      "ageSex": "ADULT MALES",
+      "subject": "Zattar/IMM23",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/123-zattar-imm23-image.png",
+          "blobId": "ee6596ef55c7755ca0378784ab4479085ad1412b79beac7bd71bbcf66190e575"
+        },
+        {
+          "slot": "image2",
+          "src": "images/123-zattar-imm23-image2.png",
+          "blobId": "ee1bab931700ffadce5a1851a88e495d1d3988923fbc773928e489cfdd990e33"
+        }
+      ]
+    },
+    {
+      "id": "124-garlic-eczema",
+      "index": 124,
+      "title": "L_Juveniles Males: Garlic/Eczema",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Males",
+      "subject": "Garlic/Eczema",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/124-garlic-eczema-image.png",
+          "blobId": "83fbc85ec3a7e55ddcf03142fbfceca90f47aa75a1df258815845d444f199e7f"
+        },
+        {
+          "slot": "image2",
+          "src": "images/124-garlic-eczema-image2.png",
+          "blobId": "cf8d15db56b39155f0525970e05b39e7dedae1d40d93ca543c68fe6c2f88a787"
+        }
+      ]
+    },
+    {
+      "id": "125-cocoa-cataracts",
+      "index": 125,
+      "title": "L_Juveniles Female: Cocoa/Cataracts",
+      "subtitle": "",
+      "hint": "",
+      "troop": "L",
+      "ageSex": "Juveniles Female",
+      "subject": "Cocoa/Cataracts",
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/125-cocoa-cataracts-image.png",
+          "blobId": "6ee3383dc75477ec7015830b2b167088676cf8afd95567c5484bab4d1b05b3c6"
+        },
+        {
+          "slot": "image2",
+          "src": "images/125-cocoa-cataracts-image2.png",
+          "blobId": "7bcd78ce7716add88581fc1bddc9661c3687793e9ae23fe4f4f9d88b90c4fe4f"
+        }
+      ]
+    }
+  ]
+}

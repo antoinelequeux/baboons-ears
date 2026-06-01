@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#6f8f5f">
+    <meta name="description" content="Offline field practice for baboon ear identification.">
+    <title>Baboons Ears Field Trainer</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="page-shell"></div>
+    <header class="hero">
+      <div class="hero__copy">
+        <p class="eyebrow">Offline Field Trainer</p>
+        <h1>Baboons Ears</h1>
+        <p class="hero__lede">
+          A lightweight PWA for learning ear marks, browsing individuals, and drilling identification in the field without network access.
+        </p>
+      </div>
+      <div class="hero__status">
+        <div class="pill">
+          <span class="pill__dot" id="connection-dot"></span>
+          <span id="connection-label">Checking connection</span>
+        </div>
+        <p class="hero__note">Install from Safari or Chrome once, then reopen from the home screen offline.</p>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="panel controls">
+        <section>
+          <h2>Explore</h2>
+          <label class="field">
+            <span>Search</span>
+            <input id="search-input" type="search" placeholder="Name, troop, age, mark">
+          </label>
+          <div class="field">
+            <span>Troop</span>
+            <div id="troop-filter" class="chip-row"></div>
+          </div>
+          <div class="field">
+            <span>Age / Sex</span>
+            <div id="age-filter" class="chip-row"></div>
+          </div>
+          <div class="field">
+            <span>Cards</span>
+            <p id="results-summary" class="meta"></p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Quiz</h2>
+          <div class="quiz-settings">
+            <label class="field">
+              <span>Mode</span>
+              <select id="quiz-mode">
+                <option value="name-from-photo">Name from photo</option>
+                <option value="photo-from-name">Photo from name</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Question pool</span>
+              <select id="quiz-pool">
+                <option value="all">All available cards</option>
+                <option value="with-images">Only cards with images</option>
+              </select>
+            </label>
+          </div>
+          <button id="new-quiz-question" class="button button--secondary" type="button">New question</button>
+          <p id="quiz-score" class="meta">Score: 0 / 0</p>
+        </section>
+      </aside>
+
+      <section class="panel content">
+        <div class="tabs">
+          <button class="tab is-active" data-view="browse" type="button">Browse</button>
+          <button class="tab" data-view="quiz" type="button">Quiz</button>
+          <button class="tab" data-view="guide" type="button">Field Guide</button>
+        </div>
+
+        <section id="browse-view" class="view is-active" aria-live="polite">
+          <div id="card-grid" class="card-grid"></div>
+        </section>
+
+        <section id="quiz-view" class="view" aria-live="polite">
+          <div id="quiz-card" class="quiz-card">
+            <p class="quiz-empty">Load the dataset, then start a new question.</p>
+          </div>
+        </section>
+
+        <section id="guide-view" class="view prose">
+          <h2>How to use it offline</h2>
+          <ol>
+            <li>Put this folder on GitHub Pages.</li>
+            <li>Open the site once while online.</li>
+            <li>Add it to the phone home screen.</li>
+            <li>Open it again from the icon before leaving for the field.</li>
+          </ol>
+          <p>
+            The service worker caches the app shell, the JSON dataset, and the ear photos. The first launch may take a moment while images are stored locally.
+          </p>
+          <p>
+            iPhone can remove cached data when storage is tight, so test the installed app on the actual device before relying on it in the field.
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <template id="browse-card-template">
+      <article class="animal-card">
+        <div class="animal-card__gallery"></div>
+        <div class="animal-card__body">
+          <p class="animal-card__kicker"></p>
+          <h3 class="animal-card__title"></h3>
+          <p class="animal-card__subtitle"></p>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js" defer></script>
+  </body>
+  </html>
