@@ -78,7 +78,7 @@ async function warmImages(cards) {
   }
 
   try {
-    const cache = await caches.open("baboons-ears-v3");
+    const cache = await caches.open("baboons-ears-v4");
     const imageUrls = cards.flatMap((card) => card.images.map((image) => image.src));
 
     await Promise.all(

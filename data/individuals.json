@@ -74,7 +74,18 @@
         "left": "0"
       },
       "marksLabel": "R: MB • L: 0",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/003-kikwit-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-200.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/003-kikwit-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-201.jpg"
+        }
+      ]
     },
     {
       "id": "004-truffle",
@@ -119,7 +130,18 @@
         "left": "0"
       },
       "marksLabel": "R: 0 • L: 0",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/005-chocolate-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-154.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/005-chocolate-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-155.jpg"
+        }
+      ]
     },
     {
       "id": "006-katima",
@@ -136,7 +158,18 @@
         "left": "T"
       },
       "marksLabel": "R: 0 • L: T",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/006-katima-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-246.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/006-katima-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-247.jpg"
+        }
+      ]
     },
     {
       "id": "007-kisangani",
@@ -153,7 +186,18 @@
         "left": "T"
       },
       "marksLabel": "R: 0 • L: T",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/007-kisangani-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-224.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/007-kisangani-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-225.jpg"
+        }
+      ]
     },
     {
       "id": "008-vanilla",
@@ -259,6 +303,11 @@
           "slot": "image",
           "src": "images/011-turkana-image.png",
           "blobId": "7d80853bd52675d1dd5c194a6c60d79044d75eefaa41ff6e47e6fc5b3de19b23"
+        },
+        {
+          "slot": "image2",
+          "src": "images/011-turkana-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-199.jpg"
         }
       ]
     },
@@ -305,7 +354,18 @@
         "left": "B"
       },
       "marksLabel": "R: 0 • L: B",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/013-ngorongoro-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-210.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/013-ngorongoro-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-211.jpg"
+        }
+      ]
     },
     {
       "id": "014-varicella",
@@ -434,7 +494,18 @@
         "left": "TB"
       },
       "marksLabel": "R: TB • L: TB",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/018-zambesi-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-238.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/018-zambesi-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-239.jpg"
+        }
+      ]
     },
     {
       "id": "019-joyce",
@@ -535,7 +606,18 @@
         "left": "TM"
       },
       "marksLabel": "R: T • L: TM",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/022-togo-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-148.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/022-togo-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-149.jpg"
+        }
+      ]
     },
     {
       "id": "023-lymphoma",
@@ -580,7 +662,18 @@
         "left": "0"
       },
       "marksLabel": "R: T • L: 0",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/024-mulilo-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-226.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/024-mulilo-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-227.jpg"
+        }
+      ]
     },
     {
       "id": "025-verucca",
@@ -933,7 +1026,18 @@
         "left": "TM"
       },
       "marksLabel": "R: MB • L: TM",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/037-kivu-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-174.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/037-kivu-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-175.jpg"
+        }
+      ]
     },
     {
       "id": "038-conjunctivitis",
@@ -978,7 +1082,18 @@
         "left": "TM"
       },
       "marksLabel": "R: B • L: TM",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/039-chobe-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-144.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/039-chobe-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-145.jpg"
+        }
+      ]
     },
     {
       "id": "040-hodgkin",
@@ -1023,7 +1138,18 @@
         "left": "MB"
       },
       "marksLabel": "R: 0 • L: MB",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/041-okavanga-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-184.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/041-okavanga-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-185.jpg"
+        }
+      ]
     },
     {
       "id": "042-sierra-leone",
@@ -1096,7 +1222,18 @@
         "left": "T"
       },
       "marksLabel": "R: T • L: T",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/044-ndoki-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-216.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/044-ndoki-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-217.jpg"
+        }
+      ]
     },
     {
       "id": "045-oshana",
@@ -1197,7 +1334,18 @@
         "left": "M"
       },
       "marksLabel": "R: T • L: M",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/048-hiccup-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-097.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/048-hiccup-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-098.jpg"
+        }
+      ]
     },
     {
       "id": "049-nakuru",
@@ -1242,7 +1390,18 @@
         "left": "TB"
       },
       "marksLabel": "R: TM • L: TB",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/050-nyika-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-182.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/050-nyika-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-183.jpg"
+        }
+      ]
     },
     {
       "id": "051-timbuctou",
@@ -1460,6 +1619,11 @@
           "slot": "image",
           "src": "images/058-masala-image.png",
           "blobId": "b208a5a7087bad280ecbcac2d3ee5b93990eae39535838bf1d1a459968a41f3a"
+        },
+        {
+          "slot": "image2",
+          "src": "images/058-masala-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-135.jpg"
         }
       ]
     },
@@ -1478,7 +1642,18 @@
         "left": "T"
       },
       "marksLabel": "R: sTM • L: T",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/059-cooties-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-089.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/059-cooties-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-090.jpg"
+        }
+      ]
     },
     {
       "id": "060-basil",
@@ -1528,6 +1703,11 @@
           "slot": "image",
           "src": "images/061-narco-image.png",
           "blobId": "58f881f1967437f942b2d23b72223827950473af993d139398fd979fbec96c61"
+        },
+        {
+          "slot": "image2",
+          "src": "images/061-narco-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-141.jpg"
         }
       ]
     },
@@ -1826,7 +2006,18 @@
         "left": "M"
       },
       "marksLabel": "R: M • L: M",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/072-umami-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-109.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/072-umami-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-110.jpg"
+        }
+      ]
     },
     {
       "id": "073-djuba",
@@ -1927,7 +2118,18 @@
         "left": "TMB"
       },
       "marksLabel": "R: 0 • L: TMB",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/076-ginger-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-118.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/076-ginger-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-119.jpg"
+        }
+      ]
     },
     {
       "id": "077-quincke",
@@ -1944,7 +2146,18 @@
         "left": "B"
       },
       "marksLabel": "R: B • L: B",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/077-quincke-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-114.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/077-quincke-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-115.jpg"
+        }
+      ]
     },
     {
       "id": "078-tsetse",
@@ -2180,7 +2393,18 @@
         "left": "0"
       },
       "marksLabel": "R: MB • L: 0",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/086-herb-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-107.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/086-herb-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-108.jpg"
+        }
+      ]
     },
     {
       "id": "087-parsley",
@@ -2197,7 +2421,18 @@
         "left": "TB"
       },
       "marksLabel": "R: 0 • L: TB",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/087-parsley-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-101.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/087-parsley-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-102.jpg"
+        }
+      ]
     },
     {
       "id": "088-nutmeg",
@@ -2214,7 +2449,18 @@
         "left": "B"
       },
       "marksLabel": "R: T • L: B",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/088-nutmeg-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-105.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/088-nutmeg-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-106.jpg"
+        }
+      ]
     },
     {
       "id": "089-rosemary",
@@ -2371,7 +2617,18 @@
         "left": "0"
       },
       "marksLabel": "R: T • L: 0",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/094-sahara-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-234.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/094-sahara-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-235.jpg"
+        }
+      ]
     },
     {
       "id": "095-omatako",
@@ -2388,7 +2645,18 @@
         "left": "0"
       },
       "marksLabel": "R: TMB • L: 0",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/095-omatako-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-218.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/095-omatako-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-219.jpg"
+        }
+      ]
     },
     {
       "id": "096-monique",
@@ -2433,7 +2701,18 @@
         "left": "T"
       },
       "marksLabel": "R: TB • L: T",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/097-karoo-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-214.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/097-karoo-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-215.jpg"
+        }
+      ]
     },
     {
       "id": "098-amnesia",
@@ -2478,7 +2757,18 @@
         "left": "T"
       },
       "marksLabel": "R: TM • L: T",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/099-zomba-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-196.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/099-zomba-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-197.jpg"
+        }
+      ]
     },
     {
       "id": "100-tai",
@@ -2495,7 +2785,18 @@
         "left": "0"
       },
       "marksLabel": "R: 0 • L: 0",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/100-tai-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-228.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/100-tai-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-229.jpg"
+        }
+      ]
     },
     {
       "id": "101-omeya",
@@ -2512,7 +2813,18 @@
         "left": "0"
       },
       "marksLabel": "R: M • L: 0",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/101-omeya-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-242.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/101-omeya-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-243.jpg"
+        }
+      ]
     },
     {
       "id": "102-namib",
@@ -2529,7 +2841,18 @@
         "left": "TB"
       },
       "marksLabel": "R: MB • L: TB",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/102-namib-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-222.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/102-namib-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-223.jpg"
+        }
+      ]
     },
     {
       "id": "103-malawi",
@@ -2546,7 +2869,18 @@
         "left": "B"
       },
       "marksLabel": "R: T • L: B",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/103-malawi-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-176.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/103-malawi-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-177.jpg"
+        }
+      ]
     },
     {
       "id": "104-aphasia",
@@ -2591,7 +2925,18 @@
         "left": "0"
       },
       "marksLabel": "R: TB • L: 0",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/105-likouala-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-236.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/105-likouala-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-237.jpg"
+        }
+      ]
     },
     {
       "id": "106-zanzibar",
@@ -2608,7 +2953,18 @@
         "left": "M"
       },
       "marksLabel": "R: T • L: M",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/106-zanzibar-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-230.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/106-zanzibar-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-231.jpg"
+        }
+      ]
     },
     {
       "id": "107-gout",
@@ -2625,7 +2981,18 @@
         "left": "MB"
       },
       "marksLabel": "R: 0 • L: MB",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/107-gout-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-112.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/107-gout-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-113.jpg"
+        }
+      ]
     },
     {
       "id": "108-gao",
@@ -2698,7 +3065,18 @@
         "left": "M"
       },
       "marksLabel": "R: MB • L: M",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/110-turmeric-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-128.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/110-turmeric-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-129.jpg"
+        }
+      ]
     },
     {
       "id": "111-hangover",
@@ -2967,7 +3345,18 @@
         "left": "sTM"
       },
       "marksLabel": "R: M • L: sTM",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/120-periperi-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-126.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/120-periperi-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-127.jpg"
+        }
+      ]
     },
     {
       "id": "121-antananarivo",
@@ -3012,7 +3401,18 @@
         "left": "B"
       },
       "marksLabel": "R: MoB • L: B",
-      "images": []
+      "images": [
+        {
+          "slot": "image",
+          "src": "images/122-pikelet-image.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-186.jpg"
+        },
+        {
+          "slot": "image2",
+          "src": "images/122-pikelet-image2.jpg",
+          "blobId": "pdf:Tsaobis IDs (5).pdf:extract-187.jpg"
+        }
+      ]
     },
     {
       "id": "123-zattar",
