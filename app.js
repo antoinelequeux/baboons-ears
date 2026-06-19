@@ -66,6 +66,15 @@ const shuffle = (items) => {
   return copy;
 };
 
+function getHardKey(card) {
+  return `${card.marksLabel}__${card.troop}__${card.ageSex}`;
+}
+
+function getHardAnswerGroup(card) {
+  const key = getHardKey(card);
+  return state.cards.filter((entry) => getHardKey(entry) === key);
+}
+
 function setConnectionState() {
   const online = navigator.onLine;
   elements.connectionDot.classList.toggle("is-online", online);
@@ -357,17 +366,26 @@ function getStudyTexts(card) {
     };
   }
 
+  const hardMatches = getHardAnswerGroup(card);
+  const acceptedAnswers = hardMatches.map((entry) => entry.subject).join(" or ");
+  const hardPrompt =
+    hardMatches.length > 1
+      ? "Read the ear marks, troop, and age/sex. More than one baboon shares this profile, so either matching name is accepted."
+      : "Read the ear marks, troop, and age/sex, then identify the baboon.";
+
   return {
     eyebrow: "Hard",
-    prompt: "Read the ear marks and identify the baboon.",
+    prompt: hardPrompt,
     front: `
       <p class="flashcard__marks">${card.marksLabel}</p>
       <p class="flashcard__meta">${card.troop} • ${card.ageSex}</p>
     `,
-    answerTitle: card.subject,
+    answerTitle: acceptedAnswers,
     answerMeta: `${card.troop} • ${card.ageSex}`,
     answerExtra: renderImageGrid(card.images, card.subject),
     answerIsHtml: true,
+    acceptedAnswers,
+    isAmbiguous: hardMatches.length > 1,
   };
 }
 
@@ -381,6 +399,15 @@ function normalizeName(value) {
 }
 
 function buildQuizChoices(answerCard, pool) {
+  if (state.study.mode === "hard") {
+    const validCards = getHardAnswerGroup(answerCard);
+    if (validCards.length > 1) {
+      const validIds = new Set(validCards.map((card) => card.id));
+      const distractors = shuffle(pool.filter((card) => !validIds.has(card.id))).slice(0, 4 - validCards.length);
+      return shuffle([...validCards, ...distractors]);
+    }
+  }
+
   const distractors = shuffle(pool.filter((card) => card.id !== answerCard.id)).slice(0, 3);
   return shuffle([answerCard, ...distractors]);
 }
@@ -441,6 +468,7 @@ function renderCurrentCard() {
           <p class="flashcard__small">Answer</p>
           <p class="flashcard__display-name">${view.answerTitle}</p>
           ${view.answerMeta ? `<p class="flashcard__marks">${view.answerMeta}</p>` : ""}
+          ${view.isAmbiguous ? `<p class="flashcard__small">Accepted answers for this prompt: ${view.acceptedAnswers}</p>` : ""}
           ${
             view.answerExtra
               ? view.answerIsHtml
@@ -557,13 +585,17 @@ function handleQuizAnswer(cardId) {
     return;
   }
 
-  const correct = cardId === card.id;
+  const validAnswerIds =
+    state.study.mode === "hard"
+      ? new Set(getHardAnswerGroup(card).map((entry) => entry.id))
+      : new Set([card.id]);
+  const correct = validAnswerIds.has(cardId);
   gradeCard(correct);
   revealAnswer(correct);
 
   elements.studyCard.querySelectorAll(".quiz-choice").forEach((button) => {
     button.disabled = true;
-    if (button.dataset.cardId === card.id) {
+    if (validAnswerIds.has(button.dataset.cardId)) {
       button.classList.add("is-correct");
     } else if (button.dataset.cardId === cardId) {
       button.classList.add("is-wrong");
@@ -577,7 +609,10 @@ function handleTypedAnswer(value) {
     return;
   }
 
-  const correct = normalizeName(value) === normalizeName(card.subject);
+  const acceptedNames =
+    state.study.mode === "hard" ? getHardAnswerGroup(card).map((entry) => entry.subject) : [card.subject];
+  const normalizedAnswer = normalizeName(value);
+  const correct = acceptedNames.some((name) => normalizeName(name) === normalizedAnswer);
   gradeCard(correct);
   revealAnswer(correct, value.trim());
 
